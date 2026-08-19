@@ -1,28 +1,28 @@
 # Pattern-max 专属去广告合并规则
 
-精选高质量上游规则源，每8个小时更新一次。  
-基于 [217heidai/adblockfilters](https://github.com/217heidai/adblockfilters) 项目修改，精简上游源，优化规则质量。
+精选 8 个高质量上游规则源，每 8 小时自动更新。  
+基于 [217heidai/adblockfilters](https://github.com/217heidai/adblockfilters) 框架二次开发，精简冗余源，优化规则质量，形成轻量高效的专属规则集。
 
 ## 关于本规则的定位
 
-本规则不是追求“最大最全”，而是追求“最佳平衡”：
+本规则追求“最佳平衡”，而非“最大最全”：
+
 - **国际覆盖**：AdGuard Base + EasyList + EasyPrivacy
 - **国内优化**：AdGuard Chinese + EasyList China + HaGezi Light
 - **低误报保障**：OISD Basic 作为校验层
-- **国内 APP 补充**：海哥 HG 规则（对快手、抖音、拼多多等有效）
-
-本规则的目标是：在拦截率、误报率、规则体积三者之间找到最佳平衡点。
+- **国内 APP 补充**：海哥 HG 规则（快手、抖音、拼多多等）
 
 ## 说明
 1. 定时从上游各规则源获取更新，合并去重。
-2. 使用国内、国外各 3 组 DNS 服务，分别对上游各规则源拦截的域名进行解析，去除已无法解析的域名。（上游各规则源中存在大量已无法解析的域名，无需加入拦截规则）
-3. 本项目仅对上游规则进行合并、去重、去除无效域名，不做任何修改。如发现误拦截情况，可临时添加放行规则（如 `@@||www.example.com^$important`），并向上游规则反馈。
+2. 使用国内、国外各 3 组 DNS 服务，分别对上游各规则源拦截的域名进行解析，去除已无法解析的无效域名。
+3. 本项目对上游规则进行精选、合并、去重、DNS 验证，生成优化后的规则集。如发现误拦截，可添加放行规则（如 `@@||www.example.com^$important`），并向上游规则反馈。
 
 ## ⚠️ DNS 过滤的边界说明
 
-DNS 过滤是网络防护的第一道防线，但不是万能的。以下场景 DNS 无法拦截：
-- **APP 内开屏广告**（如爱奇艺、优酷等）：广告与内容同域，拦截会导致 APP 无法使用
-- **YouTube 视频内广告**：Google 将广告与视频流混合传输
+DNS 过滤是网络防护的第一道防线，但不是万能的：
+
+- **APP 内开屏广告**（爱奇艺、优酷等）：广告与内容同域，拦截会导致 APP 无法使用
+- **YouTube 视频内广告**：广告与视频流混合传输，DNS 无法区分
 - **HTTPS 加密内容中的特定路径**：DNS 只看到域名，看不到具体 URL 路径
 - **APP 直连 IP 地址**：绕过 DNS 解析
 
@@ -71,6 +71,8 @@ DNS 过滤是网络防护的第一道防线，但不是万能的。以下场景 
 | 规则17' | [原始链接](https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/adblockv2raylite.dat) | [加速链接1](https://gcore.jsdelivr.net/gh/Pattern-max/adblockfilters@main/rules/adblockv2raylite.dat) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/adblockv2raylite.dat) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/adblockv2raylite.dat) | V2ray、Xray(category-ads-all) |
 
 ## 上游规则源
+> **说明**：`filter` 类型为含完整 AdBlock 语法（含修饰符）的规则源，经 DNS 解析验证后提取有效域名；`dns` 类型为纯域名列表，直接用于 DNS 级别拦截。
+
 1. 感谢各位广告过滤规则维护大佬们的辛苦付出。
 2. 特别感谢 [海哥（2771936993）](https://github.com/2771936993) 提供的 HG 规则，填补了国内 APP 专属拦截的空白。
 3. 不再引用[anti-AD](https://anti-ad.net/adguard.txt)、[yhosts](https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts.txt)，具体原因见[Mosney/anti-anti-AD](https://github.com/Mosney/anti-anti-AD)。
@@ -88,7 +90,7 @@ DNS 过滤是网络防护的第一道防线，但不是万能的。以下场景 
 | EasyPrivacy | filter | [原始链接](https://easylist-downloads.adblockplus.org/easyprivacy.txt) | [加速链接1](https://gcore.jsdelivr.net/gh/Pattern-max/adblockfilters@main/rules/EasyPrivacy.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/EasyPrivacy.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/EasyPrivacy.txt) | 2026/08/19 |
 | DNS-Blocklists Light | dns | [原始链接](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/light.txt) | [加速链接1](https://gcore.jsdelivr.net/gh/Pattern-max/adblockfilters@main/rules/DNS-Blocklists_Light.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/DNS-Blocklists_Light.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/DNS-Blocklists_Light.txt) | 2026/08/19 |
 | OISD Basic | dns | [原始链接](https://abp.oisd.nl/basic/) | [加速链接1](https://gcore.jsdelivr.net/gh/Pattern-max/adblockfilters@main/rules/OISD_Basic.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/OISD_Basic.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/OISD_Basic.txt) | 2026/08/19 |
-| 海哥 HG规则 | dns | [原始链接](https://raw.githubusercontent.com/2771936993/HG/main/hg1.txt) | [加速链接1](https://gcore.jsdelivr.net/gh/2771936993/HG@main/hg1.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/2771936993/HG/main/hg1.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/2771936993/HG/main/hg1.txt) | 2026/08/19 |
+| 海哥 HG规则 | dns | [原始链接](https://raw.githubusercontent.com/2771936993/HG/main/hg1.txt) | [加速链接1](https://gcore.jsdelivr.net/gh/Pattern-max/adblockfilters@main/rules/海哥_HG规则.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/海哥_HG规则.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/海哥_HG规则.txt) | 2026/08/19 |
 
 ## 开源协议
 
