@@ -1,11 +1,11 @@
 !
 ! Title: AdBlock InviZible
-! Description: ÊÊÓÃÓÚ InviZible Pro¡¢personalDNSfilter µÄÈ¥¹ã¸æºÏ²¢¹æÔò£¬Ã¿ 8 ¸öĞ¡Ê±¸üĞÂÒ»´Î¡£¹æÔòÔ´£ºAdGuard Base filter¡¢AdGuard Chinese filter¡¢EasyList¡¢EasyList China¡¢EasyPrivacy¡¢DNS-Blocklists Light¡¢OISD Basic¡¢º£¸ç HG¹æÔò¡£
+! Description: é€‚ç”¨äº InviZible Proã€personalDNSfilter çš„å»å¹¿å‘Šåˆå¹¶è§„åˆ™ï¼Œæ¯ 8 ä¸ªå°æ—¶æ›´æ–°ä¸€æ¬¡ã€‚è§„åˆ™æºï¼šAdGuard Base filterã€AdGuard Chinese filterã€EasyListã€EasyList Chinaã€EasyPrivacyã€DNS-Blocklists Lightã€OISD Basicã€æµ·å“¥ HGè§„åˆ™ã€‚
 ! Homepage: https://github.com/Pattern-max/adblockfilters
 ! Source: https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/adblockdomain.txt
-! Version: 20260819131036
-! Last modified: 2026/08/19 13:10:36
-! Blocked domains: 120573
+! Version: 20260819134429
+! Last modified: 2026/08/19 13:44:29
+! Blocked domains: 120593
 !
 0-02.net
 000.pe
@@ -7164,6 +7164,7 @@ dsdjbj.abracadabra.com.br
 tracking.abraservice.com
 abrasivefirsthandsadly.com
 abrasiveslayerrequires.com
+abrazossiloed.shop
 response.abrdn.com
 responsed.abrdn.com
 tracking.abrdn.com
@@ -15528,6 +15529,7 @@ annivgiftshop.com
 annivpresent.com
 annjulokvbum.com
 bm.annonce.cz
+annotcarvels.cfd
 announcenutshell.com
 announcingmyrtleusual.com
 annoyancedisparity.com
@@ -15872,6 +15874,7 @@ analytics.apache.org
 metrics.beam.apache.org
 stats.apachecorp.com
 pxxhbz.apamanshop.com
+apansudigytcy.online
 analytics.apaparvo.org
 apapuacauthong.com
 ads.cdn.asset.aparat.com
@@ -16623,6 +16626,7 @@ top777.ariom.ru
 ariotgribble.com
 marketing.ariser.se
 www.arisetechindia.com
+arisingvinage.cyou
 aristolsah.cfd
 arithmeticrobust.com
 arithpouted.com
@@ -17062,6 +17066,7 @@ deeplink.alpha.aspiration.com
 aspirationprogrammecontains.com
 aspirecalgary.org
 aspiredemeaningmarvelous.com
+aspireepolicy.cfd
 aspirincountryprofound.com
 aspiringapples.com
 aspiringattempt.com
@@ -18102,6 +18107,7 @@ app.avopass.com
 crosspromotion-us.avosapps.us
 avouchuramil.com
 avowcosmo.cfd
+avowterpoyous.shop
 avpjihtkjsnfe.space
 track1.avplayer.com
 avqbsktdvulcp.online
@@ -22765,6 +22771,7 @@ botscanner.com
 botsxlhhjdvnp.online
 smetrics.bottegaverde.es
 smetrics.bottegaverde.it
+bottierpeseta.cfd
 bottierrangleneavil.cfd
 bottleddictionary.com
 bottledfriendship.com
@@ -31490,6 +31497,7 @@ a8.cucua.fun
 cucumbersinferphysically.com
 cucuyflytrap.cyou
 cuddlecoveragehiss.com
+cuddledstearyl.qpon
 cuddlethehyena.com
 cuddlybasis.com
 cuddlycake.com
@@ -42753,6 +42761,7 @@ fallwaycorban.cfd
 falseframe.com
 falseopening.pro
 shjwhv.falsepeti.com
+falsepileata.cfd
 falsifymagpieopenminded.com
 falsifyprobable.com
 falterspiggins.cfd
@@ -47687,6 +47696,7 @@ www.germaynewstoday.com
 germinatethick.com
 germlesslukewarmmold.com
 ganaar.gertibaldi.com
+gervaisnatrons.cfd
 gervaorix.cyou
 geryonshudder.cyou
 gesas.it
@@ -50693,6 +50703,7 @@ gxvdzkmvwmgua.online
 gxvlkzwimkiyb.site
 gxxbifvsjhseu.space
 gxzg.org.cn
+gxzncsudgxoax.online
 6p7.gy2ur1wmquh2cinw914xbwvi119714m.cyou
 gybmppuezjtqe.space
 ztvmm.gybvidu.com
@@ -52105,6 +52116,7 @@ henanpenqitu.com
 antlion.hendrikhaack.de
 hengqijiaoyu.cn
 hengxueedu.com
+henismjoypop.cfd
 smetrics.henkivakuutuskuntoon.fi
 hennaedredeyes.qpon
 tr.contact.henner.com
@@ -66565,6 +66577,7 @@ loureddopster.cfd
 lousebankroll.com
 lousoozi.net
 louthermate.cyou
+loutingkalif.cfd
 invited.louwmanexclusive.nl
 louxoxo.com
 lovableprofile.com
@@ -72211,6 +72224,7 @@ info.msconsultants.com
 ads.msdigital.vn
 msdoj.com
 msdtqofattbqv.website
+msechzfybtgfl.online
 msecn.net
 mseupkcziqzzj.website
 dns.msftncsi.com
@@ -83285,6 +83299,7 @@ webtrack.pospal.cn
 possessedcrackinghart.com
 possessedrehearsal.com
 possessvampire.com
+possetssoorky.com
 possibilityfoundationwallpaper.com
 possibilityteddefensive.com
 possibleboats.com
@@ -89578,6 +89593,7 @@ www.rime8lope.com
 rimeethoxyl.com
 rimhysterical.com
 rimierbeebees.com
+rimousupwax.shop
 tk.rimowa.com
 count.rin.ru
 news.rin.ru
@@ -96908,6 +96924,7 @@ cqlonl.spartoo.cz
 jlhwxm.spartoo.es
 cdeatz.spartoo.it
 zwinqi.spartoo.pt
+spasmedschofleuret.cyou
 spatacquaint.com
 spatial-audio-metrics.readthedocs.io
 spatlumyawyreputes.cyou
@@ -98892,6 +98909,7 @@ suebiadvertising.com
 iqmetrics.sueddeutsche.de
 servedby.sueddeutsche.de
 utiq.sueddeutsche.de
+suedinepredate.cfd
 tr.suedkurier.de
 sueivypeg.com
 suejvtxdvjtqc.website
@@ -104936,6 +104954,7 @@ trocksregroup.shop
 trogginupswell.cfd
 trogvyfzbmtq.com
 trojanbawty.cyou
+trokerunlid.cfd
 trolleyincreasingly.com
 trolleyjackpotbummer.com
 trollsvide.com
@@ -120577,6 +120596,7 @@ a8.zzz-land.com
 s1.zzz.vn
 zzzjhkyprpsvl.store
 zzzmjfixezere.site
+zzzmxvoxooaat.site
 zzzperform.com
 zzztl.com
 zzzx1-862777969.ap-east-1.elb.amazonaws.com

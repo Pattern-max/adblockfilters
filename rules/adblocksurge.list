@@ -1,6 +1,6 @@
 #
 #!name=AdBlock Surge
-#!desc=ÊÊÓÃÓÚ Surge µÄÈ¥¹ã¸æºÏ²¢¹æÔò£¬Ã¿ 8 ¸öĞ¡Ê±¸üĞÂÒ»´Î¡£¹æÔòÔ´£ºAdGuard Base filter¡¢AdGuard Chinese filter¡¢EasyList¡¢EasyList China¡¢EasyPrivacy¡¢DNS-Blocklists Light¡¢OISD Basic¡¢º£¸ç HG¹æÔò¡£
+#!desc=é€‚ç”¨äº Surge çš„å»å¹¿å‘Šåˆå¹¶è§„åˆ™ï¼Œæ¯ 8 ä¸ªå°æ—¶æ›´æ–°ä¸€æ¬¡ã€‚è§„åˆ™æºï¼šAdGuard Base filterã€AdGuard Chinese filterã€EasyListã€EasyList Chinaã€EasyPrivacyã€DNS-Blocklists Lightã€OISD Basicã€æµ·å“¥ HGè§„åˆ™ã€‚
 #!homepage=https://github.com/Pattern-max/adblockfilters
 #!raw-url=https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/adblocksurge.list
 #!tag=AdBlock, 217heidai
@@ -10,8 +10,8 @@
 #!system=iOS, iPadOS
 #!system_version=
 #!loon_version=
-#!date=2026/08/19 13:10:36
-#!support=120573
+#!date=2026/08/19 13:44:30
+#!support=120593
 #!proxy-select=REJECT
 #
 .0-02.net
@@ -7171,6 +7171,7 @@
 .tracking.abraservice.com
 .abrasivefirsthandsadly.com
 .abrasiveslayerrequires.com
+.abrazossiloed.shop
 .response.abrdn.com
 .responsed.abrdn.com
 .tracking.abrdn.com
@@ -15535,6 +15536,7 @@
 .annivpresent.com
 .annjulokvbum.com
 .bm.annonce.cz
+.annotcarvels.cfd
 .announcenutshell.com
 .announcingmyrtleusual.com
 .annoyancedisparity.com
@@ -15879,6 +15881,7 @@
 .metrics.beam.apache.org
 .stats.apachecorp.com
 .pxxhbz.apamanshop.com
+.apansudigytcy.online
 .analytics.apaparvo.org
 .apapuacauthong.com
 .ads.cdn.asset.aparat.com
@@ -16630,6 +16633,7 @@
 .ariotgribble.com
 .marketing.ariser.se
 .www.arisetechindia.com
+.arisingvinage.cyou
 .aristolsah.cfd
 .arithmeticrobust.com
 .arithpouted.com
@@ -17069,6 +17073,7 @@
 .aspirationprogrammecontains.com
 .aspirecalgary.org
 .aspiredemeaningmarvelous.com
+.aspireepolicy.cfd
 .aspirincountryprofound.com
 .aspiringapples.com
 .aspiringattempt.com
@@ -18109,6 +18114,7 @@
 .crosspromotion-us.avosapps.us
 .avouchuramil.com
 .avowcosmo.cfd
+.avowterpoyous.shop
 .avpjihtkjsnfe.space
 .track1.avplayer.com
 .avqbsktdvulcp.online
@@ -22772,6 +22778,7 @@
 .botsxlhhjdvnp.online
 .smetrics.bottegaverde.es
 .smetrics.bottegaverde.it
+.bottierpeseta.cfd
 .bottierrangleneavil.cfd
 .bottleddictionary.com
 .bottledfriendship.com
@@ -31497,6 +31504,7 @@
 .cucumbersinferphysically.com
 .cucuyflytrap.cyou
 .cuddlecoveragehiss.com
+.cuddledstearyl.qpon
 .cuddlethehyena.com
 .cuddlybasis.com
 .cuddlycake.com
@@ -42760,6 +42768,7 @@
 .falseframe.com
 .falseopening.pro
 .shjwhv.falsepeti.com
+.falsepileata.cfd
 .falsifymagpieopenminded.com
 .falsifyprobable.com
 .falterspiggins.cfd
@@ -47694,6 +47703,7 @@
 .germinatethick.com
 .germlesslukewarmmold.com
 .ganaar.gertibaldi.com
+.gervaisnatrons.cfd
 .gervaorix.cyou
 .geryonshudder.cyou
 .gesas.it
@@ -50700,6 +50710,7 @@
 .gxvlkzwimkiyb.site
 .gxxbifvsjhseu.space
 .gxzg.org.cn
+.gxzncsudgxoax.online
 .6p7.gy2ur1wmquh2cinw914xbwvi119714m.cyou
 .gybmppuezjtqe.space
 .ztvmm.gybvidu.com
@@ -52112,6 +52123,7 @@
 .antlion.hendrikhaack.de
 .hengqijiaoyu.cn
 .hengxueedu.com
+.henismjoypop.cfd
 .smetrics.henkivakuutuskuntoon.fi
 .hennaedredeyes.qpon
 .tr.contact.henner.com
@@ -66572,6 +66584,7 @@
 .lousebankroll.com
 .lousoozi.net
 .louthermate.cyou
+.loutingkalif.cfd
 .invited.louwmanexclusive.nl
 .louxoxo.com
 .lovableprofile.com
@@ -72218,6 +72231,7 @@
 .ads.msdigital.vn
 .msdoj.com
 .msdtqofattbqv.website
+.msechzfybtgfl.online
 .msecn.net
 .mseupkcziqzzj.website
 .dns.msftncsi.com
@@ -83292,6 +83306,7 @@
 .possessedcrackinghart.com
 .possessedrehearsal.com
 .possessvampire.com
+.possetssoorky.com
 .possibilityfoundationwallpaper.com
 .possibilityteddefensive.com
 .possibleboats.com
@@ -89585,6 +89600,7 @@
 .rimeethoxyl.com
 .rimhysterical.com
 .rimierbeebees.com
+.rimousupwax.shop
 .tk.rimowa.com
 .count.rin.ru
 .news.rin.ru
@@ -96915,6 +96931,7 @@
 .jlhwxm.spartoo.es
 .cdeatz.spartoo.it
 .zwinqi.spartoo.pt
+.spasmedschofleuret.cyou
 .spatacquaint.com
 .spatial-audio-metrics.readthedocs.io
 .spatlumyawyreputes.cyou
@@ -98899,6 +98916,7 @@
 .iqmetrics.sueddeutsche.de
 .servedby.sueddeutsche.de
 .utiq.sueddeutsche.de
+.suedinepredate.cfd
 .tr.suedkurier.de
 .sueivypeg.com
 .suejvtxdvjtqc.website
@@ -104943,6 +104961,7 @@
 .trogginupswell.cfd
 .trogvyfzbmtq.com
 .trojanbawty.cyou
+.trokerunlid.cfd
 .trolleyincreasingly.com
 .trolleyjackpotbummer.com
 .trollsvide.com
@@ -120584,6 +120603,7 @@
 .s1.zzz.vn
 .zzzjhkyprpsvl.store
 .zzzmjfixezere.site
+.zzzmxvoxooaat.site
 .zzzperform.com
 .zzztl.com
 .zzzx1-862777969.ap-east-1.elb.amazonaws.com

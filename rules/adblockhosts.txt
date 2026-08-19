@@ -1,11 +1,11 @@
 #
 # Title: AdBlock Hosts
-# Description:   ”√”⁄ hosts µƒ»•π„∏Ê∫œ≤¢πÊ‘Ú£¨√ø 8 ∏ˆ–° ±∏¸–¬“ª¥Œ°£πÊ‘Ú‘¥£∫AdGuard Base filter°¢AdGuard Chinese filter°¢EasyList°¢EasyList China°¢EasyPrivacy°¢DNS-Blocklists Light°¢OISD Basic°¢∫£∏Á HGπÊ‘Ú°£
+# Description: ÈÄÇÁî®‰∫é hosts ÁöÑÂéªÂπøÂëäÂêàÂπ∂ËßÑÂàôÔºåÊØè 8 ‰∏™Â∞èÊó∂Êõ¥Êñ∞‰∏ÄÊ¨°„ÄÇËßÑÂàôÊ∫êÔºöAdGuard Base filter„ÄÅAdGuard Chinese filter„ÄÅEasyList„ÄÅEasyList China„ÄÅEasyPrivacy„ÄÅDNS-Blocklists Light„ÄÅOISD Basic„ÄÅÊµ∑Âì• HGËßÑÂàô„ÄÇ
 # Homepage: https://github.com/Pattern-max/adblockfilters
 # Source: https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/adblockhosts.txt
-# Version: 20260819131036
-# Last modified: 2026/08/19 13:10:36
-# Blocked domains: 120573
+# Version: 20260819134429
+# Last modified: 2026/08/19 13:44:29
+# Blocked domains: 120593
 #
 127.0.0.1	localhost
 127.0.0.1	localhost.localdomain
@@ -7179,6 +7179,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	tracking.abraservice.com
 0.0.0.0	abrasivefirsthandsadly.com
 0.0.0.0	abrasiveslayerrequires.com
+0.0.0.0	abrazossiloed.shop
 0.0.0.0	response.abrdn.com
 0.0.0.0	responsed.abrdn.com
 0.0.0.0	tracking.abrdn.com
@@ -15543,6 +15544,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	annivpresent.com
 0.0.0.0	annjulokvbum.com
 0.0.0.0	bm.annonce.cz
+0.0.0.0	annotcarvels.cfd
 0.0.0.0	announcenutshell.com
 0.0.0.0	announcingmyrtleusual.com
 0.0.0.0	annoyancedisparity.com
@@ -15887,6 +15889,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	metrics.beam.apache.org
 0.0.0.0	stats.apachecorp.com
 0.0.0.0	pxxhbz.apamanshop.com
+0.0.0.0	apansudigytcy.online
 0.0.0.0	analytics.apaparvo.org
 0.0.0.0	apapuacauthong.com
 0.0.0.0	ads.cdn.asset.aparat.com
@@ -16638,6 +16641,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	ariotgribble.com
 0.0.0.0	marketing.ariser.se
 0.0.0.0	www.arisetechindia.com
+0.0.0.0	arisingvinage.cyou
 0.0.0.0	aristolsah.cfd
 0.0.0.0	arithmeticrobust.com
 0.0.0.0	arithpouted.com
@@ -17077,6 +17081,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	aspirationprogrammecontains.com
 0.0.0.0	aspirecalgary.org
 0.0.0.0	aspiredemeaningmarvelous.com
+0.0.0.0	aspireepolicy.cfd
 0.0.0.0	aspirincountryprofound.com
 0.0.0.0	aspiringapples.com
 0.0.0.0	aspiringattempt.com
@@ -18117,6 +18122,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	crosspromotion-us.avosapps.us
 0.0.0.0	avouchuramil.com
 0.0.0.0	avowcosmo.cfd
+0.0.0.0	avowterpoyous.shop
 0.0.0.0	avpjihtkjsnfe.space
 0.0.0.0	track1.avplayer.com
 0.0.0.0	avqbsktdvulcp.online
@@ -22780,6 +22786,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	botsxlhhjdvnp.online
 0.0.0.0	smetrics.bottegaverde.es
 0.0.0.0	smetrics.bottegaverde.it
+0.0.0.0	bottierpeseta.cfd
 0.0.0.0	bottierrangleneavil.cfd
 0.0.0.0	bottleddictionary.com
 0.0.0.0	bottledfriendship.com
@@ -31505,6 +31512,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	cucumbersinferphysically.com
 0.0.0.0	cucuyflytrap.cyou
 0.0.0.0	cuddlecoveragehiss.com
+0.0.0.0	cuddledstearyl.qpon
 0.0.0.0	cuddlethehyena.com
 0.0.0.0	cuddlybasis.com
 0.0.0.0	cuddlycake.com
@@ -42768,6 +42776,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	falseframe.com
 0.0.0.0	falseopening.pro
 0.0.0.0	shjwhv.falsepeti.com
+0.0.0.0	falsepileata.cfd
 0.0.0.0	falsifymagpieopenminded.com
 0.0.0.0	falsifyprobable.com
 0.0.0.0	falterspiggins.cfd
@@ -47702,6 +47711,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	germinatethick.com
 0.0.0.0	germlesslukewarmmold.com
 0.0.0.0	ganaar.gertibaldi.com
+0.0.0.0	gervaisnatrons.cfd
 0.0.0.0	gervaorix.cyou
 0.0.0.0	geryonshudder.cyou
 0.0.0.0	gesas.it
@@ -50708,6 +50718,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	gxvlkzwimkiyb.site
 0.0.0.0	gxxbifvsjhseu.space
 0.0.0.0	gxzg.org.cn
+0.0.0.0	gxzncsudgxoax.online
 0.0.0.0	6p7.gy2ur1wmquh2cinw914xbwvi119714m.cyou
 0.0.0.0	gybmppuezjtqe.space
 0.0.0.0	ztvmm.gybvidu.com
@@ -52120,6 +52131,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	antlion.hendrikhaack.de
 0.0.0.0	hengqijiaoyu.cn
 0.0.0.0	hengxueedu.com
+0.0.0.0	henismjoypop.cfd
 0.0.0.0	smetrics.henkivakuutuskuntoon.fi
 0.0.0.0	hennaedredeyes.qpon
 0.0.0.0	tr.contact.henner.com
@@ -66580,6 +66592,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	lousebankroll.com
 0.0.0.0	lousoozi.net
 0.0.0.0	louthermate.cyou
+0.0.0.0	loutingkalif.cfd
 0.0.0.0	invited.louwmanexclusive.nl
 0.0.0.0	louxoxo.com
 0.0.0.0	lovableprofile.com
@@ -72226,6 +72239,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	ads.msdigital.vn
 0.0.0.0	msdoj.com
 0.0.0.0	msdtqofattbqv.website
+0.0.0.0	msechzfybtgfl.online
 0.0.0.0	msecn.net
 0.0.0.0	mseupkcziqzzj.website
 0.0.0.0	dns.msftncsi.com
@@ -83300,6 +83314,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	possessedcrackinghart.com
 0.0.0.0	possessedrehearsal.com
 0.0.0.0	possessvampire.com
+0.0.0.0	possetssoorky.com
 0.0.0.0	possibilityfoundationwallpaper.com
 0.0.0.0	possibilityteddefensive.com
 0.0.0.0	possibleboats.com
@@ -89593,6 +89608,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	rimeethoxyl.com
 0.0.0.0	rimhysterical.com
 0.0.0.0	rimierbeebees.com
+0.0.0.0	rimousupwax.shop
 0.0.0.0	tk.rimowa.com
 0.0.0.0	count.rin.ru
 0.0.0.0	news.rin.ru
@@ -96923,6 +96939,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	jlhwxm.spartoo.es
 0.0.0.0	cdeatz.spartoo.it
 0.0.0.0	zwinqi.spartoo.pt
+0.0.0.0	spasmedschofleuret.cyou
 0.0.0.0	spatacquaint.com
 0.0.0.0	spatial-audio-metrics.readthedocs.io
 0.0.0.0	spatlumyawyreputes.cyou
@@ -98907,6 +98924,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	iqmetrics.sueddeutsche.de
 0.0.0.0	servedby.sueddeutsche.de
 0.0.0.0	utiq.sueddeutsche.de
+0.0.0.0	suedinepredate.cfd
 0.0.0.0	tr.suedkurier.de
 0.0.0.0	sueivypeg.com
 0.0.0.0	suejvtxdvjtqc.website
@@ -104951,6 +104969,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	trogginupswell.cfd
 0.0.0.0	trogvyfzbmtq.com
 0.0.0.0	trojanbawty.cyou
+0.0.0.0	trokerunlid.cfd
 0.0.0.0	trolleyincreasingly.com
 0.0.0.0	trolleyjackpotbummer.com
 0.0.0.0	trollsvide.com
@@ -120592,6 +120611,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	s1.zzz.vn
 0.0.0.0	zzzjhkyprpsvl.store
 0.0.0.0	zzzmjfixezere.site
+0.0.0.0	zzzmxvoxooaat.site
 0.0.0.0	zzzperform.com
 0.0.0.0	zzztl.com
 0.0.0.0	zzzx1-862777969.ap-east-1.elb.amazonaws.com

@@ -1,11 +1,11 @@
 #
 # Title: AdBlock V2ray/Xray
-# Description: ÊÊÓÃÓÚ V2ray¡¢Xray µÄÈ¥¹ã¸æºÏ²¢¹æÔò£¬Ã¿ 8 ¸öĞ¡Ê±¸üĞÂÒ»´Î¡£¹æÔòÔ´£ºAdGuard Base filter¡¢AdGuard Chinese filter¡¢EasyList¡¢EasyList China¡¢EasyPrivacy¡¢DNS-Blocklists Light¡¢OISD Basic¡¢º£¸ç HG¹æÔò¡£
+# Description: é€‚ç”¨äº V2rayã€Xray çš„å»å¹¿å‘Šåˆå¹¶è§„åˆ™ï¼Œæ¯ 8 ä¸ªå°æ—¶æ›´æ–°ä¸€æ¬¡ã€‚è§„åˆ™æºï¼šAdGuard Base filterã€AdGuard Chinese filterã€EasyListã€EasyList Chinaã€EasyPrivacyã€DNS-Blocklists Lightã€OISD Basicã€æµ·å“¥ HGè§„åˆ™ã€‚
 # Homepage: https://github.com/Pattern-max/adblockfilters
 # Source: https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/adblockv2ray.txt
-# Version: 20260819131036
-# Last modified: 2026/08/19 13:10:36
-# Blocked domains: 120573
+# Version: 20260819134430
+# Last modified: 2026/08/19 13:44:30
+# Blocked domains: 120593
 #
 0-02.net @ads
 000.pe @ads
@@ -7164,6 +7164,7 @@ dsdjbj.abracadabra.com.br @ads
 tracking.abraservice.com @ads
 abrasivefirsthandsadly.com @ads
 abrasiveslayerrequires.com @ads
+abrazossiloed.shop @ads
 response.abrdn.com @ads
 responsed.abrdn.com @ads
 tracking.abrdn.com @ads
@@ -15528,6 +15529,7 @@ annivgiftshop.com @ads
 annivpresent.com @ads
 annjulokvbum.com @ads
 bm.annonce.cz @ads
+annotcarvels.cfd @ads
 announcenutshell.com @ads
 announcingmyrtleusual.com @ads
 annoyancedisparity.com @ads
@@ -15872,6 +15874,7 @@ analytics.apache.org @ads
 metrics.beam.apache.org @ads
 stats.apachecorp.com @ads
 pxxhbz.apamanshop.com @ads
+apansudigytcy.online @ads
 analytics.apaparvo.org @ads
 apapuacauthong.com @ads
 ads.cdn.asset.aparat.com @ads
@@ -16623,6 +16626,7 @@ top777.ariom.ru @ads
 ariotgribble.com @ads
 marketing.ariser.se @ads
 www.arisetechindia.com @ads
+arisingvinage.cyou @ads
 aristolsah.cfd @ads
 arithmeticrobust.com @ads
 arithpouted.com @ads
@@ -17062,6 +17066,7 @@ deeplink.alpha.aspiration.com @ads
 aspirationprogrammecontains.com @ads
 aspirecalgary.org @ads
 aspiredemeaningmarvelous.com @ads
+aspireepolicy.cfd @ads
 aspirincountryprofound.com @ads
 aspiringapples.com @ads
 aspiringattempt.com @ads
@@ -18102,6 +18107,7 @@ app.avopass.com @ads
 crosspromotion-us.avosapps.us @ads
 avouchuramil.com @ads
 avowcosmo.cfd @ads
+avowterpoyous.shop @ads
 avpjihtkjsnfe.space @ads
 track1.avplayer.com @ads
 avqbsktdvulcp.online @ads
@@ -22762,6 +22768,7 @@ botscanner.com @ads
 botsxlhhjdvnp.online @ads
 smetrics.bottegaverde.es @ads
 smetrics.bottegaverde.it @ads
+bottierpeseta.cfd @ads
 bottierrangleneavil.cfd @ads
 bottleddictionary.com @ads
 bottledfriendship.com @ads
@@ -31486,6 +31493,7 @@ a8.cucua.fun @ads
 cucumbersinferphysically.com @ads
 cucuyflytrap.cyou @ads
 cuddlecoveragehiss.com @ads
+cuddledstearyl.qpon @ads
 cuddlethehyena.com @ads
 cuddlybasis.com @ads
 cuddlycake.com @ads
@@ -42749,6 +42757,7 @@ fallwaycorban.cfd @ads
 falseframe.com @ads
 falseopening.pro @ads
 shjwhv.falsepeti.com @ads
+falsepileata.cfd @ads
 falsifymagpieopenminded.com @ads
 falsifyprobable.com @ads
 falterspiggins.cfd @ads
@@ -47682,6 +47691,7 @@ www.germaynewstoday.com @ads
 germinatethick.com @ads
 germlesslukewarmmold.com @ads
 ganaar.gertibaldi.com @ads
+gervaisnatrons.cfd @ads
 gervaorix.cyou @ads
 geryonshudder.cyou @ads
 gesas.it @ads
@@ -50688,6 +50698,7 @@ gxvdzkmvwmgua.online @ads
 gxvlkzwimkiyb.site @ads
 gxxbifvsjhseu.space @ads
 gxzg.org.cn @ads
+gxzncsudgxoax.online @ads
 6p7.gy2ur1wmquh2cinw914xbwvi119714m.cyou @ads
 gybmppuezjtqe.space @ads
 ztvmm.gybvidu.com @ads
@@ -52100,6 +52111,7 @@ henanpenqitu.com @ads
 antlion.hendrikhaack.de @ads
 hengqijiaoyu.cn @ads
 hengxueedu.com @ads
+henismjoypop.cfd @ads
 smetrics.henkivakuutuskuntoon.fi @ads
 hennaedredeyes.qpon @ads
 tr.contact.henner.com @ads
@@ -66559,6 +66571,7 @@ loureddopster.cfd @ads
 lousebankroll.com @ads
 lousoozi.net @ads
 louthermate.cyou @ads
+loutingkalif.cfd @ads
 invited.louwmanexclusive.nl @ads
 louxoxo.com @ads
 lovableprofile.com @ads
@@ -72205,6 +72218,7 @@ info.msconsultants.com @ads
 ads.msdigital.vn @ads
 msdoj.com @ads
 msdtqofattbqv.website @ads
+msechzfybtgfl.online @ads
 msecn.net @ads
 mseupkcziqzzj.website @ads
 dns.msftncsi.com @ads
@@ -83279,6 +83293,7 @@ webtrack.pospal.cn @ads
 possessedcrackinghart.com @ads
 possessedrehearsal.com @ads
 possessvampire.com @ads
+possetssoorky.com @ads
 possibilityfoundationwallpaper.com @ads
 possibilityteddefensive.com @ads
 possibleboats.com @ads
@@ -89572,6 +89587,7 @@ www.rime8lope.com @ads
 rimeethoxyl.com @ads
 rimhysterical.com @ads
 rimierbeebees.com @ads
+rimousupwax.shop @ads
 tk.rimowa.com @ads
 count.rin.ru @ads
 news.rin.ru @ads
@@ -96902,6 +96918,7 @@ cqlonl.spartoo.cz @ads
 jlhwxm.spartoo.es @ads
 cdeatz.spartoo.it @ads
 zwinqi.spartoo.pt @ads
+spasmedschofleuret.cyou @ads
 spatacquaint.com @ads
 spatial-audio-metrics.readthedocs.io @ads
 spatlumyawyreputes.cyou @ads
@@ -98886,6 +98903,7 @@ suebiadvertising.com @ads
 iqmetrics.sueddeutsche.de @ads
 servedby.sueddeutsche.de @ads
 utiq.sueddeutsche.de @ads
+suedinepredate.cfd @ads
 tr.suedkurier.de @ads
 sueivypeg.com @ads
 suejvtxdvjtqc.website @ads
@@ -104929,6 +104947,7 @@ trocksregroup.shop @ads
 trogginupswell.cfd @ads
 trogvyfzbmtq.com @ads
 trojanbawty.cyou @ads
+trokerunlid.cfd @ads
 trolleyincreasingly.com @ads
 trolleyjackpotbummer.com @ads
 trollsvide.com @ads
@@ -120570,6 +120589,7 @@ a8.zzz-land.com @ads
 s1.zzz.vn @ads
 zzzjhkyprpsvl.store @ads
 zzzmjfixezere.site @ads
+zzzmxvoxooaat.site @ads
 zzzperform.com @ads
 zzztl.com @ads
 zzzx1-862777969.ap-east-1.elb.amazonaws.com @ads

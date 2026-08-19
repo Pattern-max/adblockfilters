@@ -1,6 +1,6 @@
 #
 #!name=AdBlock Surge Lite
-#!desc=ÊÊÓÃÓÚ Surge µÄÈ¥¹ã¸æºÏ²¢¹æÔò£¬Ã¿ 8 ¸öĞ¡Ê±¸üĞÂÒ»´Î¡£¹æÔòÔ´£ºAdGuard Base filter¡¢AdGuard Chinese filter¡¢EasyList¡¢EasyList China¡¢EasyPrivacy¡¢DNS-Blocklists Light¡¢OISD Basic¡¢º£¸ç HG¹æÔò¡£Lite °æ½öÕë¶Ô¹úÄÚÓòÃûÀ¹½Ø¡£
+#!desc=é€‚ç”¨äº Surge çš„å»å¹¿å‘Šåˆå¹¶è§„åˆ™ï¼Œæ¯ 8 ä¸ªå°æ—¶æ›´æ–°ä¸€æ¬¡ã€‚è§„åˆ™æºï¼šAdGuard Base filterã€AdGuard Chinese filterã€EasyListã€EasyList Chinaã€EasyPrivacyã€DNS-Blocklists Lightã€OISD Basicã€æµ·å“¥ HGè§„åˆ™ã€‚Lite ç‰ˆä»…é’ˆå¯¹å›½å†…åŸŸåæ‹¦æˆªã€‚
 #!homepage=https://github.com/Pattern-max/adblockfilters
 #!raw-url=https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/adblocksurgelite.list
 #!tag=AdBlock, 217heidai
@@ -10,7 +10,7 @@
 #!system=iOS, iPadOS
 #!system_version=
 #!loon_version=
-#!date=2026/08/19 13:10:36
+#!date=2026/08/19 13:44:30
 #!support=3567
 #!proxy-select=REJECT
 #
