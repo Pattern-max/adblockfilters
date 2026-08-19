@@ -72,9 +72,16 @@ jobs:
           mkdir -p domain-list-community/adblock
           cp rules/adblockv2ray.txt domain-list-community/adblock/category-ads-all
           
-          # ===== 清洗完整版：删除 IP 段（含 /）和纯 IP =====
-          sed -i '/\/[0-9]/d' domain-list-community/adblock/category-ads-all
+          # ===== 全面清洗 category-ads-all =====
+          # 1. 删除包含 ^ 的畸形域名（如 abvg78uero.coalmo.com.cdngtm.com^.cdngtm.com）
+          sed -i '/\^/d' domain-list-community/adblock/category-ads-all
+          # 2. 删除包含 / 的 CIDR 格式（如 216.239.35.0/24）
+          sed -i '/\//d' domain-list-community/adblock/category-ads-all
+          # 3. 删除纯 IP 行（如 1.2.3.4）
           sed -i '/^[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}$/d' domain-list-community/adblock/category-ads-all
+          # 4. 删除包含双引号的行（如 "abvg7uero.coalmo.com.cdngtm.com".cdngtm.com）
+          sed -i '/"/d' domain-list-community/adblock/category-ads-all
+          # =====================================
           
           cd domain-list-community
           go run ./ --datapath=adblock
@@ -84,9 +91,12 @@ jobs:
           mkdir -p domain-list-community/adblocklite
           cp rules/adblockv2raylite.txt domain-list-community/adblocklite/category-ads-all
           
-          # ===== 清洗 Lite 版 =====
-          sed -i '/\/[0-9]/d' domain-list-community/adblocklite/category-ads-all
+          # ===== Lite 版同样清洗 =====
+          sed -i '/\^/d' domain-list-community/adblocklite/category-ads-all
+          sed -i '/\//d' domain-list-community/adblocklite/category-ads-all
           sed -i '/^[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}$/d' domain-list-community/adblocklite/category-ads-all
+          sed -i '/"/d' domain-list-community/adblocklite/category-ads-all
+          # =================================
           
           cd domain-list-community
           go run ./ --datapath=adblocklite
