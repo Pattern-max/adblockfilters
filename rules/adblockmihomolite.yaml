@@ -2,10 +2,10 @@ payload:
   #
   # Title: AdBlock Clash Meta(Mihomo) Lite
   # Description: 适用于 Clash Meta(Mihomo) 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、EasyList、EasyList China、EasyPrivacy、DNS-Blocklists Light、OISD Basic、海哥 HG规则。Lite 版仅针对国内域名拦截。
-  # Homepage: https://github.com/217heidai/adblockfilters
-  # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockmihomolite.yaml
-  # Version: 20260819122110
-  # Last modified: 2026/08/19 12:21:10
+  # Homepage: https://github.com/Pattern-max/adblockfilters
+  # Source: https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/adblockmihomolite.yaml
+  # Version: 20260819131036
+  # Last modified: 2026/08/19 13:10:36
   # Blocked domains: 3567
   #
   - '+.img.0279.net'

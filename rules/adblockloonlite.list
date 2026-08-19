@@ -1,13 +1,13 @@
 #
 #!name=AdBlock Loon Lite
 #!desc=适用于 Loon 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、EasyList、EasyList China、EasyPrivacy、DNS-Blocklists Light、OISD Basic、海哥 HG规则。Lite 版仅针对国内域名拦截。
-#!homepage=https://github.com/217heidai/adblockfilters
-#!raw-url=https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockloonlite.list
+#!homepage=https://github.com/Pattern-max/adblockfilters
+#!raw-url=https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/adblockloonlite.list
 #!tag=AdBlock, 217heidai
 #!system=iOS, iPadOS
 #!system_version=
 #!loon_version=
-#!date=2026/08/19 12:21:10
+#!date=2026/08/19 13:10:36
 #!support=3567
 #!proxy-select=REJECT
 #

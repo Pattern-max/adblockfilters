@@ -1,9 +1,9 @@
 #!name=AdBlock Shadowrocket Module Lite
 #!desc=每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、EasyList、EasyList China、EasyPrivacy、DNS-Blocklists Light、OISD Basic、海哥 HG规则。Lite 版仅针对国内域名拦截。
-#!homepage=https://github.com/217heidai/adblockfilters
-#!source=https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockshadowrocketlite.sgmodule
-#!version=20260819122110
-#!updated=2026/08/19 12:21:10
+#!homepage=https://github.com/Pattern-max/adblockfilters
+#!source=https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/adblockshadowrocketlite.sgmodule
+#!version=20260819131036
+#!updated=2026/08/19 13:10:36
 
 [Rule]
 DOMAIN-SUFFIX,img.0279.net,REJECT-DROP

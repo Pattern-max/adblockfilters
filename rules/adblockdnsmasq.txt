@@ -1,11 +1,11 @@
 #
 # Title: AdBlock DNSMasq
 # Description: 适用于 DNSMasq 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、EasyList、EasyList China、EasyPrivacy、DNS-Blocklists Light、OISD Basic、海哥 HG规则。
-# Homepage: https://github.com/217heidai/adblockfilters
-# Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnsmasq.txt
-# Version: 20260819122110
-# Last modified: 2026/08/19 12:21:10
-# Blocked domains: 120571
+# Homepage: https://github.com/Pattern-max/adblockfilters
+# Source: https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/adblockdnsmasq.txt
+# Version: 20260819131036
+# Last modified: 2026/08/19 13:10:36
+# Blocked domains: 120573
 #
 local=/0-02.net/
 local=/000.pe/
@@ -75482,6 +75482,7 @@ local=/mdws.nlcu.com/
 local=/nleljf.xyz/
 local=/nlezowlzrllro.site/
 local=/nlfmf.cn/
+local=/nlglokvwajqxo.site/
 local=/nlhdswomqdoux.site/
 local=/nlhotovgeuglc.site/
 local=/nlhsmlnnnhgpv.online/
@@ -89758,6 +89759,7 @@ local=/rjsdiikketqvt.online/
 local=/rjsq7ljyp.com/
 local=/rjtzqgeltwaep.store/
 local=/rjvgkmahuzded.site/
+local=/rjvsnwnsxwxxo.site/
 local=/rjw4obbw.com/
 local=/rjwfblvovs.com/
 local=/rjxczvecqiipf.site/

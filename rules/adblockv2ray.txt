@@ -1,11 +1,11 @@
 #
 # Title: AdBlock V2ray/Xray
 # Description: 适用于 V2ray、Xray 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、EasyList、EasyList China、EasyPrivacy、DNS-Blocklists Light、OISD Basic、海哥 HG规则。
-# Homepage: https://github.com/217heidai/adblockfilters
-# Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockv2ray.txt
-# Version: 20260819122110
-# Last modified: 2026/08/19 12:21:10
-# Blocked domains: 120571
+# Homepage: https://github.com/Pattern-max/adblockfilters
+# Source: https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/adblockv2ray.txt
+# Version: 20260819131036
+# Last modified: 2026/08/19 13:10:36
+# Blocked domains: 120573
 #
 0-02.net @ads
 000.pe @ads
@@ -75476,6 +75476,7 @@ mdws.nlcu.com @ads
 nleljf.xyz @ads
 nlezowlzrllro.site @ads
 nlfmf.cn @ads
+nlglokvwajqxo.site @ads
 nlhdswomqdoux.site @ads
 nlhotovgeuglc.site @ads
 nlhsmlnnnhgpv.online @ads
@@ -89752,6 +89753,7 @@ rjsdiikketqvt.online @ads
 rjsq7ljyp.com @ads
 rjtzqgeltwaep.store @ads
 rjvgkmahuzded.site @ads
+rjvsnwnsxwxxo.site @ads
 rjw4obbw.com @ads
 rjwfblvovs.com @ads
 rjxczvecqiipf.site @ads

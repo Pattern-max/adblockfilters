@@ -1,11 +1,11 @@
 #
 # Title: AdBlock Hosts
 # Description: 适用于 hosts 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、EasyList、EasyList China、EasyPrivacy、DNS-Blocklists Light、OISD Basic、海哥 HG规则。
-# Homepage: https://github.com/217heidai/adblockfilters
-# Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockhosts.txt
-# Version: 20260819122110
-# Last modified: 2026/08/19 12:21:10
-# Blocked domains: 120571
+# Homepage: https://github.com/Pattern-max/adblockfilters
+# Source: https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/adblockhosts.txt
+# Version: 20260819131036
+# Last modified: 2026/08/19 13:10:36
+# Blocked domains: 120573
 #
 127.0.0.1	localhost
 127.0.0.1	localhost.localdomain
@@ -75497,6 +75497,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	nleljf.xyz
 0.0.0.0	nlezowlzrllro.site
 0.0.0.0	nlfmf.cn
+0.0.0.0	nlglokvwajqxo.site
 0.0.0.0	nlhdswomqdoux.site
 0.0.0.0	nlhotovgeuglc.site
 0.0.0.0	nlhsmlnnnhgpv.online
@@ -89773,6 +89774,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	rjsq7ljyp.com
 0.0.0.0	rjtzqgeltwaep.store
 0.0.0.0	rjvgkmahuzded.site
+0.0.0.0	rjvsnwnsxwxxo.site
 0.0.0.0	rjw4obbw.com
 0.0.0.0	rjwfblvovs.com
 0.0.0.0	rjxczvecqiipf.site

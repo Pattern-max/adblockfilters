@@ -1,14 +1,14 @@
 #
 #!name=AdBlock Loon
 #!desc=适用于 Loon 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、EasyList、EasyList China、EasyPrivacy、DNS-Blocklists Light、OISD Basic、海哥 HG规则。
-#!homepage=https://github.com/217heidai/adblockfilters
-#!raw-url=https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockloon.list
+#!homepage=https://github.com/Pattern-max/adblockfilters
+#!raw-url=https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/adblockloon.list
 #!tag=AdBlock, 217heidai
 #!system=iOS, iPadOS
 #!system_version=
 #!loon_version=
-#!date=2026/08/19 12:21:10
-#!support=120571
+#!date=2026/08/19 13:10:36
+#!support=120573
 #!proxy-select=REJECT
 #
 DOMAIN-SUFFIX,0-02.net
@@ -75486,6 +75486,7 @@ DOMAIN-SUFFIX,mdws.nlcu.com
 DOMAIN-SUFFIX,nleljf.xyz
 DOMAIN-SUFFIX,nlezowlzrllro.site
 DOMAIN-SUFFIX,nlfmf.cn
+DOMAIN-SUFFIX,nlglokvwajqxo.site
 DOMAIN-SUFFIX,nlhdswomqdoux.site
 DOMAIN-SUFFIX,nlhotovgeuglc.site
 DOMAIN-SUFFIX,nlhsmlnnnhgpv.online
@@ -89762,6 +89763,7 @@ DOMAIN-SUFFIX,rjsdiikketqvt.online
 DOMAIN-SUFFIX,rjsq7ljyp.com
 DOMAIN-SUFFIX,rjtzqgeltwaep.store
 DOMAIN-SUFFIX,rjvgkmahuzded.site
+DOMAIN-SUFFIX,rjvsnwnsxwxxo.site
 DOMAIN-SUFFIX,rjw4obbw.com
 DOMAIN-SUFFIX,rjwfblvovs.com
 DOMAIN-SUFFIX,rjxczvecqiipf.site
