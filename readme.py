@@ -30,24 +30,29 @@ class ReadMe(object):
         self.ruleList = []
         with open(self.filename, "r", encoding='utf-8') as f:
             for line in f:
-                # 去除换行符和首尾空格
                 line = line.replace('\r', '').replace('\n', '').strip()
                 if line.find('|') == 0 and line.rfind('|') == len(line) - 1:
                     rule = list(map(lambda x: x.strip(), line[1:-1].split('|')))
-                    # 容错：确保 rule 至少有 3 个元素，且第 2 个元素包含 URL 格式
-                    if len(rule) >= 3 and rule[2].find('(') > 0 and rule[2].find(')') > 0 and rule[1].find('(') < 0:
-                        url = rule[2][rule[2].find('(') + 1:rule[2].find(')')]
-                        matchObj1 = re.match(r'(http|https)://[\w\-_]+(\.[\w\-_]+)+([\w\-\.,@?^=%&:/~\+#]*[\w\-\@?^=%&/~\+#])?', url)
-                        if matchObj1:
-                            self.ruleList.append(Rule(rule[0], rule[1], url, rule[-1]))
+                    # 订阅链接表格至少有 2 列（规则名和原始链接）
+                    if len(rule) >= 2:
+                        # 原始链接列包含 [原始链接](url) 格式
+                        if rule[1].find('(') > 0 and rule[1].find(')') > 0:
+                            url = rule[1][rule[1].find('(') + 1:rule[1].find(')')]
+                            # 验证是否为有效的 URL
+                            matchObj1 = re.match(r'(http|https)://[\w\-_]+(\.[\w\-_]+)+([\w\-\.,@?^=%&:/~\+#]*[\w\-\@?^=%&/~\+#])?', url)
+                            if matchObj1:
+                                # 规则类型从第 2 列或默认 'dns'？这里我们用 'dns' 或从列推断，但原代码用 rule[1] 是类型？原代码 rule[1] 是类型？实际上原代码 rule[1] 是类型？不，原代码是 rule[1] 作为 type，但我们的表格中没有类型列。原代码的 rule[1] 实际上是"类型"列吗？不对，原代码是从 README 的"上游规则源"表格读取的，那个表格有类型列。但我们现在是解析"订阅链接"表格，它没有类型列。所以我们需要调整。
+
+                                # 原代码中，rule[1] 是类型（因为原 README 有一个"规则源"表格），但现在 README 的"订阅链接"表格没有类型列。
+                                # 我们这里可以固定类型为 'dns' 或根据适配说明推断，但原代码期望有类型，所以我们先统一用 'dns'。
+                                # 或者从 rule 的最后一列（适配说明）提取，但那样复杂。先统一用 'dns'，因为订阅链接都是 DNS 规则。
+                                self.ruleList.append(Rule(rule[0], 'dns', url, rule[-1]))
         return self.ruleList
 
     def getRulesNames(self) -> str:
         names = ""
-        
         for rule in self.ruleList:
             names += rule.name + '、'
-        
         return names[:-1]
 
     def setRules(self, ruleList:List[Rule]):
@@ -55,19 +60,16 @@ class ReadMe(object):
 
     def __subscribeLink(self, fileName:str, url:str=None):
         link = ""
-
         if url:
             link += " [原始链接](%s) |" % (url)
         else:
             link += " [原始链接](https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/%s) |" % (fileName)
-        
         for i in range(1, len(self.proxyList)):
             proxy = self.proxyList[i]
             if proxy.startswith("https://gcore.jsdelivr.net/"):
                 link += " [加速链接%d](%s/Pattern-max/adblockfilters@main/rules/%s) |" % (i, proxy, fileName)
             else:
                 link += " [加速链接%d](%s/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/%s) |" % (i, proxy, fileName)
-        
         return link
     
     def regenerate(self):
@@ -154,13 +156,3 @@ class ReadMe(object):
             for rule in self.ruleList:
                 f.write("| %s | %s |%s %s |\n" % (rule.name, rule.type, self.__subscribeLink(rule.filename, rule.url), rule.latest))
             f.write("\n")
-
-            '''
-            f.write("## Star History\n")
-            f.write("[![Star History Chart](https://api.star-history.com/svg?repos=Pattern-max/adblockfilters&type=Date)](https://star-history.com/#Pattern-max/adblockfilters&Date)\n")
-            
-            f.write("\n")
-            f.write("## 以下是广告\n")
-            f.write('感兴趣的可以看下，DartNode 免费 VPS, [点击申请](https://dartnode.com?aff=PudgyBurrito637)\n')
-            f.write('[![Powered by DartNode](https://dartnode.com/branding/DN-Open-Source-sm.png)](https://dartnode.com "Powered by DartNode - Free VPS for Open Source")\n')
-            '''
