@@ -73,13 +73,14 @@ jobs:
           cp rules/adblockv2ray.txt domain-list-community/adblock/category-ads-all
           
           # ===== 全面清洗 category-ads-all =====
-          # 1. 删除包含 ^ 的畸形域名（如 abvg78uero.coalmo.com.cdngtm.com^.cdngtm.com）
+          # 1. 删除包含 ^ 的畸形域名
           sed -i '/\^/d' domain-list-community/adblock/category-ads-all
-          # 2. 删除包含 / 的 CIDR 格式（如 216.239.35.0/24）
+          # 2. 删除包含 / 的 CIDR 格式
           sed -i '/\//d' domain-list-community/adblock/category-ads-all
-          # 3. 删除纯 IP 行（如 1.2.3.4）
-          sed -i '/^[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}$/d' domain-list-community/adblock/category-ads-all
-          # 4. 删除包含双引号的行（如 "abvg7uero.coalmo.com.cdngtm.com".cdngtm.com）
+          # 3. 删除纯 IP 行（允许行首/行尾空白字符）
+          grep -vE '^[[:space:]]*[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}[[:space:]]*$' domain-list-community/adblock/category-ads-all > domain-list-community/adblock/category-ads-all.tmp
+          mv domain-list-community/adblock/category-ads-all.tmp domain-list-community/adblock/category-ads-all
+          # 4. 删除包含双引号的行
           sed -i '/"/d' domain-list-community/adblock/category-ads-all
           # =====================================
           
@@ -94,7 +95,8 @@ jobs:
           # ===== Lite 版同样清洗 =====
           sed -i '/\^/d' domain-list-community/adblocklite/category-ads-all
           sed -i '/\//d' domain-list-community/adblocklite/category-ads-all
-          sed -i '/^[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}$/d' domain-list-community/adblocklite/category-ads-all
+          grep -vE '^[[:space:]]*[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}[[:space:]]*$' domain-list-community/adblocklite/category-ads-all > domain-list-community/adblocklite/category-ads-all.tmp
+          mv domain-list-community/adblocklite/category-ads-all.tmp domain-list-community/adblocklite/category-ads-all
           sed -i '/"/d' domain-list-community/adblocklite/category-ads-all
           # =================================
           
