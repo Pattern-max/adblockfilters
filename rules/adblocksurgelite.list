@@ -1,6 +1,6 @@
 #
 #!name=AdBlock Surge Lite
-#!desc=ÊÊÓÃÓÚ Surge µÄÈ¥¹ã¸æºÏ²¢¹æÔò£¬Ã¿ 8 ¸öĞ¡Ê±¸üĞÂÒ»´Î¡£¹æÔòÔ´£ºAdGuard Base filter¡¢AdGuard Chinese filter¡¢EasyList¡¢EasyList China¡¢EasyPrivacy¡¢DNS-Blocklists Light¡¢OISD Basic¡¢º£¸ç HG¹æÔò¡£Lite °æ½öÕë¶Ô¹úÄÚÓòÃûÀ¹½Ø¡£
+#!desc=é€‚ç”¨äº Surge çš„å»å¹¿å‘Šåˆå¹¶è§„åˆ™ï¼Œæ¯ 8 ä¸ªå°æ—¶æ›´æ–°ä¸€æ¬¡ã€‚è§„åˆ™æºï¼šAdGuard Base filterã€AdGuard Chinese filterã€EasyListã€EasyList Chinaã€EasyPrivacyã€DNS-Blocklists Lightã€OISD Basicã€æµ·å“¥ HGè§„åˆ™ã€‚Lite ç‰ˆä»…é’ˆå¯¹å›½å†…åŸŸåæ‹¦æˆªã€‚
 #!homepage=https://github.com/Pattern-max/adblockfilters
 #!raw-url=https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/adblocksurgelite.list
 #!tag=AdBlock, 217heidai
@@ -10,8 +10,8 @@
 #!system=iOS, iPadOS
 #!system_version=
 #!loon_version=
-#!date=2026/08/19 13:10:36
-#!support=3567
+#!date=2026/08/20 09:19:43
+#!support=3557
 #!proxy-select=REJECT
 #
 .img.0279.net
@@ -295,6 +295,8 @@
 .admob-cn.com
 .admobile.top
 .adn-plus.com.cn
+.adreal.cn
+.ads360.cn
 .adsage.cn
 .adsame.com
 .adseye.com
@@ -309,9 +311,7 @@
 .p5-ad.adukwai.com
 .v1-ad.adukwai.com
 .v1-lm.adukwai.com
-.v4-ad.adukwai.com
 .v4-lm.adukwai.com
-.v5-ad.adukwai.com
 .adups.cn
 .ap.adups.com
 .iotapi.adups.com
@@ -329,7 +329,6 @@
 .af1tsjdta.com
 .analytics.afirstsoft.cn
 .app.aflink.com
-.data-reporting.agora.io
 .logservice.agora.io
 .logservice-rtm.agora.io
 .report-america.agora.io
@@ -486,6 +485,7 @@
 .a.armystar.com
 .trk.arozone.cn
 .arpun.com
+.aspwg.cn
 .www.assoc-amazon.cn
 .asyn.cn
 .aiseet.aa.atianqi.com
@@ -734,7 +734,6 @@
 .tracker.cdnbye.com
 .ads-i2.xhscdn.com.w.cdngslb.com
 .ads-img-al.xhscdn.com.w.cdngslb.com
-.ads-video-al.xhscdn.com.w.cdngslb.com
 .ads3-normal-hl.zijieapi.com.w.cdngslb.com
 .ads3-normal-lf.zijieapi.com.w.cdngslb.com
 .ads3-normal-lq.zijieapi.com.w.cdngslb.com
@@ -1036,7 +1035,6 @@
 .ap.dongqiudi.com
 .sensors-log.dongqiudi.com
 .stat.dongqiudi.com
-.dopa.com
 .monitor-web.dotfashion.cn
 .doubleclick-cn.net
 .doubleclick.net
@@ -1574,7 +1572,6 @@
 .logconf.iflytek.com
 .igexin.com
 .erg.ihclam.cn
-.appadapi.ihuman.com
 .iimedia.cn
 .ijinshan.com
 .daima.ijq.tv
@@ -1622,7 +1619,6 @@
 .puma-api.iqiyi.com
 .sns-paopao.iqiyi.com
 .static-s.iqiyi.com
-.static.g.iqiyi.com
 .subscription.iqiyi.com
 .tpa-hcdn.iqiyi.com
 .irs01.com
@@ -1874,6 +1870,7 @@
 .dc.letv.com
 .fe-go.letv.com
 .s-webp2p.letv.com
+.lgygy.cn
 .lianwangtech.com
 .adimg.liba.com
 .track.libii.cn
@@ -1971,7 +1968,6 @@
 .ggx03.miguvideo.com
 .ggxwb.miguvideo.com
 .v.miguvideo.com
-.abtest-api-data.mihoyo.com
 .ad-log-upload.mihoyo.com
 .apm-api.mihoyo.com
 .apm-log-upload.mihoyo.com
@@ -2152,7 +2148,6 @@
 .bidder.dsp.outfit7.com
 .hb-af-us-central1.outfit7.com
 .revive.outin.cn
-.ouyaoxiazai.com
 .umami.oyo.cool
 .oyz61nhz8.com
 .p0yixb3wfv.com
@@ -2228,6 +2223,7 @@
 .jspassport.ssl.qhimg.com
 .c.qiandao.cn
 .jsb.qianzhan.com
+.qdp.qidian.com
 .haostat.qihoo.com
 .roibest-report-sdk.qiliangjia.com
 .bdcode.qinglue.com
@@ -2328,7 +2324,6 @@
 .pmir.3g.qq.com
 .pms.mb.qq.com
 .qappcenterv6.3g.qq.com
-.qring-tms.qq.com
 .rcgi.video.qq.com
 .report.qq.com
 .report.gamecenter.qq.com
@@ -2435,6 +2430,7 @@
 .v5-bd-daily-reading-ad.qznovelvod.com
 .v5-ex-reading-ad.qznovelvod.com
 .v5-reading-ad.qznovelvod.com
+.v5-se-gddgtc-reading-ad.qznovelvod.com
 .v5-se-sjy-daily-reading-ad.qznovelvod.com
 .v6-daily-reading-ad.qznovelvod.com
 .v6-reading-ad.qznovelvod.com
@@ -2712,8 +2708,6 @@
 .adashx4yt.m.taobao.com
 .adashxgc.ut.taobao.com
 .ae-alimelog.taobao.com
-.agoodm.m.taobao.com
-.alimelog.taobao.com
 .amdcopen.m.taobao.com
 .audid-api-sg.taobao.com
 .baichuan-sdk.taobao.com
@@ -2752,6 +2746,7 @@
 .sg.tdatamaster.com
 .tdlop7tsme.com
 .tongji.techweb.com.cn
+.data.tempersyi.com
 .apd-pcdnvodstat.teg.tencent-cloud.net
 .apd-pcdnwxlogin.teg.tencent-cloud.net
 .apd-pcdnwxnat.teg.tencent-cloud.net
@@ -2965,6 +2960,7 @@
 .asia-adlog.vivoglobal.com
 .asia-adsjssdk.vivoglobal.com
 .asia-album-api.vivoglobal.com
+.asia-analyzer-appstore.vivoglobal.com
 .asia-commonitor-stsdk.vivoglobal.com
 .asia-comonrt-stsdk.vivoglobal.com
 .asia-comort-stsdk.vivoglobal.com
@@ -3050,7 +3046,6 @@
 .in-vcode-or.vivoglobal.com
 .in-vpushonrt-stsdk.vivoglobal.com
 .in-vpushort-stsdk.vivoglobal.com
-.kz-onrt-stsdk.vivoglobal.com
 .kz-vcode-od.vivoglobal.com
 .mx-cota.vivoglobal.com
 .mx-domaincfg.vivoglobal.com
@@ -3066,7 +3061,6 @@
 .mx-vcode-api.vivoglobal.com
 .mx-vcode-od.vivoglobal.com
 .mx-vcode-or.vivoglobal.com
-.ru-commonitor-stsdk.vivoglobal.com
 .ru-comonrt-stsdk.vivoglobal.com
 .ru-comort-stsdk.vivoglobal.com
 .ru-compnrt-stsdk.vivoglobal.com
@@ -3074,7 +3068,6 @@
 .ru-err-up.vivoglobal.com
 .ru-exstsdk.vivoglobal.com
 .ru-onrt-stsdk.vivoglobal.com
-.ru-os-config-appstore.vivoglobal.com
 .ru-p.vivoglobal.com
 .ru-romsp-unifyconfig.vivoglobal.com
 .ru-st-exappupgrade.vivoglobal.com
@@ -3086,6 +3079,7 @@
 .ru-vcode-or.vivoglobal.com
 .sg-cfg-stsdk.vivoglobal.com
 .stsdk.vivoglobal.com
+.tr-err-up.vivoglobal.com
 .tr-onrt-stsdk.vivoglobal.com
 .tr-ort-stsdk.vivoglobal.com
 .tr-p.vivoglobal.com
@@ -3225,7 +3219,6 @@
 .pvx.xcar.com.cn
 .zio.xcar.com.cn
 .xdrig.com
-.sensors.h5.xed.plus
 .xegnfwkju.com
 .dt.xfyun.cn
 .pics.xgo-img.com.cn
@@ -3240,8 +3233,6 @@
 .ads-img-bak.xhscdn.com
 .ads-img-qc.xhscdn.com
 .ads-leona-s1.xhscdn.com
-.ads-splash-i1.xhscdn.com
-.ads-splash-i2.xhscdn.com
 .ads-video-al.xhscdn.com
 .ads-video-qc.xhscdn.com
 .ads-vp5.xhscdn.com
@@ -3267,7 +3258,6 @@
 .cdn-exp-sg-recommend.pt.xiaomi.com
 .cdn.exp.xiaomi.com
 .cdn.fds.api.xiaomi.com
-.data.game.xiaomi.com
 .data.mistat.intl.xiaomi.com
 .global-ad-extranet-pri-azams.alb.xiaomi.com
 .global-ad-extranet-pri-azpn.alb.xiaomi.com

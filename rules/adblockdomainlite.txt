@@ -1,11 +1,11 @@
 !
 ! Title: AdBlock InviZible Lite
-! Description:   ”√”⁄ InviZible Pro°¢personalDNSfilter µƒ»•π„∏Ê∫œ≤¢πÊ‘Ú£¨√ø 8 ∏ˆ–° ±∏¸–¬“ª¥Œ°£πÊ‘Ú‘¥£∫AdGuard Base filter°¢AdGuard Chinese filter°¢EasyList°¢EasyList China°¢EasyPrivacy°¢DNS-Blocklists Light°¢OISD Basic°¢∫£∏Á HGπÊ‘Ú°£Lite ∞ÊΩˆ’Î∂‘π˙ƒ⁄”Ú√˚¿πΩÿ°£
+! Description: ÈÄÇÁî®‰∫é InviZible Pro„ÄÅpersonalDNSfilter ÁöÑÂéªÂπøÂëäÂêàÂπ∂ËßÑÂàôÔºåÊØè 8 ‰∏™Â∞èÊó∂Êõ¥Êñ∞‰∏ÄÊ¨°„ÄÇËßÑÂàôÊ∫êÔºöAdGuard Base filter„ÄÅAdGuard Chinese filter„ÄÅEasyList„ÄÅEasyList China„ÄÅEasyPrivacy„ÄÅDNS-Blocklists Light„ÄÅOISD Basic„ÄÅÊµ∑Âì• HGËßÑÂàô„ÄÇLite Áâà‰ªÖÈíàÂØπÂõΩÂÜÖÂüüÂêçÊã¶Êà™„ÄÇ
 ! Homepage: https://github.com/Pattern-max/adblockfilters
 ! Source: https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/adblockdomainlite.txt
-! Version: 20260819131036
-! Last modified: 2026/08/19 13:10:36
-! Blocked domains: 3567
+! Version: 20260820091943
+! Last modified: 2026/08/20 09:19:43
+! Blocked domains: 3557
 !
 img.0279.net
 o.027eat.com
@@ -288,6 +288,8 @@ adminer.com
 admob-cn.com
 admobile.top
 adn-plus.com.cn
+adreal.cn
+ads360.cn
 adsage.cn
 adsame.com
 adseye.com
@@ -302,9 +304,7 @@ p4-ad.adukwai.com
 p5-ad.adukwai.com
 v1-ad.adukwai.com
 v1-lm.adukwai.com
-v4-ad.adukwai.com
 v4-lm.adukwai.com
-v5-ad.adukwai.com
 adups.cn
 ap.adups.com
 iotapi.adups.com
@@ -322,7 +322,6 @@ adzp.cn
 af1tsjdta.com
 analytics.afirstsoft.cn
 app.aflink.com
-data-reporting.agora.io
 logservice.agora.io
 logservice-rtm.agora.io
 report-america.agora.io
@@ -479,6 +478,7 @@ tr.email.archiexpo.com
 a.armystar.com
 trk.arozone.cn
 arpun.com
+aspwg.cn
 www.assoc-amazon.cn
 asyn.cn
 aiseet.aa.atianqi.com
@@ -727,7 +727,6 @@ ads5-normal.zijieapi.com.c.dsa.cdnbuild.net
 tracker.cdnbye.com
 ads-i2.xhscdn.com.w.cdngslb.com
 ads-img-al.xhscdn.com.w.cdngslb.com
-ads-video-al.xhscdn.com.w.cdngslb.com
 ads3-normal-hl.zijieapi.com.w.cdngslb.com
 ads3-normal-lf.zijieapi.com.w.cdngslb.com
 ads3-normal-lq.zijieapi.com.w.cdngslb.com
@@ -1029,7 +1028,6 @@ ap.dongdianqiu.com
 ap.dongqiudi.com
 sensors-log.dongqiudi.com
 stat.dongqiudi.com
-dopa.com
 monitor-web.dotfashion.cn
 doubleclick-cn.net
 doubleclick.net
@@ -1567,7 +1565,6 @@ log.iflytek.com
 logconf.iflytek.com
 igexin.com
 erg.ihclam.cn
-appadapi.ihuman.com
 iimedia.cn
 ijinshan.com
 daima.ijq.tv
@@ -1615,7 +1612,6 @@ policy.video.iqiyi.com
 puma-api.iqiyi.com
 sns-paopao.iqiyi.com
 static-s.iqiyi.com
-static.g.iqiyi.com
 subscription.iqiyi.com
 tpa-hcdn.iqiyi.com
 irs01.com
@@ -1867,6 +1863,7 @@ c.webp2p.letv.com
 dc.letv.com
 fe-go.letv.com
 s-webp2p.letv.com
+lgygy.cn
 lianwangtech.com
 adimg.liba.com
 track.libii.cn
@@ -1964,7 +1961,6 @@ ggx01.miguvideo.com
 ggx03.miguvideo.com
 ggxwb.miguvideo.com
 v.miguvideo.com
-abtest-api-data.mihoyo.com
 ad-log-upload.mihoyo.com
 apm-api.mihoyo.com
 apm-log-upload.mihoyo.com
@@ -2145,7 +2141,6 @@ at-af.outfit7.com
 bidder.dsp.outfit7.com
 hb-af-us-central1.outfit7.com
 revive.outin.cn
-ouyaoxiazai.com
 umami.oyo.cool
 oyz61nhz8.com
 p0yixb3wfv.com
@@ -2221,6 +2216,7 @@ qf51ho9qtz.com
 jspassport.ssl.qhimg.com
 c.qiandao.cn
 jsb.qianzhan.com
+qdp.qidian.com
 haostat.qihoo.com
 roibest-report-sdk.qiliangjia.com
 bdcode.qinglue.com
@@ -2321,7 +2317,6 @@ pingtas.qq.com
 pmir.3g.qq.com
 pms.mb.qq.com
 qappcenterv6.3g.qq.com
-qring-tms.qq.com
 rcgi.video.qq.com
 report.qq.com
 report.gamecenter.qq.com
@@ -2428,6 +2423,7 @@ v3-reading-ad.qznovelvod.com
 v5-bd-daily-reading-ad.qznovelvod.com
 v5-ex-reading-ad.qznovelvod.com
 v5-reading-ad.qznovelvod.com
+v5-se-gddgtc-reading-ad.qznovelvod.com
 v5-se-sjy-daily-reading-ad.qznovelvod.com
 v6-daily-reading-ad.qznovelvod.com
 v6-reading-ad.qznovelvod.com
@@ -2705,8 +2701,6 @@ adashx4sg.ut.taobao.com
 adashx4yt.m.taobao.com
 adashxgc.ut.taobao.com
 ae-alimelog.taobao.com
-agoodm.m.taobao.com
-alimelog.taobao.com
 amdcopen.m.taobao.com
 audid-api-sg.taobao.com
 baichuan-sdk.taobao.com
@@ -2745,6 +2739,7 @@ gwrtdp-tn690bfadt.tclclouds.com
 sg.tdatamaster.com
 tdlop7tsme.com
 tongji.techweb.com.cn
+data.tempersyi.com
 apd-pcdnvodstat.teg.tencent-cloud.net
 apd-pcdnwxlogin.teg.tencent-cloud.net
 apd-pcdnwxnat.teg.tencent-cloud.net
@@ -2958,6 +2953,7 @@ asia-ad-mkt-vivofs.vivoglobal.com
 asia-adlog.vivoglobal.com
 asia-adsjssdk.vivoglobal.com
 asia-album-api.vivoglobal.com
+asia-analyzer-appstore.vivoglobal.com
 asia-commonitor-stsdk.vivoglobal.com
 asia-comonrt-stsdk.vivoglobal.com
 asia-comort-stsdk.vivoglobal.com
@@ -3043,7 +3039,6 @@ in-vcode-od.vivoglobal.com
 in-vcode-or.vivoglobal.com
 in-vpushonrt-stsdk.vivoglobal.com
 in-vpushort-stsdk.vivoglobal.com
-kz-onrt-stsdk.vivoglobal.com
 kz-vcode-od.vivoglobal.com
 mx-cota.vivoglobal.com
 mx-domaincfg.vivoglobal.com
@@ -3059,7 +3054,6 @@ mx-timesync.vivoglobal.com
 mx-vcode-api.vivoglobal.com
 mx-vcode-od.vivoglobal.com
 mx-vcode-or.vivoglobal.com
-ru-commonitor-stsdk.vivoglobal.com
 ru-comonrt-stsdk.vivoglobal.com
 ru-comort-stsdk.vivoglobal.com
 ru-compnrt-stsdk.vivoglobal.com
@@ -3067,7 +3061,6 @@ ru-comprt-stsdk.vivoglobal.com
 ru-err-up.vivoglobal.com
 ru-exstsdk.vivoglobal.com
 ru-onrt-stsdk.vivoglobal.com
-ru-os-config-appstore.vivoglobal.com
 ru-p.vivoglobal.com
 ru-romsp-unifyconfig.vivoglobal.com
 ru-st-exappupgrade.vivoglobal.com
@@ -3079,6 +3072,7 @@ ru-vcode-od.vivoglobal.com
 ru-vcode-or.vivoglobal.com
 sg-cfg-stsdk.vivoglobal.com
 stsdk.vivoglobal.com
+tr-err-up.vivoglobal.com
 tr-onrt-stsdk.vivoglobal.com
 tr-ort-stsdk.vivoglobal.com
 tr-p.vivoglobal.com
@@ -3218,7 +3212,6 @@ pv.xcar.com.cn
 pvx.xcar.com.cn
 zio.xcar.com.cn
 xdrig.com
-sensors.h5.xed.plus
 xegnfwkju.com
 dt.xfyun.cn
 pics.xgo-img.com.cn
@@ -3233,8 +3226,6 @@ ads-img-al.xhscdn.com
 ads-img-bak.xhscdn.com
 ads-img-qc.xhscdn.com
 ads-leona-s1.xhscdn.com
-ads-splash-i1.xhscdn.com
-ads-splash-i2.xhscdn.com
 ads-video-al.xhscdn.com
 ads-video-qc.xhscdn.com
 ads-vp5.xhscdn.com
@@ -3260,7 +3251,6 @@ bigdata-lbs-pri-c3.alb.xiaomi.com
 cdn-exp-sg-recommend.pt.xiaomi.com
 cdn.exp.xiaomi.com
 cdn.fds.api.xiaomi.com
-data.game.xiaomi.com
 data.mistat.intl.xiaomi.com
 global-ad-extranet-pri-azams.alb.xiaomi.com
 global-ad-extranet-pri-azpn.alb.xiaomi.com
