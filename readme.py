@@ -33,24 +33,26 @@ class ReadMe(object):
         
         # 寻找 "上游规则源" 表格
         in_upstream_table = False
-        for i, line in enumerate(lines):
+        for line in lines:
             line = line.replace('\r', '').replace('\n', '').strip()
             if not line:
                 continue
             
-            # 检测表格开始：包含 "| 规则 | 类型 | 原始链接 |"
-            if line.startswith('| 规则 | 类型 | 原始链接 |'):
+            # 检测表格开始：必须是 "| 规则 | 类型 | 原始链接 |" 开头，且不能包含 "加速链接"
+            if line == '| 规则 | 类型 | 原始链接 |' or line.startswith('| 规则 | 类型 | 原始链接 |'):
                 in_upstream_table = True
                 continue
             
-            # 如果已经在表格中，检测表格结束（遇到空行或下一个标题）
+            # 如果在表格中，检测结束条件
             if in_upstream_table:
-                if line.startswith('###') or line.startswith('##') or line.startswith('---') or line == '':
+                # 遇到空行或下一个标题（### 或 ##）则停止
+                if line.startswith('###') or line.startswith('##') or line == '' or line.startswith('---'):
                     break
+                # 解析表格行（必须是以 | 开头且不是分隔行）
                 if line.startswith('|') and not line.startswith('|:-'):
                     parts = list(map(lambda x: x.strip(), line[1:-1].split('|')))
-                    # 表格至少有 4 列：名称, 类型, 原始链接, 更新日期等
-                    if len(parts) >= 3 and parts[0] and parts[0] != '规则' and parts[0] != ':-':
+                    # 至少需要 3 列：名称、类型、原始链接
+                    if len(parts) >= 3 and parts[0] and parts[0] != '规则' and not parts[0].startswith('-'):
                         name = parts[0]
                         rule_type = parts[1] if len(parts) > 1 else 'dns'
                         # 提取原始链接
@@ -58,8 +60,9 @@ class ReadMe(object):
                         url = ''
                         if '(' in url_part and ')' in url_part:
                             url = url_part[url_part.find('(')+1:url_part.find(')')]
-                        latest = parts[-1] if len(parts) > 4 else ''
-                        if url:
+                        # 获取更新日期（最后一列）
+                        latest = parts[-1] if len(parts) > 3 else ''
+                        if url and name and name != '规则':
                             self.ruleList.append(Rule(name, rule_type, url, latest))
         
         logger.info(f"从上游规则源表格解析到 {len(self.ruleList)} 条规则")
