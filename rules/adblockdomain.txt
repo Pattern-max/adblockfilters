@@ -3,8 +3,8 @@
 ! Description: 适用于 InviZible Pro、personalDNSfilter 的去广告合并规则，每 8 个小时更新一次。规则源：规则1、规则1'、规则2、规则2'、规则3、规则3'、规则4、规则4'、规则5、规则5'、规则6、规则6'、规则7、规则7'、规则8、规则8'、规则9、规则9'、规则10、规则10'、规则11、规则11'、规则12、规则12'、规则13、规则13'、规则14、规则14'、规则15、规则15'、规则16、规则16'、规则17、规则17'。
 ! Homepage: https://github.com/Pattern-max/adblockfilters
 ! Source: https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/adblockdomain.txt
-! Version: 20260820143347
-! Last modified: 2026/08/20 14:33:47
+! Version: 20260820144254
+! Last modified: 2026/08/20 14:42:54
 ! Blocked domains: 140008
 !
 0-0-0checkmate.com
