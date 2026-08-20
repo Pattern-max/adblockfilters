@@ -31,7 +31,7 @@ jobs:
       - name: Setup Go
         uses: actions/setup-go@v7
         with:
-          go-version-file: domain-list-community/go.mod
+          go-version: '1.25.12'  # 根据 domain-list-community/go.mod 指定
 
       - name: Install Dependencies
         run: |
