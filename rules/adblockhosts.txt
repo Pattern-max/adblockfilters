@@ -3,9 +3,9 @@
 # Description: 适用于 hosts 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、EasyList、EasyList China、EasyPrivacy、DNS-Blocklists Light、OISD Basic、海哥 HG规则。
 # Homepage: https://github.com/Pattern-max/adblockfilters
 # Source: https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/adblockhosts.txt
-# Version: 20260820150733
-# Last modified: 2026/08/20 15:07:33
-# Blocked domains: 140034
+# Version: 20260820151222
+# Last modified: 2026/08/20 15:12:22
+# Blocked domains: 140031
 #
 127.0.0.1	localhost
 127.0.0.1	localhost.localdomain
@@ -17213,7 +17213,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	analytics.angelone.in
 0.0.0.0	openx.angelsgroup.org.uk
 0.0.0.0	link.angelstudios.com
-0.0.0.0	angerfondnessspecified.com
 0.0.0.0	adebis.angfa-store.jp
 0.0.0.0	v.angha.me
 0.0.0.0	open.anghami.com
@@ -23973,7 +23972,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	bioxtrim.com
 0.0.0.0	bioxtubes.com
 0.0.0.0	biphic.com
-0.0.0.0	tvc.biphim.club
 0.0.0.0	eakwza.bipicar.com
 0.0.0.0	biqhnzqiljycl.site
 0.0.0.0	biqqavjzrmmkr.store
@@ -29284,7 +29282,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	catapultx.com
 0.0.0.0	cataract40.com
 0.0.0.0	cataract77.top
-0.0.0.0	catastasicker.shop
 0.0.0.0	catastropherectificationamusing.com
 0.0.0.0	cyohmj.catawiki.com
 0.0.0.0	sgtm.catawiki.com

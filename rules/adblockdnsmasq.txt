@@ -3,9 +3,9 @@
 # Description: 适用于 DNSMasq 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、EasyList、EasyList China、EasyPrivacy、DNS-Blocklists Light、OISD Basic、海哥 HG规则。
 # Homepage: https://github.com/Pattern-max/adblockfilters
 # Source: https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/adblockdnsmasq.txt
-# Version: 20260820150733
-# Last modified: 2026/08/20 15:07:33
-# Blocked domains: 140034
+# Version: 20260820151222
+# Last modified: 2026/08/20 15:12:22
+# Blocked domains: 140031
 #
 local=/0-0-0checkmate.com/
 local=/0-02.net/
@@ -17198,7 +17198,6 @@ local=/angelltennis.co.uk/
 local=/analytics.angelone.in/
 local=/openx.angelsgroup.org.uk/
 local=/link.angelstudios.com/
-local=/angerfondnessspecified.com/
 local=/adebis.angfa-store.jp/
 local=/v.angha.me/
 local=/open.anghami.com/
@@ -23958,7 +23957,6 @@ local=/ogb2.biovie.com/
 local=/bioxtrim.com/
 local=/bioxtubes.com/
 local=/biphic.com/
-local=/tvc.biphim.club/
 local=/eakwza.bipicar.com/
 local=/biqhnzqiljycl.site/
 local=/biqqavjzrmmkr.store/
@@ -29269,7 +29267,6 @@ local=/marketing.catamarans.com/
 local=/catapultx.com/
 local=/cataract40.com/
 local=/cataract77.top/
-local=/catastasicker.shop/
 local=/catastropherectificationamusing.com/
 local=/cyohmj.catawiki.com/
 local=/sgtm.catawiki.com/

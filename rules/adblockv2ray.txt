@@ -3,9 +3,9 @@
 # Description: 适用于 V2ray、Xray 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、EasyList、EasyList China、EasyPrivacy、DNS-Blocklists Light、OISD Basic、海哥 HG规则。
 # Homepage: https://github.com/Pattern-max/adblockfilters
 # Source: https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/adblockv2ray.txt
-# Version: 20260820150733
-# Last modified: 2026/08/20 15:07:33
-# Blocked domains: 140034
+# Version: 20260820151222
+# Last modified: 2026/08/20 15:12:22
+# Blocked domains: 140031
 #
 0-0-0checkmate.com @ads
 0-02.net @ads
@@ -17198,7 +17198,6 @@ angelltennis.co.uk @ads
 analytics.angelone.in @ads
 openx.angelsgroup.org.uk @ads
 link.angelstudios.com @ads
-angerfondnessspecified.com @ads
 adebis.angfa-store.jp @ads
 v.angha.me @ads
 open.anghami.com @ads
@@ -23955,7 +23954,6 @@ ogb2.biovie.com @ads
 bioxtrim.com @ads
 bioxtubes.com @ads
 biphic.com @ads
-tvc.biphim.club @ads
 eakwza.bipicar.com @ads
 biqhnzqiljycl.site @ads
 biqqavjzrmmkr.store @ads
@@ -29266,7 +29264,6 @@ marketing.catamarans.com @ads
 catapultx.com @ads
 cataract40.com @ads
 cataract77.top @ads
-catastasicker.shop @ads
 catastropherectificationamusing.com @ads
 cyohmj.catawiki.com @ads
 sgtm.catawiki.com @ads
