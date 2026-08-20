@@ -2,8 +2,8 @@
 #!desc=每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、EasyList、EasyList China、EasyPrivacy、DNS-Blocklists Light、OISD Basic、海哥 HG规则。Lite 版仅针对国内域名拦截。
 #!homepage=https://github.com/Pattern-max/adblockfilters
 #!source=https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/adblockshadowrocketlite.sgmodule
-#!version=20260820091943
-#!updated=2026/08/20 09:19:43
+#!version=20260820095124
+#!updated=2026/08/20 09:51:24
 
 [Rule]
 DOMAIN-SUFFIX,img.0279.net,REJECT-DROP
@@ -865,7 +865,6 @@ DOMAIN-SUFFIX,log-eap.coloros.com,REJECT-DROP
 DOMAIN-SUFFIX,log-eap-in.coloros.com,REJECT-DROP
 DOMAIN-SUFFIX,log-eap-sg.coloros.com,REJECT-DROP
 DOMAIN-SUFFIX,moa-upload-online.coloros.com,REJECT-DROP
-DOMAIN-SUFFIX,smartcard.apps.coloros.com,REJECT-DROP
 DOMAIN-SUFFIX,iadcontent-lb.apple.com.akadns.net,REJECT-DROP
 DOMAIN-SUFFIX,iadsdk.apple.com.akadns.net,REJECT-DROP
 DOMAIN-SUFFIX,conyz.cn,REJECT-DROP
@@ -1352,14 +1351,11 @@ DOMAIN-SUFFIX,img-c.heytapimage.com,REJECT-DROP
 DOMAIN-SUFFIX,ums-rum-cn.heytapimage.com,REJECT-DROP
 DOMAIN-SUFFIX,ums-rum-global.heytapimage.com,REJECT-DROP
 DOMAIN-SUFFIX,adm-smc-cn.heytapmobi.com,REJECT-DROP
-DOMAIN-SUFFIX,adx.ads.heytapmobi.com,REJECT-DROP
 DOMAIN-SUFFIX,album-sg01a.ocloud.heytapmobi.com,REJECT-DROP
 DOMAIN-SUFFIX,api-cn.cdo.heytapmobi.com,REJECT-DROP
 DOMAIN-SUFFIX,api-gl.cdo.heytapmobi.com,REJECT-DROP
 DOMAIN-SUFFIX,api-id.game.heytapmobi.com,REJECT-DROP
 DOMAIN-SUFFIX,api-id.theme.heytapmobi.com,REJECT-DROP
-DOMAIN-SUFFIX,b1-data.ads.heytapmobi.com,REJECT-DROP
-DOMAIN-SUFFIX,cl-data.ads.heytapmobi.com,REJECT-DROP
 DOMAIN-SUFFIX,conf-cn.dc.heytapmobi.com,REJECT-DROP
 DOMAIN-SUFFIX,conf-eu.dc.heytapmobi.com,REJECT-DROP
 DOMAIN-SUFFIX,conf-in.dc.heytapmobi.com,REJECT-DROP
@@ -1385,8 +1381,6 @@ DOMAIN-SUFFIX,obus-jssdk-cn.heytapmobi.com,REJECT-DROP
 DOMAIN-SUFFIX,omes-sec.heytapmobi.com,REJECT-DROP
 DOMAIN-SUFFIX,oversea-nebula-in.heytapmobi.com,REJECT-DROP
 DOMAIN-SUFFIX,oversea-nebula-sg.heytapmobi.com,REJECT-DROP
-DOMAIN-SUFFIX,stg-data.ads.heytapmobi.com,REJECT-DROP
-DOMAIN-SUFFIX,uapi.ads.heytapmobi.com,REJECT-DROP
 DOMAIN-SUFFIX,ums-telemetry-cn.heytapmobi.com,REJECT-DROP
 DOMAIN-SUFFIX,virusinfo-cloudscan-cn.heytapmobi.com,REJECT-DROP
 DOMAIN-SUFFIX,hffxc.com,REJECT-DROP
@@ -1572,6 +1566,7 @@ DOMAIN-SUFFIX,ilkwork.com,REJECT-DROP
 DOMAIN-SUFFIX,smetrics.illumina.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,smetrics.ilovematlab.cn,REJECT-DROP
 DOMAIN-SUFFIX,imageter.com,REJECT-DROP
+DOMAIN-SUFFIX,imasdk.googleapis.com,REJECT-DROP
 DOMAIN-SUFFIX,tj.img4399.com,REJECT-DROP
 DOMAIN-SUFFIX,app-log-lab.immomo.com,REJECT-DROP
 DOMAIN-SUFFIX,app-log-oversea.immomo.com,REJECT-DROP
@@ -2016,7 +2011,6 @@ DOMAIN-SUFFIX,mqs-log.miui.com,REJECT-DROP
 DOMAIN-SUFFIX,notify.sec.miui.com,REJECT-DROP
 DOMAIN-SUFFIX,port.sec.miui.com,REJECT-DROP
 DOMAIN-SUFFIX,port.sec.intl.miui.com,REJECT-DROP
-DOMAIN-SUFFIX,r.browser.miui.com,REJECT-DROP
 DOMAIN-SUFFIX,tracking.miui.com,REJECT-DROP
 DOMAIN-SUFFIX,tracking.eu.miui.com,REJECT-DROP
 DOMAIN-SUFFIX,tracking.intl.miui.com,REJECT-DROP
@@ -2057,7 +2051,6 @@ DOMAIN-SUFFIX,nsp-logservice-hiview-p05-dra.obs.ap-southeast-3.myhuaweicloud.com
 DOMAIN-SUFFIX,nsp-logservice-hiview-p06-dra.obs.ap-southeast-3.myhuaweicloud.com,REJECT-DROP
 DOMAIN-SUFFIX,nsp-logservice-hiview-p07-dra.obs.ap-southeast-3.myhuaweicloud.com,REJECT-DROP
 DOMAIN-SUFFIX,nsp-logservice-hiview-p08-dra.obs.ap-southeast-3.myhuaweicloud.com,REJECT-DROP
-DOMAIN-SUFFIX,teslaamg.obs.cn-east-3.myhuaweicloud.com,REJECT-DROP
 DOMAIN-SUFFIX,myhug.cn,REJECT-DROP
 DOMAIN-SUFFIX,metrics-picture-hk.d1.mykeeta.com,REJECT-DROP
 DOMAIN-SUFFIX,esa-reg-eup.myoppo.com,REJECT-DROP
@@ -2240,6 +2233,7 @@ DOMAIN-SUFFIX,ad.qq.com,REJECT-DROP
 DOMAIN-SUFFIX,ad.weixin.qq.com,REJECT-DROP
 DOMAIN-SUFFIX,adfilter.imtt.qq.com,REJECT-DROP
 DOMAIN-SUFFIX,adrdir.qq.com,REJECT-DROP
+DOMAIN-SUFFIX,ads.privacy.qq.com,REJECT-DROP
 DOMAIN-SUFFIX,adsfile.qq.com,REJECT-DROP
 DOMAIN-SUFFIX,adslvfile.qq.com,REJECT-DROP
 DOMAIN-SUFFIX,adsmind.gdtimg.com.tcdn.qq.com,REJECT-DROP
@@ -2618,8 +2612,6 @@ DOMAIN-SUFFIX,assp.sohu.com,REJECT-DROP
 DOMAIN-SUFFIX,changyan.sohu.com,REJECT-DROP
 DOMAIN-SUFFIX,ctr.hd.sohu.com,REJECT-DROP
 DOMAIN-SUFFIX,fpb.sohu.com,REJECT-DROP
-DOMAIN-SUFFIX,i.go.sohu.com,REJECT-DROP
-DOMAIN-SUFFIX,imp.go.sohu.com,REJECT-DROP
 DOMAIN-SUFFIX,pv.sohu.com,REJECT-DROP
 DOMAIN-SUFFIX,pv.hd.sohu.com,REJECT-DROP
 DOMAIN-SUFFIX,qpb1.sohu.com,REJECT-DROP
@@ -2678,16 +2670,7 @@ DOMAIN-SUFFIX,pco-sm-log.tantanapp.com,REJECT-DROP
 DOMAIN-SUFFIX,report.tantanapp.com,REJECT-DROP
 DOMAIN-SUFFIX,sc-report.tantanapp.com,REJECT-DROP
 DOMAIN-SUFFIX,seiya.tantanapp.com,REJECT-DROP
-DOMAIN-SUFFIX,cms.tanx.com,REJECT-DROP
-DOMAIN-SUFFIX,df.tanx.com,REJECT-DROP
-DOMAIN-SUFFIX,ef-dongfeng.tanx.com,REJECT-DROP
-DOMAIN-SUFFIX,et.tanx.com,REJECT-DROP
-DOMAIN-SUFFIX,ifs.tanx.com,REJECT-DROP
-DOMAIN-SUFFIX,kgb-ifs.tanx.com,REJECT-DROP
-DOMAIN-SUFFIX,live-ifs.tanx.com,REJECT-DROP
-DOMAIN-SUFFIX,opehs.tanx.com,REJECT-DROP
-DOMAIN-SUFFIX,p.tanx.com,REJECT-DROP
-DOMAIN-SUFFIX,rdstat.tanx.com,REJECT-DROP
+DOMAIN-SUFFIX,tanx.com,REJECT-DROP
 DOMAIN-SUFFIX,accscdn.m.taobao.com,REJECT-DROP
 DOMAIN-SUFFIX,acs4baichuan.m.taobao.com,REJECT-DROP
 DOMAIN-SUFFIX,adash.m.taobao.com,REJECT-DROP
@@ -2892,7 +2875,6 @@ DOMAIN-SUFFIX,cdn.iads.unitychina.cn,REJECT-DROP
 DOMAIN-SUFFIX,uniway.cn.com,REJECT-DROP
 DOMAIN-SUFFIX,b.unjs.com,REJECT-DROP
 DOMAIN-SUFFIX,upltv.com,REJECT-DROP
-DOMAIN-SUFFIX,mobilelog.upqzfile.com,REJECT-DROP
 DOMAIN-SUFFIX,uri6.com,REJECT-DROP
 DOMAIN-SUFFIX,urlqh.cn,REJECT-DROP
 DOMAIN-SUFFIX,stats.us-light-edge.com,REJECT-DROP

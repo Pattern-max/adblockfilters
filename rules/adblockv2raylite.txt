@@ -3,9 +3,9 @@
 # Description: 适用于 V2ray、Xray 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、EasyList、EasyList China、EasyPrivacy、DNS-Blocklists Light、OISD Basic、海哥 HG规则。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/Pattern-max/adblockfilters
 # Source: https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/adblockv2raylite.txt
-# Version: 20260820091943
-# Last modified: 2026/08/20 09:19:43
-# Blocked domains: 3557
+# Version: 20260820095124
+# Last modified: 2026/08/20 09:51:24
+# Blocked domains: 3539
 #
 img.0279.net @ads
 o.027eat.com @ads
@@ -866,7 +866,6 @@ log-eap.coloros.com @ads
 log-eap-in.coloros.com @ads
 log-eap-sg.coloros.com @ads
 moa-upload-online.coloros.com @ads
-smartcard.apps.coloros.com @ads
 iadcontent-lb.apple.com.akadns.net @ads
 iadsdk.apple.com.akadns.net @ads
 conyz.cn @ads
@@ -1353,14 +1352,11 @@ img-c.heytapimage.com @ads
 ums-rum-cn.heytapimage.com @ads
 ums-rum-global.heytapimage.com @ads
 adm-smc-cn.heytapmobi.com @ads
-adx.ads.heytapmobi.com @ads
 album-sg01a.ocloud.heytapmobi.com @ads
 api-cn.cdo.heytapmobi.com @ads
 api-gl.cdo.heytapmobi.com @ads
 api-id.game.heytapmobi.com @ads
 api-id.theme.heytapmobi.com @ads
-b1-data.ads.heytapmobi.com @ads
-cl-data.ads.heytapmobi.com @ads
 conf-cn.dc.heytapmobi.com @ads
 conf-eu.dc.heytapmobi.com @ads
 conf-in.dc.heytapmobi.com @ads
@@ -1386,8 +1382,6 @@ obus-jssdk-cn.heytapmobi.com @ads
 omes-sec.heytapmobi.com @ads
 oversea-nebula-in.heytapmobi.com @ads
 oversea-nebula-sg.heytapmobi.com @ads
-stg-data.ads.heytapmobi.com @ads
-uapi.ads.heytapmobi.com @ads
 ums-telemetry-cn.heytapmobi.com @ads
 virusinfo-cloudscan-cn.heytapmobi.com @ads
 hffxc.com @ads
@@ -1573,6 +1567,7 @@ ilkwork.com @ads
 smetrics.illumina.com.cn @ads
 smetrics.ilovematlab.cn @ads
 imageter.com @ads
+imasdk.googleapis.com @ads
 tj.img4399.com @ads
 app-log-lab.immomo.com @ads
 app-log-oversea.immomo.com @ads
@@ -2017,7 +2012,6 @@ mqs-log.miui.com @ads
 notify.sec.miui.com @ads
 port.sec.miui.com @ads
 port.sec.intl.miui.com @ads
-r.browser.miui.com @ads
 tracking.miui.com @ads
 tracking.eu.miui.com @ads
 tracking.intl.miui.com @ads
@@ -2058,7 +2052,6 @@ nsp-logservice-hiview-p05-dra.obs.ap-southeast-3.myhuaweicloud.com @ads
 nsp-logservice-hiview-p06-dra.obs.ap-southeast-3.myhuaweicloud.com @ads
 nsp-logservice-hiview-p07-dra.obs.ap-southeast-3.myhuaweicloud.com @ads
 nsp-logservice-hiview-p08-dra.obs.ap-southeast-3.myhuaweicloud.com @ads
-teslaamg.obs.cn-east-3.myhuaweicloud.com @ads
 myhug.cn @ads
 metrics-picture-hk.d1.mykeeta.com @ads
 esa-reg-eup.myoppo.com @ads
@@ -2241,6 +2234,7 @@ ad.qq.com @ads
 ad.weixin.qq.com @ads
 adfilter.imtt.qq.com @ads
 adrdir.qq.com @ads
+ads.privacy.qq.com @ads
 adsfile.qq.com @ads
 adslvfile.qq.com @ads
 adsmind.gdtimg.com.tcdn.qq.com @ads
@@ -2619,8 +2613,6 @@ assp.sohu.com @ads
 changyan.sohu.com @ads
 ctr.hd.sohu.com @ads
 fpb.sohu.com @ads
-i.go.sohu.com @ads
-imp.go.sohu.com @ads
 pv.sohu.com @ads
 pv.hd.sohu.com @ads
 qpb1.sohu.com @ads
@@ -2679,16 +2671,7 @@ pco-sm-log.tantanapp.com @ads
 report.tantanapp.com @ads
 sc-report.tantanapp.com @ads
 seiya.tantanapp.com @ads
-cms.tanx.com @ads
-df.tanx.com @ads
-ef-dongfeng.tanx.com @ads
-et.tanx.com @ads
-ifs.tanx.com @ads
-kgb-ifs.tanx.com @ads
-live-ifs.tanx.com @ads
-opehs.tanx.com @ads
-p.tanx.com @ads
-rdstat.tanx.com @ads
+tanx.com @ads
 accscdn.m.taobao.com @ads
 acs4baichuan.m.taobao.com @ads
 adash.m.taobao.com @ads
@@ -2893,7 +2876,6 @@ cdn.iads.unitychina.cn @ads
 uniway.cn.com @ads
 b.unjs.com @ads
 upltv.com @ads
-mobilelog.upqzfile.com @ads
 uri6.com @ads
 urlqh.cn @ads
 stats.us-light-edge.com @ads

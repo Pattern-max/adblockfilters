@@ -3,9 +3,9 @@
 # Description: 适用于 DNSMasq 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、EasyList、EasyList China、EasyPrivacy、DNS-Blocklists Light、OISD Basic、海哥 HG规则。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/Pattern-max/adblockfilters
 # Source: https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/adblockdnsmasqlite.txt
-# Version: 20260820091943
-# Last modified: 2026/08/20 09:19:43
-# Blocked domains: 3557
+# Version: 20260820095123
+# Last modified: 2026/08/20 09:51:23
+# Blocked domains: 3539
 #
 local=/img.0279.net/
 local=/o.027eat.com/
@@ -866,7 +866,6 @@ local=/log-eap.coloros.com/
 local=/log-eap-in.coloros.com/
 local=/log-eap-sg.coloros.com/
 local=/moa-upload-online.coloros.com/
-local=/smartcard.apps.coloros.com/
 local=/iadcontent-lb.apple.com.akadns.net/
 local=/iadsdk.apple.com.akadns.net/
 local=/conyz.cn/
@@ -1353,14 +1352,11 @@ local=/img-c.heytapimage.com/
 local=/ums-rum-cn.heytapimage.com/
 local=/ums-rum-global.heytapimage.com/
 local=/adm-smc-cn.heytapmobi.com/
-local=/adx.ads.heytapmobi.com/
 local=/album-sg01a.ocloud.heytapmobi.com/
 local=/api-cn.cdo.heytapmobi.com/
 local=/api-gl.cdo.heytapmobi.com/
 local=/api-id.game.heytapmobi.com/
 local=/api-id.theme.heytapmobi.com/
-local=/b1-data.ads.heytapmobi.com/
-local=/cl-data.ads.heytapmobi.com/
 local=/conf-cn.dc.heytapmobi.com/
 local=/conf-eu.dc.heytapmobi.com/
 local=/conf-in.dc.heytapmobi.com/
@@ -1386,8 +1382,6 @@ local=/obus-jssdk-cn.heytapmobi.com/
 local=/omes-sec.heytapmobi.com/
 local=/oversea-nebula-in.heytapmobi.com/
 local=/oversea-nebula-sg.heytapmobi.com/
-local=/stg-data.ads.heytapmobi.com/
-local=/uapi.ads.heytapmobi.com/
 local=/ums-telemetry-cn.heytapmobi.com/
 local=/virusinfo-cloudscan-cn.heytapmobi.com/
 local=/hffxc.com/
@@ -1573,6 +1567,7 @@ local=/ilkwork.com/
 local=/smetrics.illumina.com.cn/
 local=/smetrics.ilovematlab.cn/
 local=/imageter.com/
+local=/imasdk.googleapis.com/
 local=/tj.img4399.com/
 local=/app-log-lab.immomo.com/
 local=/app-log-oversea.immomo.com/
@@ -2017,7 +2012,6 @@ local=/mqs-log.miui.com/
 local=/notify.sec.miui.com/
 local=/port.sec.miui.com/
 local=/port.sec.intl.miui.com/
-local=/r.browser.miui.com/
 local=/tracking.miui.com/
 local=/tracking.eu.miui.com/
 local=/tracking.intl.miui.com/
@@ -2058,7 +2052,6 @@ local=/nsp-logservice-hiview-p05-dra.obs.ap-southeast-3.myhuaweicloud.com/
 local=/nsp-logservice-hiview-p06-dra.obs.ap-southeast-3.myhuaweicloud.com/
 local=/nsp-logservice-hiview-p07-dra.obs.ap-southeast-3.myhuaweicloud.com/
 local=/nsp-logservice-hiview-p08-dra.obs.ap-southeast-3.myhuaweicloud.com/
-local=/teslaamg.obs.cn-east-3.myhuaweicloud.com/
 local=/myhug.cn/
 local=/metrics-picture-hk.d1.mykeeta.com/
 local=/esa-reg-eup.myoppo.com/
@@ -2241,6 +2234,7 @@ local=/ad.qq.com/
 local=/ad.weixin.qq.com/
 local=/adfilter.imtt.qq.com/
 local=/adrdir.qq.com/
+local=/ads.privacy.qq.com/
 local=/adsfile.qq.com/
 local=/adslvfile.qq.com/
 local=/adsmind.gdtimg.com.tcdn.qq.com/
@@ -2619,8 +2613,6 @@ local=/assp.sohu.com/
 local=/changyan.sohu.com/
 local=/ctr.hd.sohu.com/
 local=/fpb.sohu.com/
-local=/i.go.sohu.com/
-local=/imp.go.sohu.com/
 local=/pv.sohu.com/
 local=/pv.hd.sohu.com/
 local=/qpb1.sohu.com/
@@ -2679,16 +2671,7 @@ local=/pco-sm-log.tantanapp.com/
 local=/report.tantanapp.com/
 local=/sc-report.tantanapp.com/
 local=/seiya.tantanapp.com/
-local=/cms.tanx.com/
-local=/df.tanx.com/
-local=/ef-dongfeng.tanx.com/
-local=/et.tanx.com/
-local=/ifs.tanx.com/
-local=/kgb-ifs.tanx.com/
-local=/live-ifs.tanx.com/
-local=/opehs.tanx.com/
-local=/p.tanx.com/
-local=/rdstat.tanx.com/
+local=/tanx.com/
 local=/accscdn.m.taobao.com/
 local=/acs4baichuan.m.taobao.com/
 local=/adash.m.taobao.com/
@@ -2893,7 +2876,6 @@ local=/cdn.iads.unitychina.cn/
 local=/uniway.cn.com/
 local=/b.unjs.com/
 local=/upltv.com/
-local=/mobilelog.upqzfile.com/
 local=/uri6.com/
 local=/urlqh.cn/
 local=/stats.us-light-edge.com/
