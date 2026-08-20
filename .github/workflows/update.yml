@@ -32,7 +32,7 @@ jobs:
         uses: actions/setup-go@v7
         with:
           go-version: '1.25.12'
-          cache: false
+          cache: false   # 避免因根目录无 go.mod 而报缓存错误
 
       - name: Install Dependencies
         run: |
@@ -78,9 +78,8 @@ jobs:
           sed -i '/\^/d' domain-list-community/adblock/category-ads-all
           # 2. 删除包含 / 的 CIDR 格式
           sed -i '/\//d' domain-list-community/adblock/category-ads-all
-          # 3. 删除纯 IP 行（允许行首/行尾空白字符）
-          grep -vE '^[[:space:]]*[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}[[:space:]]*$' domain-list-community/adblock/category-ads-all > domain-list-community/adblock/category-ads-all.tmp
-          mv domain-list-community/adblock/category-ads-all.tmp domain-list-community/adblock/category-ads-all
+          # 3. 删除纯 IP 行（允许行首/行尾空白字符）<<< 修改：使用 sed -i -E 代替 grep
+          sed -i -E '/^[[:blank:]]*([0-9]{1,3}\.){3}[0-9]{1,3}[[:blank:]]*$/d' domain-list-community/adblock/category-ads-all
           # 4. 删除包含双引号的行
           sed -i '/"/d' domain-list-community/adblock/category-ads-all
           # =====================================
@@ -96,8 +95,8 @@ jobs:
           # ===== Lite 版同样清洗 =====
           sed -i '/\^/d' domain-list-community/adblocklite/category-ads-all
           sed -i '/\//d' domain-list-community/adblocklite/category-ads-all
-          grep -vE '^[[:space:]]*[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}[[:space:]]*$' domain-list-community/adblocklite/category-ads-all > domain-list-community/adblocklite/category-ads-all.tmp
-          mv domain-list-community/adblocklite/category-ads-all.tmp domain-list-community/adblocklite/category-ads-all
+          # 3. 删除纯 IP 行（允许行首/行尾空白字符）<<< 修改：同样替换为 sed -i -E
+          sed -i -E '/^[[:blank:]]*([0-9]{1,3}\.){3}[0-9]{1,3}[[:blank:]]*$/d' domain-list-community/adblocklite/category-ads-all
           sed -i '/"/d' domain-list-community/adblocklite/category-ads-all
           # =================================
           
