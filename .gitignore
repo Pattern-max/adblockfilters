@@ -1,8 +1,25 @@
+# ===== 系统/IDE =====
 .DS_Store
 
+# ===== Python =====
 __pycache__
 .venv
 .python-version
 pyproject.toml
 uv.lock
+
+# ===== 项目特定 =====
 domain.db
+
+# ===== 忽略上游规则源缓存文件（中间产物，不提交到仓库） =====
+rules/AdGuard_*.txt
+rules/EasyList*.txt
+rules/EasyPrivacy.txt
+rules/DNS-Blocklists*.txt
+rules/OISD_Basic.txt
+rules/Pollock_hosts.txt
+rules/StevenBlack_hosts.txt
+rules/AWAvenue_Ads_Rule.txt
+rules/AdRules_DNS_List.txt
+rules/CJX*.txt
+rules/海哥_HG规则.txt
