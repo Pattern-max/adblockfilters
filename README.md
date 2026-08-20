@@ -1,34 +1,27 @@
-# Pattern-max 专属去广告合并规则
+# AdBlock DNS Filters
 
-精选 8 个高质量上游规则源，每 8 小时自动更新。  
-基于 [217heidai/adblockfilters](https://github.com/217heidai/adblockfilters) 框架二次开发，精简冗余源，优化规则质量，形成轻量高效的专属规则集。
+去广告合并规则，每8个小时更新一次。  
+个人收藏了不少广告过滤规则，但是每次往新设备添加的时候很是头疼，于是写了这个项目，定时自动获取各规则源更新，生成合并规则库。
 
-## 关于本规则的定位
-
-本规则追求“最佳平衡”，而非“最大最全”：
-
-- **国际覆盖**：AdGuard Base + EasyList + EasyPrivacy
-- **国内优化**：AdGuard Chinese + EasyList China + HaGezi Light
-- **低误报保障**：OISD Basic 作为校验层
-- **国内 APP 补充**：海哥 HG 规则（快手、抖音、拼多多等）
+> **本项目 Fork 自 [217heidai/adblockfilters](https://github.com/217heidai/adblockfilters)**，在保持原项目核心框架的基础上，**调整了上游规则源组合**，精选了更适合国内网络环境的规则集（包含 OISD Basic、HaGeZi DNS-Blocklists Light 等），并经自动化工具持续合并去重与清理失效域名。感谢原作者的卓越工作！
 
 ## 说明
+
 1. 定时从上游各规则源获取更新，合并去重。
-2. 使用国内、国外各 3 组 DNS 服务，分别对上游各规则源拦截的域名进行解析，去除已无法解析的无效域名。
-3. 本项目对上游规则进行精选、合并、去重、DNS 验证，生成优化后的规则集。如发现误拦截，可添加放行规则（如 `@@||www.example.com^$important`），并向上游规则反馈。
+2. 使用国内、国外各 3 组 DNS 服务，分别对上游各规则源拦截的域名进行解析，去除已无法解析的域名。（上游各规则源中存在大量已无法解析的域名，无需加入拦截规则）
+3. 本项目仅对上游规则进行合并、去重、去除无效域名，不做任何修改。如发现误拦截情况，可临时添加放行规则（如 `@@||www.example.com^$important`），并向上游规则反馈。
 
-## ⚠️ DNS 过滤的边界说明
+### 选源说明
 
-DNS 过滤是网络防护的第一道防线，但不是万能的：
+本项目精选以下规则源，兼顾 **国际通用拦截** + **国内特供覆盖** + **隐私保护** + **低误报率**：
 
-- **APP 内开屏广告**（爱奇艺、优酷等）：广告与内容同域，拦截会导致 APP 无法使用
-- **YouTube 视频内广告**：广告与视频流混合传输，DNS 无法区分
-- **HTTPS 加密内容中的特定路径**：DNS 只看到域名，看不到具体 URL 路径
-- **APP 直连 IP 地址**：绕过 DNS 解析
-
-**建议**：DNS 规则作为基础防护，配合浏览器插件（如 uBlock Origin）或 HTTP 代理工具（Surge / Quantumult X）使用，效果更佳。
+- **OISD Basic**：极低误报率，作为规则基座
+- **DNS-Blocklists Light (HaGeZi)**：高质量、低误报的 DNS 级拦截
+- **EasyList China + AdGuard Chinese + 海哥 HG 规则**：针对国内视频站、APP开屏、联盟广告的精准拦截
+- **EasyPrivacy**：补充隐私追踪器拦截
 
 ## 订阅链接
+
 1. 规则x’为规则x的 Lite 版，仅针对国内域名拦截，体积较小（如添加完整规则报错数量限制，请尝试 Lite 规则）
 2. 已对 jsdelivr(加速链接1) 缓存进行主动刷新，但仍存在一定刷新延时
 3. AdGuard 等浏览器插件使用规则1 + 规则2（规则2为规则1的补充，仅适用浏览器插件）
@@ -71,27 +64,21 @@ DNS 过滤是网络防护的第一道防线，但不是万能的：
 | 规则17' | [原始链接](https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/adblockv2raylite.dat) | [加速链接1](https://gcore.jsdelivr.net/gh/Pattern-max/adblockfilters@main/rules/adblockv2raylite.dat) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/adblockv2raylite.dat) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/adblockv2raylite.dat) | V2ray、Xray(category-ads-all) |
 
 ## 上游规则源
-> **说明**：`filter` 类型为含完整 AdBlock 语法（含修饰符）的规则源，经 DNS 解析验证后提取有效域名；`dns` 类型为纯域名列表，直接用于 DNS 级别拦截。
 
 1. 感谢各位广告过滤规则维护大佬们的辛苦付出。
-2. 特别感谢 [海哥（2771936993）](https://github.com/2771936993) 提供的 HG 规则，填补了国内 APP 专属拦截的空白。
-3. 不再引用[anti-AD](https://anti-ad.net/adguard.txt)、[yhosts](https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts.txt)，具体原因见[Mosney/anti-anti-AD](https://github.com/Mosney/anti-anti-AD)。
-4. 移除[Notracking blocklist](https://raw.githubusercontent.com/notracking/hosts-blocklists/master/adblock/adblock.txt)，原项目[已停止维护](https://github.com/notracking/hosts-blocklists/issues/900)。
-5. 移除[ADgk](https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt)、[SmartTV Blocklist](https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV-AGH.txt)、[1024 hosts](https://raw.githubusercontent.com/Goooler/1024_hosts/master/hosts)、[ad-wars hosts](https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)规则长时间未更新。
-6. 不再引用[NEO DEV HOST](https://github.com/neodevpro/neodevhost/blob/master/lite_adblocker)，原因见[Issues 85](https://github.com/217heidai/adblockfilters/issues/85)。
-7. 不再引用[xinggsf rule](https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/rule.txt)、[1Hosts (Lite)](https://raw.githubusercontent.com/badmojr/1Hosts/master/Lite/adblock.txt)、[Hblock](https://hblock.molinero.dev/hosts_adblock.txt)，误杀较多。
+2. 不再引用[anti-AD](https://anti-ad.net/adguard.txt)、[yhosts](https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts.txt)，具体原因见[Mosney/anti-anti-AD](https://github.com/Mosney/anti-anti-AD)。
+3. 移除[Notracking blocklist](https://raw.githubusercontent.com/notracking/hosts-blocklists/master/adblock/adblock.txt)，原项目[已停止维护](https://github.com/notracking/hosts-blocklists/issues/900)。
+4. 移除[ADgk](https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt)、[SmartTV Blocklist](https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV-AGH.txt)、[1024 hosts](https://raw.githubusercontent.com/Goooler/1024_hosts/master/hosts)、[ad-wars hosts](https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)规则长时间未更新。
+5. 不再引用[NEO DEV HOST](https://github.com/neodevpro/neodevhost/blob/master/lite_adblocker)，原因见[Issues 85](https://github.com/Pattern-max/adblockfilters/issues/85)。
+6. 不再引用[xinggsf rule](https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/rule.txt)、[1Hosts (Lite)](https://raw.githubusercontent.com/badmojr/1Hosts/master/Lite/adblock.txt)、[Hblock](https://hblock.molinero.dev/hosts_adblock.txt)，误杀较多。
 
 | 规则 | 类型 | 原始链接 | 加速链接1 | 加速链接2 | 加速链接3 | 更新日期 |
 |:-|:-|:-|:-|:-|:-|:-|
-| AdGuard Base filter | filter | [原始链接](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt) | [加速链接1](https://gcore.jsdelivr.net/gh/Pattern-max/adblockfilters@main/rules/AdGuard_Base_filter.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/AdGuard_Base_filter.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/AdGuard_Base_filter.txt) | 2026/08/19 |
-| AdGuard Chinese filter | filter | [原始链接](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt) | [加速链接1](https://gcore.jsdelivr.net/gh/Pattern-max/adblockfilters@main/rules/AdGuard_Chinese_filter.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/AdGuard_Chinese_filter.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/AdGuard_Chinese_filter.txt) | 2026/08/19 |
-| EasyList | filter | [原始链接](https://easylist-downloads.adblockplus.org/easylist.txt) | [加速链接1](https://gcore.jsdelivr.net/gh/Pattern-max/adblockfilters@main/rules/EasyList.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/EasyList.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/EasyList.txt) | 2026/08/19 |
-| EasyList China | filter | [原始链接](https://easylist-downloads.adblockplus.org/easylistchina.txt) | [加速链接1](https://gcore.jsdelivr.net/gh/Pattern-max/adblockfilters@main/rules/EasyList_China.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/EasyList_China.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/EasyList_China.txt) | 2026/08/19 |
-| EasyPrivacy | filter | [原始链接](https://easylist-downloads.adblockplus.org/easyprivacy.txt) | [加速链接1](https://gcore.jsdelivr.net/gh/Pattern-max/adblockfilters@main/rules/EasyPrivacy.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/EasyPrivacy.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/EasyPrivacy.txt) | 2026/08/19 |
+| AdGuard Base filter | filter | [原始链接](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt) | [加速链接1](https://gcore.jsdelivr.net/gh/Pattern-max/adblockfilters@main/rules/AdGuard_Base_filter.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/AdGuard_Base_filter.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/AdGuard_Base_filter.txt) | 2026/08/20 |
+| AdGuard Chinese filter | filter | [原始链接](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt) | [加速链接1](https://gcore.jsdelivr.net/gh/Pattern-max/adblockfilters@main/rules/AdGuard_Chinese_filter.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/AdGuard_Chinese_filter.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/AdGuard_Chinese_filter.txt) | 2026/08/20 |
+| EasyList | filter | [原始链接](https://easylist-downloads.adblockplus.org/easylist.txt) | [加速链接1](https://gcore.jsdelivr.net/gh/Pattern-max/adblockfilters@main/rules/EasyList.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/EasyList.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/EasyList.txt) | 2026/08/20 |
+| EasyList China | filter | [原始链接](https://easylist-downloads.adblockplus.org/easylistchina.txt) | [加速链接1](https://gcore.jsdelivr.net/gh/Pattern-max/adblockfilters@main/rules/EasyList_China.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/EasyList_China.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/EasyList_China.txt) | 2026/08/20 |
+| EasyPrivacy | filter | [原始链接](https://easylist-downloads.adblockplus.org/easyprivacy.txt) | [加速链接1](https://gcore.jsdelivr.net/gh/Pattern-max/adblockfilters@main/rules/EasyPrivacy.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/EasyPrivacy.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/EasyPrivacy.txt) | 2026/08/20 |
 | DNS-Blocklists Light | dns | [原始链接](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/light.txt) | [加速链接1](https://gcore.jsdelivr.net/gh/Pattern-max/adblockfilters@main/rules/DNS-Blocklists_Light.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/DNS-Blocklists_Light.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/DNS-Blocklists_Light.txt) | 2026/08/19 |
-| OISD Basic | dns | [原始链接](https://abp.oisd.nl/basic/) | [加速链接1](https://gcore.jsdelivr.net/gh/Pattern-max/adblockfilters@main/rules/OISD_Basic.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/OISD_Basic.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/OISD_Basic.txt) | 2026/08/19 |
-| 海哥 HG规则 | dns | [原始链接](https://raw.githubusercontent.com/2771936993/HG/main/hg1.txt) | [加速链接1](https://gcore.jsdelivr.net/gh/Pattern-max/adblockfilters@main/rules/海哥_HG规则.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/海哥_HG规则.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/海哥_HG规则.txt) | 2026/08/19 |
-
-## 开源协议
-
-本项目基于 [217heidai/adblockfilters](https://github.com/217heidai/adblockfilters) 修改，遵循 **GPL-3.0** 协议。
+| OISD Basic | dns | [原始链接](https://abp.oisd.nl/basic/) | [加速链接1](https://gcore.jsdelivr.net/gh/Pattern-max/adblockfilters@main/rules/OISD_Basic.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/OISD_Basic.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/OISD_Basic.txt) | 2026/08/20 |
+| 海哥 HG规则 | dns | [原始链接](https://raw.githubusercontent.com/2771936993/HG/main/hg1.txt) | [加速链接1](https://gcore.jsdelivr.net/gh/Pattern-max/adblockfilters@main/rules/海哥_HG规则.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/海哥_HG规则.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/海哥_HG规则.txt) | 2026/08/20 |
