@@ -23,3 +23,9 @@ rules/AWAvenue_Ads_Rule.txt
 rules/AdRules_DNS_List.txt
 rules/CJX*.txt
 rules/海哥_HG规则.txt
+
+# ===== 遗留辅助规则文件 =====
+rules/jiekouAD.txt
+rules/myblock.txt
+rules/white.txt
+rules/xinggsf_mv.txt
