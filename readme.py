@@ -38,7 +38,7 @@ class ReadMe(object):
             if not line:
                 continue
             
-            # 检测表格开始：必须是 "| 规则 | 类型 | 原始链接 |" 开头，且不能包含 "加速链接"
+            # 检测表格开始：必须是 "| 规则 | 类型 | 原始链接 |" 开头
             if line == '| 规则 | 类型 | 原始链接 |' or line.startswith('| 规则 | 类型 | 原始链接 |'):
                 in_upstream_table = True
                 continue
@@ -165,13 +165,11 @@ class ReadMe(object):
             f.write("6. 不再引用[xinggsf rule](https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/rule.txt)、[1Hosts (Lite)](https://raw.githubusercontent.com/badmojr/1Hosts/master/Lite/adblock.txt)、[Hblock](https://hblock.molinero.dev/hosts_adblock.txt)，误杀较多。\n")
             f.write("\n")
 
-            tmp = "| 规则 | 类型 | 原始链接 |"
-            for i in range(1, len(self.proxyList)):
-                tmp += " 加速链接%d |" % (i)
-            tmp += " 更新日期 |\n"
+            # 生成简洁的上游规则源表格（只包含规则、类型、原始链接、更新日期，无加速链接）
+            tmp = "| 规则 | 类型 | 原始链接 | 更新日期 |\n"
             f.write(tmp)
-            tmp = "|" + ":-|" * (2 + len(self.proxyList) + 1) + "\n"
+            tmp = "|" + ":-|" * 4 + "\n"
             f.write(tmp)
             for rule in self.ruleList:
-                f.write("| %s | %s |%s %s |\n" % (rule.name, rule.type, self.__subscribeLink(rule.filename, rule.url), rule.latest))
+                f.write("| %s | %s | [原始链接](%s) | %s |\n" % (rule.name, rule.type, rule.url, rule.latest))
             f.write("\n")
