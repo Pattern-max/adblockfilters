@@ -1,4 +1,4 @@
-﻿import re
+﻿﻿import re
 import os
 from typing import List
 
@@ -33,7 +33,8 @@ class ReadMe(object):
                 line = line.replace('\r', '').replace('\n', '')
                 if line.find('|')==0 and line.rfind('|')==len(line)-1:
                     rule = list(map(lambda x: x.strip(), line[1:-1].split('|')))
-                    if rule[2].find('(') > 0 and rule[2].find(')') > 0 and rule[1].find('(') < 0:
+                    # 容错：确保 rule 至少有 3 个元素，且第 2 个元素包含 URL 格式
+                    if len(rule) >= 3 and rule[2].find('(') > 0 and rule[2].find(')') > 0 and rule[1].find('(') < 0:
                         url = rule[2][rule[2].find('(')+1:rule[2].find(')')]
                         matchObj1 = re.match(r'(http|https)://[\w\-_]+(\.[\w\-_]+)+([\w\-\.,@?^=%&:/~\+#]*[\w\-\@?^=%&/~\+#])?', url)
                         if matchObj1:
