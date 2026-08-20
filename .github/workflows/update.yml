@@ -32,7 +32,7 @@ jobs:
         uses: actions/setup-go@v7
         with:
           go-version: '1.25.12'
-          cache: false   # 避免因根目录无 go.mod 而报缓存错误
+          cache: false
 
       - name: Install Dependencies
         run: |
@@ -78,8 +78,13 @@ jobs:
           sed -i '/\^/d' domain-list-community/adblock/category-ads-all
           # 2. 删除包含 / 的 CIDR 格式
           sed -i '/\//d' domain-list-community/adblock/category-ads-all
-          # 3. 删除纯 IP 行（允许行首/行尾空白字符）<<< 修改：使用 sed -i -E 代替 grep
-          sed -i -E '/^[[:blank:]]*([0-9]{1,3}\.){3}[0-9]{1,3}[[:blank:]]*$/d' domain-list-community/adblock/category-ads-all
+          # 3. 删除纯 IP 行（三重保险）
+          # 3.1 删除以 IP 开头的行
+          sed -i '/^[[:space:]]*[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}/d' domain-list-community/adblock/category-ads-all
+          # 3.2 删除以 IP 结尾的行
+          sed -i '/[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}[[:space:]]*$/d' domain-list-community/adblock/category-ads-all
+          # 3.3 删除整行仅有 IP 和空白符的行
+          sed -i '/^[[:space:]]*[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}[[:space:]]*$/d' domain-list-community/adblock/category-ads-all
           # 4. 删除包含双引号的行
           sed -i '/"/d' domain-list-community/adblock/category-ads-all
           # =====================================
@@ -95,8 +100,12 @@ jobs:
           # ===== Lite 版同样清洗 =====
           sed -i '/\^/d' domain-list-community/adblocklite/category-ads-all
           sed -i '/\//d' domain-list-community/adblocklite/category-ads-all
-          # 3. 删除纯 IP 行（允许行首/行尾空白字符）<<< 修改：同样替换为 sed -i -E
-          sed -i -E '/^[[:blank:]]*([0-9]{1,3}\.){3}[0-9]{1,3}[[:blank:]]*$/d' domain-list-community/adblocklite/category-ads-all
+          # 3.1 删除以 IP 开头的行
+          sed -i '/^[[:space:]]*[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}/d' domain-list-community/adblocklite/category-ads-all
+          # 3.2 删除以 IP 结尾的行
+          sed -i '/[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}[[:space:]]*$/d' domain-list-community/adblocklite/category-ads-all
+          # 3.3 删除整行仅有 IP 和空白符的行
+          sed -i '/^[[:space:]]*[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}[[:space:]]*$/d' domain-list-community/adblocklite/category-ads-all
           sed -i '/"/d' domain-list-community/adblocklite/category-ads-all
           # =================================
           
@@ -135,7 +144,7 @@ jobs:
   #         python refreshcdn.py
 
   Delete_Workflow_Runs:
-    needs: [ Update_Filters ]  # 改为依赖 Update_Filters，因为 Refresh_CDN 已被注释
+    needs: [ Update_Filters ]
     runs-on: ubuntu-latest
 
     steps:
