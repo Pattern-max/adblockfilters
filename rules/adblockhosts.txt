@@ -3,9 +3,9 @@
 # Description: 适用于 hosts 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、EasyList、EasyList China、EasyPrivacy、DNS-Blocklists Light、OISD Basic、海哥 HG规则。
 # Homepage: https://github.com/Pattern-max/adblockfilters
 # Source: https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/adblockhosts.txt
-# Version: 20260820145348
-# Last modified: 2026/08/20 14:53:48
-# Blocked domains: 140033
+# Version: 20260820150733
+# Last modified: 2026/08/20 15:07:33
+# Blocked domains: 140034
 #
 127.0.0.1	localhost
 127.0.0.1	localhost.localdomain
@@ -24829,6 +24829,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	blueduckredapple.com
 0.0.0.0	marketing.bluefcu.com
 0.0.0.0	blueflowerfield.com
+0.0.0.0	bluefood.pro
 0.0.0.0	smetrics.bluegrasscellular.com
 0.0.0.0	link.blueheart.io
 0.0.0.0	testlink.blueheart.io

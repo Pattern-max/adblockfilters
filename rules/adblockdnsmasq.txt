@@ -3,9 +3,9 @@
 # Description: 适用于 DNSMasq 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、EasyList、EasyList China、EasyPrivacy、DNS-Blocklists Light、OISD Basic、海哥 HG规则。
 # Homepage: https://github.com/Pattern-max/adblockfilters
 # Source: https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/adblockdnsmasq.txt
-# Version: 20260820145348
-# Last modified: 2026/08/20 14:53:48
-# Blocked domains: 140033
+# Version: 20260820150733
+# Last modified: 2026/08/20 15:07:33
+# Blocked domains: 140034
 #
 local=/0-0-0checkmate.com/
 local=/0-02.net/
@@ -24814,6 +24814,7 @@ local=/us1-sdk.bluedot.io/
 local=/blueduckredapple.com/
 local=/marketing.bluefcu.com/
 local=/blueflowerfield.com/
+local=/bluefood.pro/
 local=/smetrics.bluegrasscellular.com/
 local=/link.blueheart.io/
 local=/testlink.blueheart.io/
