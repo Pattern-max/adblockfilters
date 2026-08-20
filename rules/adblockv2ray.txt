@@ -3,9 +3,9 @@
 # Description: 适用于 V2ray、Xray 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、EasyList、EasyList China、EasyPrivacy、DNS-Blocklists Light、OISD Basic、海哥 HG规则。
 # Homepage: https://github.com/Pattern-max/adblockfilters
 # Source: https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/adblockv2ray.txt
-# Version: 20260820104813
-# Last modified: 2026/08/20 10:48:13
-# Blocked domains: 139969
+# Version: 20260820105638
+# Last modified: 2026/08/20 10:56:38
+# Blocked domains: 139970
 #
 0-0-0checkmate.com @ads
 0-02.net @ads
@@ -84548,6 +84548,7 @@ myblogshop.top @ads
 mybluehost.me @ads
 mybluehostin.me @ads
 mybmrtrg.com @ads
+mybniopsiqcmj.site @ads
 sgtm.mybobs.com @ads
 smetrics.mybonuscenter.com @ads
 link.mybridge.com @ads
