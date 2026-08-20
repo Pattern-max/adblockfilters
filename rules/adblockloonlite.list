@@ -7,8 +7,8 @@
 #!system=iOS, iPadOS
 #!system_version=
 #!loon_version=
-#!date=2026/08/20 09:19:43
-#!support=3557
+#!date=2026/08/20 09:51:24
+#!support=3539
 #!proxy-select=REJECT
 #
 DOMAIN-SUFFIX,img.0279.net
@@ -870,7 +870,6 @@ DOMAIN-SUFFIX,log-eap.coloros.com
 DOMAIN-SUFFIX,log-eap-in.coloros.com
 DOMAIN-SUFFIX,log-eap-sg.coloros.com
 DOMAIN-SUFFIX,moa-upload-online.coloros.com
-DOMAIN-SUFFIX,smartcard.apps.coloros.com
 DOMAIN-SUFFIX,iadcontent-lb.apple.com.akadns.net
 DOMAIN-SUFFIX,iadsdk.apple.com.akadns.net
 DOMAIN-SUFFIX,conyz.cn
@@ -1357,14 +1356,11 @@ DOMAIN-SUFFIX,img-c.heytapimage.com
 DOMAIN-SUFFIX,ums-rum-cn.heytapimage.com
 DOMAIN-SUFFIX,ums-rum-global.heytapimage.com
 DOMAIN-SUFFIX,adm-smc-cn.heytapmobi.com
-DOMAIN-SUFFIX,adx.ads.heytapmobi.com
 DOMAIN-SUFFIX,album-sg01a.ocloud.heytapmobi.com
 DOMAIN-SUFFIX,api-cn.cdo.heytapmobi.com
 DOMAIN-SUFFIX,api-gl.cdo.heytapmobi.com
 DOMAIN-SUFFIX,api-id.game.heytapmobi.com
 DOMAIN-SUFFIX,api-id.theme.heytapmobi.com
-DOMAIN-SUFFIX,b1-data.ads.heytapmobi.com
-DOMAIN-SUFFIX,cl-data.ads.heytapmobi.com
 DOMAIN-SUFFIX,conf-cn.dc.heytapmobi.com
 DOMAIN-SUFFIX,conf-eu.dc.heytapmobi.com
 DOMAIN-SUFFIX,conf-in.dc.heytapmobi.com
@@ -1390,8 +1386,6 @@ DOMAIN-SUFFIX,obus-jssdk-cn.heytapmobi.com
 DOMAIN-SUFFIX,omes-sec.heytapmobi.com
 DOMAIN-SUFFIX,oversea-nebula-in.heytapmobi.com
 DOMAIN-SUFFIX,oversea-nebula-sg.heytapmobi.com
-DOMAIN-SUFFIX,stg-data.ads.heytapmobi.com
-DOMAIN-SUFFIX,uapi.ads.heytapmobi.com
 DOMAIN-SUFFIX,ums-telemetry-cn.heytapmobi.com
 DOMAIN-SUFFIX,virusinfo-cloudscan-cn.heytapmobi.com
 DOMAIN-SUFFIX,hffxc.com
@@ -1577,6 +1571,7 @@ DOMAIN-SUFFIX,ilkwork.com
 DOMAIN-SUFFIX,smetrics.illumina.com.cn
 DOMAIN-SUFFIX,smetrics.ilovematlab.cn
 DOMAIN-SUFFIX,imageter.com
+DOMAIN-SUFFIX,imasdk.googleapis.com
 DOMAIN-SUFFIX,tj.img4399.com
 DOMAIN-SUFFIX,app-log-lab.immomo.com
 DOMAIN-SUFFIX,app-log-oversea.immomo.com
@@ -2021,7 +2016,6 @@ DOMAIN-SUFFIX,mqs-log.miui.com
 DOMAIN-SUFFIX,notify.sec.miui.com
 DOMAIN-SUFFIX,port.sec.miui.com
 DOMAIN-SUFFIX,port.sec.intl.miui.com
-DOMAIN-SUFFIX,r.browser.miui.com
 DOMAIN-SUFFIX,tracking.miui.com
 DOMAIN-SUFFIX,tracking.eu.miui.com
 DOMAIN-SUFFIX,tracking.intl.miui.com
@@ -2062,7 +2056,6 @@ DOMAIN-SUFFIX,nsp-logservice-hiview-p05-dra.obs.ap-southeast-3.myhuaweicloud.com
 DOMAIN-SUFFIX,nsp-logservice-hiview-p06-dra.obs.ap-southeast-3.myhuaweicloud.com
 DOMAIN-SUFFIX,nsp-logservice-hiview-p07-dra.obs.ap-southeast-3.myhuaweicloud.com
 DOMAIN-SUFFIX,nsp-logservice-hiview-p08-dra.obs.ap-southeast-3.myhuaweicloud.com
-DOMAIN-SUFFIX,teslaamg.obs.cn-east-3.myhuaweicloud.com
 DOMAIN-SUFFIX,myhug.cn
 DOMAIN-SUFFIX,metrics-picture-hk.d1.mykeeta.com
 DOMAIN-SUFFIX,esa-reg-eup.myoppo.com
@@ -2245,6 +2238,7 @@ DOMAIN-SUFFIX,ad.qq.com
 DOMAIN-SUFFIX,ad.weixin.qq.com
 DOMAIN-SUFFIX,adfilter.imtt.qq.com
 DOMAIN-SUFFIX,adrdir.qq.com
+DOMAIN-SUFFIX,ads.privacy.qq.com
 DOMAIN-SUFFIX,adsfile.qq.com
 DOMAIN-SUFFIX,adslvfile.qq.com
 DOMAIN-SUFFIX,adsmind.gdtimg.com.tcdn.qq.com
@@ -2623,8 +2617,6 @@ DOMAIN-SUFFIX,assp.sohu.com
 DOMAIN-SUFFIX,changyan.sohu.com
 DOMAIN-SUFFIX,ctr.hd.sohu.com
 DOMAIN-SUFFIX,fpb.sohu.com
-DOMAIN-SUFFIX,i.go.sohu.com
-DOMAIN-SUFFIX,imp.go.sohu.com
 DOMAIN-SUFFIX,pv.sohu.com
 DOMAIN-SUFFIX,pv.hd.sohu.com
 DOMAIN-SUFFIX,qpb1.sohu.com
@@ -2683,16 +2675,7 @@ DOMAIN-SUFFIX,pco-sm-log.tantanapp.com
 DOMAIN-SUFFIX,report.tantanapp.com
 DOMAIN-SUFFIX,sc-report.tantanapp.com
 DOMAIN-SUFFIX,seiya.tantanapp.com
-DOMAIN-SUFFIX,cms.tanx.com
-DOMAIN-SUFFIX,df.tanx.com
-DOMAIN-SUFFIX,ef-dongfeng.tanx.com
-DOMAIN-SUFFIX,et.tanx.com
-DOMAIN-SUFFIX,ifs.tanx.com
-DOMAIN-SUFFIX,kgb-ifs.tanx.com
-DOMAIN-SUFFIX,live-ifs.tanx.com
-DOMAIN-SUFFIX,opehs.tanx.com
-DOMAIN-SUFFIX,p.tanx.com
-DOMAIN-SUFFIX,rdstat.tanx.com
+DOMAIN-SUFFIX,tanx.com
 DOMAIN-SUFFIX,accscdn.m.taobao.com
 DOMAIN-SUFFIX,acs4baichuan.m.taobao.com
 DOMAIN-SUFFIX,adash.m.taobao.com
@@ -2897,7 +2880,6 @@ DOMAIN-SUFFIX,cdn.iads.unitychina.cn
 DOMAIN-SUFFIX,uniway.cn.com
 DOMAIN-SUFFIX,b.unjs.com
 DOMAIN-SUFFIX,upltv.com
-DOMAIN-SUFFIX,mobilelog.upqzfile.com
 DOMAIN-SUFFIX,uri6.com
 DOMAIN-SUFFIX,urlqh.cn
 DOMAIN-SUFFIX,stats.us-light-edge.com

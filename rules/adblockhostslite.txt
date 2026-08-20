@@ -3,9 +3,9 @@
 # Description: 适用于 hosts 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、EasyList、EasyList China、EasyPrivacy、DNS-Blocklists Light、OISD Basic、海哥 HG规则。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/Pattern-max/adblockfilters
 # Source: https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/adblockhostslite.txt
-# Version: 20260820091943
-# Last modified: 2026/08/20 09:19:43
-# Blocked domains: 3557
+# Version: 20260820095123
+# Last modified: 2026/08/20 09:51:23
+# Blocked domains: 3539
 #
 127.0.0.1	localhost
 127.0.0.1	localhost.localdomain
@@ -881,7 +881,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	log-eap-in.coloros.com
 0.0.0.0	log-eap-sg.coloros.com
 0.0.0.0	moa-upload-online.coloros.com
-0.0.0.0	smartcard.apps.coloros.com
 0.0.0.0	iadcontent-lb.apple.com.akadns.net
 0.0.0.0	iadsdk.apple.com.akadns.net
 0.0.0.0	conyz.cn
@@ -1368,14 +1367,11 @@ ff02::3	ip6-allhosts
 0.0.0.0	ums-rum-cn.heytapimage.com
 0.0.0.0	ums-rum-global.heytapimage.com
 0.0.0.0	adm-smc-cn.heytapmobi.com
-0.0.0.0	adx.ads.heytapmobi.com
 0.0.0.0	album-sg01a.ocloud.heytapmobi.com
 0.0.0.0	api-cn.cdo.heytapmobi.com
 0.0.0.0	api-gl.cdo.heytapmobi.com
 0.0.0.0	api-id.game.heytapmobi.com
 0.0.0.0	api-id.theme.heytapmobi.com
-0.0.0.0	b1-data.ads.heytapmobi.com
-0.0.0.0	cl-data.ads.heytapmobi.com
 0.0.0.0	conf-cn.dc.heytapmobi.com
 0.0.0.0	conf-eu.dc.heytapmobi.com
 0.0.0.0	conf-in.dc.heytapmobi.com
@@ -1401,8 +1397,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	omes-sec.heytapmobi.com
 0.0.0.0	oversea-nebula-in.heytapmobi.com
 0.0.0.0	oversea-nebula-sg.heytapmobi.com
-0.0.0.0	stg-data.ads.heytapmobi.com
-0.0.0.0	uapi.ads.heytapmobi.com
 0.0.0.0	ums-telemetry-cn.heytapmobi.com
 0.0.0.0	virusinfo-cloudscan-cn.heytapmobi.com
 0.0.0.0	hffxc.com
@@ -1588,6 +1582,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	smetrics.illumina.com.cn
 0.0.0.0	smetrics.ilovematlab.cn
 0.0.0.0	imageter.com
+0.0.0.0	imasdk.googleapis.com
 0.0.0.0	tj.img4399.com
 0.0.0.0	app-log-lab.immomo.com
 0.0.0.0	app-log-oversea.immomo.com
@@ -2032,7 +2027,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	notify.sec.miui.com
 0.0.0.0	port.sec.miui.com
 0.0.0.0	port.sec.intl.miui.com
-0.0.0.0	r.browser.miui.com
 0.0.0.0	tracking.miui.com
 0.0.0.0	tracking.eu.miui.com
 0.0.0.0	tracking.intl.miui.com
@@ -2073,7 +2067,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	nsp-logservice-hiview-p06-dra.obs.ap-southeast-3.myhuaweicloud.com
 0.0.0.0	nsp-logservice-hiview-p07-dra.obs.ap-southeast-3.myhuaweicloud.com
 0.0.0.0	nsp-logservice-hiview-p08-dra.obs.ap-southeast-3.myhuaweicloud.com
-0.0.0.0	teslaamg.obs.cn-east-3.myhuaweicloud.com
 0.0.0.0	myhug.cn
 0.0.0.0	metrics-picture-hk.d1.mykeeta.com
 0.0.0.0	esa-reg-eup.myoppo.com
@@ -2256,6 +2249,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	ad.weixin.qq.com
 0.0.0.0	adfilter.imtt.qq.com
 0.0.0.0	adrdir.qq.com
+0.0.0.0	ads.privacy.qq.com
 0.0.0.0	adsfile.qq.com
 0.0.0.0	adslvfile.qq.com
 0.0.0.0	adsmind.gdtimg.com.tcdn.qq.com
@@ -2634,8 +2628,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	changyan.sohu.com
 0.0.0.0	ctr.hd.sohu.com
 0.0.0.0	fpb.sohu.com
-0.0.0.0	i.go.sohu.com
-0.0.0.0	imp.go.sohu.com
 0.0.0.0	pv.sohu.com
 0.0.0.0	pv.hd.sohu.com
 0.0.0.0	qpb1.sohu.com
@@ -2694,16 +2686,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	report.tantanapp.com
 0.0.0.0	sc-report.tantanapp.com
 0.0.0.0	seiya.tantanapp.com
-0.0.0.0	cms.tanx.com
-0.0.0.0	df.tanx.com
-0.0.0.0	ef-dongfeng.tanx.com
-0.0.0.0	et.tanx.com
-0.0.0.0	ifs.tanx.com
-0.0.0.0	kgb-ifs.tanx.com
-0.0.0.0	live-ifs.tanx.com
-0.0.0.0	opehs.tanx.com
-0.0.0.0	p.tanx.com
-0.0.0.0	rdstat.tanx.com
+0.0.0.0	tanx.com
 0.0.0.0	accscdn.m.taobao.com
 0.0.0.0	acs4baichuan.m.taobao.com
 0.0.0.0	adash.m.taobao.com
@@ -2908,7 +2891,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	uniway.cn.com
 0.0.0.0	b.unjs.com
 0.0.0.0	upltv.com
-0.0.0.0	mobilelog.upqzfile.com
 0.0.0.0	uri6.com
 0.0.0.0	urlqh.cn
 0.0.0.0	stats.us-light-edge.com
