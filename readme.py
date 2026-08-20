@@ -29,24 +29,40 @@ class ReadMe(object):
         logger.info("resolve readme...")
         self.ruleList = []
         with open(self.filename, "r", encoding='utf-8') as f:
-            for line in f:
-                line = line.replace('\r', '').replace('\n', '').strip()
-                if line.find('|') == 0 and line.rfind('|') == len(line) - 1:
-                    rule = list(map(lambda x: x.strip(), line[1:-1].split('|')))
-                    # 订阅链接表格至少有 2 列（规则名和原始链接）
-                    if len(rule) >= 2:
-                        # 原始链接列包含 [原始链接](url) 格式
-                        if rule[1].find('(') > 0 and rule[1].find(')') > 0:
-                            url = rule[1][rule[1].find('(') + 1:rule[1].find(')')]
-                            # 验证是否为有效的 URL
-                            matchObj1 = re.match(r'(http|https)://[\w\-_]+(\.[\w\-_]+)+([\w\-\.,@?^=%&:/~\+#]*[\w\-\@?^=%&/~\+#])?', url)
-                            if matchObj1:
-                                # 规则类型从第 2 列或默认 'dns'？这里我们用 'dns' 或从列推断，但原代码用 rule[1] 是类型？原代码 rule[1] 是类型？实际上原代码 rule[1] 是类型？不，原代码是 rule[1] 作为 type，但我们的表格中没有类型列。原代码的 rule[1] 实际上是"类型"列吗？不对，原代码是从 README 的"上游规则源"表格读取的，那个表格有类型列。但我们现在是解析"订阅链接"表格，它没有类型列。所以我们需要调整。
-
-                                # 原代码中，rule[1] 是类型（因为原 README 有一个"规则源"表格），但现在 README 的"订阅链接"表格没有类型列。
-                                # 我们这里可以固定类型为 'dns' 或根据适配说明推断，但原代码期望有类型，所以我们先统一用 'dns'。
-                                # 或者从 rule 的最后一列（适配说明）提取，但那样复杂。先统一用 'dns'，因为订阅链接都是 DNS 规则。
-                                self.ruleList.append(Rule(rule[0], 'dns', url, rule[-1]))
+            lines = f.readlines()
+        
+        # 寻找 "上游规则源" 表格
+        in_upstream_table = False
+        for i, line in enumerate(lines):
+            line = line.replace('\r', '').replace('\n', '').strip()
+            if not line:
+                continue
+            
+            # 检测表格开始：包含 "| 规则 | 类型 | 原始链接 |"
+            if line.startswith('| 规则 | 类型 | 原始链接 |'):
+                in_upstream_table = True
+                continue
+            
+            # 如果已经在表格中，检测表格结束（遇到空行或下一个标题）
+            if in_upstream_table:
+                if line.startswith('###') or line.startswith('##') or line.startswith('---') or line == '':
+                    break
+                if line.startswith('|') and not line.startswith('|:-'):
+                    parts = list(map(lambda x: x.strip(), line[1:-1].split('|')))
+                    # 表格至少有 4 列：名称, 类型, 原始链接, 更新日期等
+                    if len(parts) >= 3 and parts[0] and parts[0] != '规则' and parts[0] != ':-':
+                        name = parts[0]
+                        rule_type = parts[1] if len(parts) > 1 else 'dns'
+                        # 提取原始链接
+                        url_part = parts[2] if len(parts) > 2 else ''
+                        url = ''
+                        if '(' in url_part and ')' in url_part:
+                            url = url_part[url_part.find('(')+1:url_part.find(')')]
+                        latest = parts[-1] if len(parts) > 4 else ''
+                        if url:
+                            self.ruleList.append(Rule(name, rule_type, url, latest))
+        
+        logger.info(f"从上游规则源表格解析到 {len(self.ruleList)} 条规则")
         return self.ruleList
 
     def getRulesNames(self) -> str:
@@ -77,7 +93,7 @@ class ReadMe(object):
         if os.path.exists(self.filename):
             os.remove(self.filename)
         
-        with open(self.filename, 'a') as f:
+        with open(self.filename, 'a', encoding='utf-8') as f:
             f.write("# AdBlock DNS Filters\n")
             f.write("去广告合并规则，每8个小时更新一次。  \n")
             f.write("个人收藏了不少广告过滤规则，但是每次往新设备添加的时候很是头疼，于是写了这个项目，定时自动获取各规则源更新，生成合并规则库。\n")
