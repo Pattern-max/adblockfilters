@@ -30,12 +30,13 @@ class ReadMe(object):
         self.ruleList = []
         with open(self.filename, "r", encoding='utf-8') as f:
             for line in f:
-                line = line.replace('\r', '').replace('\n', '')
-                if line.find('|')==0 and line.rfind('|')==len(line)-1:
+                # 去除换行符和首尾空格
+                line = line.replace('\r', '').replace('\n', '').strip()
+                if line.find('|') == 0 and line.rfind('|') == len(line) - 1:
                     rule = list(map(lambda x: x.strip(), line[1:-1].split('|')))
                     # 容错：确保 rule 至少有 3 个元素，且第 2 个元素包含 URL 格式
                     if len(rule) >= 3 and rule[2].find('(') > 0 and rule[2].find(')') > 0 and rule[1].find('(') < 0:
-                        url = rule[2][rule[2].find('(')+1:rule[2].find(')')]
+                        url = rule[2][rule[2].find('(') + 1:rule[2].find(')')]
                         matchObj1 = re.match(r'(http|https)://[\w\-_]+(\.[\w\-_]+)+([\w\-\.,@?^=%&:/~\+#]*[\w\-\@?^=%&/~\+#])?', url)
                         if matchObj1:
                             self.ruleList.append(Rule(rule[0], rule[1], url, rule[-1]))
@@ -56,16 +57,16 @@ class ReadMe(object):
         link = ""
 
         if url:
-            link += " [原始链接](%s) |"%(url)
+            link += " [原始链接](%s) |" % (url)
         else:
-            link += " [原始链接](https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/%s) |"%(fileName)
+            link += " [原始链接](https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/%s) |" % (fileName)
         
         for i in range(1, len(self.proxyList)):
             proxy = self.proxyList[i]
             if proxy.startswith("https://gcore.jsdelivr.net/"):
-                link += " [加速链接%d](%s/Pattern-max/adblockfilters@main/rules/%s) |"%(i, proxy, fileName)
+                link += " [加速链接%d](%s/Pattern-max/adblockfilters@main/rules/%s) |" % (i, proxy, fileName)
             else:
-                link += " [加速链接%d](%s/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/%s) |"%(i, proxy, fileName)
+                link += " [加速链接%d](%s/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/%s) |" % (i, proxy, fileName)
         
         return link
     
@@ -93,10 +94,10 @@ class ReadMe(object):
             f.write("\n")
             tmp = "| 规则 | 原始链接 |"
             for i in range(1, len(self.proxyList)):
-                tmp += " 加速链接%d |"%(i)
+                tmp += " 加速链接%d |" % (i)
             tmp += " 适配说明 |\n"
             f.write(tmp)
-            tmp = "|" + ":-|" * ( 1 + len(self.proxyList) + 1) + "\n"
+            tmp = "|" + ":-|" * (1 + len(self.proxyList) + 1) + "\n"
             f.write(tmp)
             f.write("| 规则1 |" + self.__subscribeLink("adblockdns.txt") + " AdGuard、AdGuard Home 等 |\n")
             f.write("| 规则1' |" + self.__subscribeLink("adblockdnslite.txt") + " AdGuard、AdGuard Home 等 |\n")
@@ -145,13 +146,13 @@ class ReadMe(object):
 
             tmp = "| 规则 | 类型 | 原始链接 |"
             for i in range(1, len(self.proxyList)):
-                tmp += " 加速链接%d |"%(i)
+                tmp += " 加速链接%d |" % (i)
             tmp += " 更新日期 |\n"
             f.write(tmp)
-            tmp = "|" + ":-|" * ( 2 + len(self.proxyList) + 1) + "\n"
+            tmp = "|" + ":-|" * (2 + len(self.proxyList) + 1) + "\n"
             f.write(tmp)
             for rule in self.ruleList:
-                f.write("| %s | %s |%s %s |\n" % (rule.name, rule.type, self.__subscribeLink(rule.filename, rule.url),rule.latest))
+                f.write("| %s | %s |%s %s |\n" % (rule.name, rule.type, self.__subscribeLink(rule.filename, rule.url), rule.latest))
             f.write("\n")
 
             '''
