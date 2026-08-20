@@ -14436,7 +14436,6 @@ ads-drcn.platform.hihonorcloud.com
 ads-dre.platform.hihonorcloud.com
 ads-drru.platform.hihonorcloud.com
 ads-engagement.prod.cloud.ogury.io
-ads-events.mercadolibre.com
 ads-gdl.imovideo.ru
 ads-i1.xhscdn.com
 ads-i10.xhscdn.com
@@ -14542,7 +14541,6 @@ ads.allvatar.com
 ads.alobacsi.vn
 ads.alriyadh.com
 ads.alt.com
-ads.amazon.com
 ads.amazon.dev
 ads.amdmb.com
 ads.amigos.com
@@ -15473,7 +15471,6 @@ adsrich.qq.com
 adsring.com
 adsroute.com
 adsrv.deviantart.com
-adsrv.hh.ru
 adsrv.iol.co.za
 adsrv.net
 adsrv.wtf
@@ -15921,16 +15918,12 @@ advertiserubyproximity.com
 advertiserurl.com
 advertiseserve.com
 advertisespace.com
-advertising-api-eu.amazon.com
-advertising-api-fe.amazon.com
-advertising-api.amazon.com
 advertising-cdn.com
 advertising-cdn.dpgmedia.cloud
 advertising-cdn.dpgmedia.cloud.edgekey.net
 advertising-cdn.target.dpgmedia.cloud
 advertising-module.api.dpgmedia.cloud
 advertising.a2z.com
-advertising.amazon.com
 advertising.amazon.dev
 advertising.apple.com
 advertising.com
@@ -16403,7 +16396,6 @@ affifix.com
 affil.invia.cz
 affil.top4football.com
 affilae.com
-affilate.hh.ru
 affilaxy.com
 affilbox.cz
 affili.ir
@@ -18120,7 +18112,6 @@ amazingmeaning.com
 amazingtoilalthough.com
 amazingyard.pro
 amazon-ads.amazonads.cn
-amazon-adsystem.amazon.com
 amazon-adsystem.com
 amazon-billing.shop
 amazon-business-service.shop
@@ -19490,7 +19481,6 @@ analytics.meituan.net
 analytics.mejuri.com
 analytics.memcachier.com
 analytics.menswearhouse.com
-analytics.mercadolibre.com
 analytics.metalocator.com
 analytics.metaview.ai
 analytics.metro-cc.ru
@@ -20934,7 +20924,6 @@ aoyptpffgxcjy.website
 aoyzivvtxwzev.online
 aozmpm.jwell.com
 aozvubykozirp.space
-ap-east-1.amazonaws.com
 ap-ipv6-oversea.agora.io
 ap-o.freespace.top
 ap-oversea-tls.agora.io
@@ -21579,26 +21568,11 @@ apiobuzane.qpon
 apiok.net
 apionloadmedia.com
 apiouthyperlinks.net
-apiproxy-log-nlb-0dbe90394fe752bf.elb.us-west-2.amazonaws.com
-apiproxy-log-nlb-1f304af4d3ac01a4.elb.us-east-2.amazonaws.com
 apiproxy-log-nlb-72c5f7ae51b322e8.elb.us-east-1.amazonaws.com
-apiproxy-log-nlb-d0872ab45f5e09a4.elb.eu-west-1.amazonaws.com
-apiproxy-logging-s1-4a8c8a852b854f84.elb.us-east-2.amazonaws.com
-apiproxy-logging-s1-bc2f1b420f34a65d.elb.eu-west-1.amazonaws.com
 apiproxy-logging-s1-cee16861ef0ad576.elb.us-east-1.amazonaws.com
-apiproxy-logging-s1-fda6d13c2f6a9750.elb.us-west-2.amazonaws.com
-apiproxy-logging-s2-06119af85fbce900.elb.us-east-2.amazonaws.com
-apiproxy-logging-s2-0b45f5f991947a1f.elb.us-west-2.amazonaws.com
 apiproxy-logging-s2-709c2e594efdf328.elb.us-east-1.amazonaws.com
-apiproxy-logging-s2-f564ba32bc88c7f9.elb.eu-west-1.amazonaws.com
-apiproxy-logging-s3-2f6e65ada0fecdc5.elb.us-west-2.amazonaws.com
 apiproxy-logging-s3-5c4574073964ceac.elb.us-east-1.amazonaws.com
-apiproxy-logging-s3-9b3ecee3f3b65520.elb.us-east-2.amazonaws.com
-apiproxy-logging-s3-ceebd8eaebff6734.elb.eu-west-1.amazonaws.com
 apiproxy-logging-s4-0ccafd3b9de9577c.elb.us-east-1.amazonaws.com
-apiproxy-logging-s4-164762ccd0989fc7.elb.us-east-2.amazonaws.com
-apiproxy-logging-s4-4e4dbfdf43752432.elb.eu-west-1.amazonaws.com
-apiproxy-logging-s4-a123fa8d414246ea.elb.us-west-2.amazonaws.com
 apipub.oumma.com
 apirasutexruk.website
 apis.4bn.xyz
@@ -22722,7 +22696,6 @@ appinthestore.com
 appintop.com
 appiussakel.qpon
 appjiagu.com
-applab-sdk.amazon.com
 applabztrack.com
 applausetint.com
 apple-mapkit.com
@@ -24952,7 +24925,6 @@ aws-analytics.nmg.com.hk
 aws-br-cdn.kwai.net.iberostar.com
 aws-br-pic.kwai.net.iberostar.com
 aws-itcloud.net
-aws-serverless-tools-telemetry.us-west-2.amazonaws.com
 awsapprunner.com
 awsclic.com
 awscloud.servicefu.com
@@ -35471,7 +35443,6 @@ cloudflareinsights.com
 cloudflrcdn.com
 cloudfrale.com
 cloudfront-666.kxcdn.com
-cloudfront-labs.amazonaws.com
 cloudfront.net
 cloudfronte.com
 cloudfunctions.net
@@ -38085,7 +38056,6 @@ cp.as.com
 cp.cp.twendee.jp
 cp.deltadentalwa.com
 cp.edison.tech
-cp.filext.com
 cp.finanzfrage.net
 cp.ir-central.irco.com
 cp.jfcdns.com
@@ -38099,7 +38069,6 @@ cp121.com
 cp2.eastmoney.com
 cp7iys8fp.com
 cpa-elements.rambler.ru
-cpa.hh.ru
 cpa3iqcp.de
 cpabeyond.com
 cpaclickz.com
@@ -38418,7 +38387,6 @@ crazychime.com
 crazyclickstats.com
 crazyegg.com
 crazyegg.com.cdn.cloudflare.net
-crazygames-prod-nlb-analytics-9f975bbd428d2caa.elb.us-west-2.amazonaws.com
 crazygolfdeals.com.au
 crazylatchdisturbance.com
 crazylovepartners.com
@@ -43698,8 +43666,6 @@ devgottia.github.io
 devhubs.dev
 deviants.com
 deviatetracking.com
-device-metrics-us-2.amazon.com
-device-metrics-us.amazon.com
 device.maxmind.com
 device9.com
 deviceid.trueleadid.com
@@ -47083,7 +47049,6 @@ dummyimpostorluke.com
 dump.mewcdn.online
 dumpalink.com
 dumpokebrewedtripled.cyou
-dumpster.cam4.com
 dumuilistrati.at
 dunabear.com
 duncanknopper.cfd
@@ -50054,7 +50019,6 @@ endljp.dariknews.bg
 endljp.edna.bg
 endljp.fakti.bg
 endljp.gong.bg
-endljp.kupujemprodajem.com
 endljp.nova.bg
 endljp.pariteni.bg
 endljp.sinoptik.bg
@@ -51528,7 +51492,6 @@ events-stream-svc.usw2.cordial.com
 events-tracker.deliveroo.net
 events.accuity.com
 events.air.tv
-events.apester.com
 events.api.boomtrain.com
 events.api.gamma.app
 events.api.godaddy.com
@@ -51605,7 +51568,6 @@ events.mapbox.com
 events.matterport.com
 events.mbrl.ae
 events.mcgladrey.com
-events.mercadolibre.com
 events.mikescerealshack.co
 events.mixpanel.com
 events.mywd.com
@@ -54133,7 +54095,6 @@ fingerboarding.com
 fingercough.xyz
 fingerhi.net
 fingerly63.top
-fingerprint-https-balancer-322f16b30651aaab.elb.eu-west-1.amazonaws.com
 fingerprint-upload.hellobike.com
 fingerprint.com
 fingerprint.incodesmile.com
@@ -54695,7 +54656,6 @@ floxical.com
 flpwto.lohaco.jp
 flqa83yic.com
 flrdra.com
-fls-na.amazon.com
 flsjgpqtrtzhn.site
 flsrv.net
 flteenqcxtpsv.online
@@ -59786,7 +59746,6 @@ go.steelbuilding.com
 go.steps.me
 go.stgapp.sharekey.com
 go.streetbees.app
-go.stripchat.beeg.com
 go.stripchatgirls.com
 go.stshr.co
 go.subaru-justdrive.com
@@ -65078,8 +65037,6 @@ huoying666.com
 hupaiowicog.com
 hupu.com
 hupysrriepvxy.online
-huq-query-loggers-california-3cec807da3e9dc0d.elb.us-west-1.amazonaws.com
-huq-query-loggers-europe-west1-32ef7f4bbf54ce27.elb.eu-west-1.amazonaws.com
 huq.io
 huq2vexn988e3kyqzb.btw3gfu9993b59t.cyou
 huqindustries.co.uk
@@ -73646,7 +73603,6 @@ kbnmnl.com
 kbnrggzpesxxv.online
 kbogmhqtrpiwh.site
 kbopnpiyhomtd.space
-kbox-analytics-prod.s3-accelerate.amazonaws.com
 kbox-analytics-prod.s3.amazonaws.com
 kbqiicqpa.com
 kbr23k89xz.com
@@ -79734,7 +79690,6 @@ logger.uol.com.br
 logger.vwonehub.io
 logger.yp.ca
 logger.zenmatchgame.com
-logger007.cam4.com
 logger2.sorenson.com
 loggerx.com
 loggierbidri.cyou
@@ -81669,9 +81624,6 @@ madrascrackers.com
 madratesforall.com
 madrid.report.botm.transparentedge.io
 madrogueindulge.com
-mads-eu.amazon.com
-mads-fe.amazon.com
-mads.amazon.com
 mads.mycliplister.com
 madsabs.com
 madsans.com
@@ -84149,7 +84101,6 @@ matstats.theindiestone.com
 matsubun.matsubun.com
 matsuro.ru
 matt.mercadolibre.cl
-matt.mercadolibre.com
 matt.mercadolibre.com.ar
 matt.mercadolibre.com.co
 matt.mercadolibre.com.mx
@@ -90385,7 +90336,6 @@ myanimelist.net
 myao.hit.gemius.pl
 myapp.branch.rocks
 myariankakatoe.cfd
-myasmilian77.s3-accelerate.amazonaws.com
 myaudioads.com
 mybach.xyz
 mybad.fr
@@ -104349,7 +104299,6 @@ qashbits.com
 qasqhi.notino.pt
 qatro.ru
 qatszonelet.cyou
-qawskiqd.telemetry.connect.ca-central-1.amazonaws.com
 qayjvrxso.com
 qaynarinfo.az
 qayqa.com
@@ -106638,7 +106587,6 @@ rcm-fr.amazon.fr
 rcm-it.amazon.it
 rcm-jp.amazon.co.jp
 rcm-uk.amazon.co.uk
-rcm.amazon.com
 rcm.shinobi.jp
 rcmjs.rambler.ru
 rcn.asapp.com
@@ -109648,13 +109596,11 @@ rtarbunmsttpihj.xyz
 rtau9pif4.com
 rtawin.daikuan.360.cn
 rtb-1.jizzberry.com
-rtb-1.mylust.com
 rtb-1.xcafe.com
 rtb-3.xgroovy.com
 rtb-4.xgroovy.com
 rtb-6.anysex.com
 rtb-6.jizzberry.com
-rtb-6.mylust.com
 rtb-6.xcafe.com
 rtb-6.xgroovy.com
 rtb-6.xxxshake.com
@@ -110201,14 +110147,11 @@ rum-metrics.bunny.net
 rum-reporter-prod.exp.bn.nr
 rum-static.pingdom.net
 rum.aliyuncs.com
-rum.ap-northeast-1.amazonaws.com
-rum.ap-southeast-1.amazonaws.com
 rum.api.intuit.com
 rum.auditzy.com
 rum.azion.com
 rum.azioncdn.net
 rum.battle.net
-rum.ca-central-1.amazonaws.com
 rum.catchmetrics.io
 rum.cdnpure.com
 rum.collector.na-01.cloud.solarwinds.com
@@ -110216,9 +110159,6 @@ rum.collector.na-01.st-ssp.solarwinds.com
 rum.condenastdigital.com
 rum.corewebvitals.io
 rum.cronitor.io
-rum.eu-central-1.amazonaws.com
-rum.eu-west-1.amazonaws.com
-rum.eu-west-2.amazonaws.com
 rum.haystack.es
 rum.hlx.page
 rum.impactcommerce.io
@@ -110233,9 +110173,6 @@ rum.sexlog.com
 rum.u-team.by
 rum.uptime.com
 rum.us-east-1.amazonaws.com
-rum.us-east-2.amazonaws.com
-rum.us-west-1.amazonaws.com
-rum.us-west-2.amazonaws.com
 rumanalytics.com
 rumble.com
 rumblebass.com
@@ -111074,7 +111011,6 @@ s2tu.com
 s2v36b902.com
 s2whyufxmzam.chatpay.com.br
 s2ze6h0miy.com
-s3-1-w.amazonaws.com
 s3-analytics-events.easybrain.com
 s3-ap-southeast-1.amazonaws.com
 s3-bm-adtech.berlingskemedia.net
@@ -111082,7 +111018,6 @@ s3-ca-liveops.easybrain.com
 s3-iad-ww.cf.videorolls.row.aiv-cdn.net
 s3-nl-01.mangabuddy.in
 s3-playable-ads.easybrain.com
-s3-r-w.ap-northeast-1.amazonaws.com
 s3-us-west-2.amazonaws.com
 s3-use1-epx-d-f1ev1-telemetry-dropbox.s3.amazonaws.com
 s3-w.us-east-1.amazonaws.com
@@ -113096,7 +113031,6 @@ seapolo.com
 seaquake54.com
 search-carousel-widget.snc-prod.aws.cinch.co.uk
 search-converter.com
-search-hll-dev-analytics-jn2doyvzdresfegp673q3pdn3m.eu-west-1.es.amazonaws.com
 search-nowglobal.com
 search.anonymous.ads.brave.com
 search.aol.com
@@ -114145,7 +114079,6 @@ sensors-api-up-soure.zfycdn.com
 sensors-api.qiandao.cn
 sensors-data.qingsongchou.com
 sensors-log.dongqiudi.com
-sensors-pro-analytics-nlbtoalb-1031ce3406151b89.elb.ap-northeast-1.amazonaws.com
 sensors.cloud.tencent.com
 sensors.dito.ph
 sensors.feihe.com
@@ -117160,7 +117093,6 @@ smetrics.aetn.com
 smetrics.aetnamedicare.com
 smetrics.afcom.com
 smetrics.affymetrix.com
-smetrics.afpjobs.amazon.com
 smetrics.afrique.pwc.com
 smetrics.afvclub.ca
 smetrics.afvclub.com
@@ -118017,7 +117949,6 @@ smetrics.fleetcor.com
 smetrics.flex.amazon.ca
 smetrics.flex.amazon.co.jp
 smetrics.flex.amazon.co.uk
-smetrics.flex.amazon.com
 smetrics.flex.amazon.com.au
 smetrics.flex.amazon.com.mx
 smetrics.flex.amazon.com.sg
@@ -121755,7 +121686,6 @@ spmqfymfgbfha.space
 spmqkfodtwzit.site
 spmyma.moscowfresh.ru
 spnccrzone.com
-spnk-nlb-ha-lic-b349164a50da2851.elb.ap-southeast-1.amazonaws.com
 spnuninugr.com
 spnut.com
 spnx.jp
@@ -121792,7 +121722,6 @@ sponsored-ads.amazon.ae
 sponsored-ads.amazon.ca
 sponsored-ads.amazon.co.jp
 sponsored-ads.amazon.co.uk
-sponsored-ads.amazon.com
 sponsored-ads.amazon.com.au
 sponsored-ads.amazon.com.br
 sponsored-ads.amazon.com.mx
@@ -134385,7 +134314,6 @@ tracking.fullsail.edu
 tracking.fupa.net
 tracking.g2crowd.com
 tracking.game8.co
-tracking.game8.jp
 tracking.gameforge.de
 tracking.gapone.vn
 tracking.gartner.com
