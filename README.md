@@ -1,13 +1,41 @@
+```
+ ███╗   ██╗███████╗████████╗ ██████╗██╗     ███████╗ █████╗ ███╗   ██╗
+ ████╗  ██║██╔════╝╚══██╔══╝██╔════╝██║     ██╔════╝██╔══██╗████╗  ██║
+ ██╔██╗ ██║█████╗     ██║   ██║     ██║     █████╗  ███████║██╔██╗ ██║
+ ██║╚██╗██║██╔══╝     ██║   ██║     ██║     ██╔══╝  ██╔══██║██║╚██╗██║
+ ██║ ╚████║███████╗   ██║   ╚██████╗███████╗███████╗██║  ██║██║ ╚████║
+ ╚═╝  ╚═══╝╚══════╝   ╚═╝    ╚═════╝╚══════╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝
+                      国内特供·DNS广告过滤规则集
+```
+
 # AdBlock DNS Filters
+
 去广告合并规则，每8个小时更新一次。  
 个人收藏了不少广告过滤规则，但是每次往新设备添加的时候很是头疼，于是写了这个项目，定时自动获取各规则源更新，生成合并规则库。
 
+---
+
+## ✨ 特色
+
+本项目在 [217heidai/adblockfilters](https://github.com/217heidai/adblockfilters) 的基础上，进行了以下定制：
+
+| 特色 | 说明 |
+|---|---|
+| 🎯 **国内特供源组合** | 精选 OISD Basic + HaGeZi Light + EasyList China + AdGuard Chinese + 海哥 HG 规则，针对国内视频站、APP开屏、联盟广告精准拦截 |
+| 🔄 **DNS 自动净化** | 使用国内、国外各 3 组 DNS 服务器，自动剔除无法解析的失效域名，保证规则纯净有效 |
+| 📦 **17 种格式输出** | 支持 AdGuard、Clash、Surge、V2Ray、Sing-Box 等 17 种客户端格式，一次订阅，全平台通用 |
+| ⏰ **每 8 小时自动更新** | 基于 GitHub Actions 自动运行，无需人工干预，时刻保持最新 |
+
+---
+
 ## 说明
+
 1. 定时从上游各规则源获取更新，合并去重。
 2. 使用国内、国外各 3 组 DNS 服务，分别对上游各规则源拦截的域名进行解析，去除已无法解析的域名。（上游各规则源中存在大量已无法解析的域名，无需加入拦截规则）
 3. 本项目仅对上游规则进行合并、去重、去除无效域名，不做任何修改。如发现误拦截情况，可临时添加放行规则（如 `@@||www.example.com^$important`），并向上游规则反馈。
 
 ## 订阅链接
+
 1. 规则x’为规则x的 Lite 版，仅针对国内域名拦截，体积较小（如添加完整规则报错数量限制，请尝试 Lite 规则）
 2. 已对 jsdelivr(加速链接1) 缓存进行主动刷新，但仍存在一定刷新延时
 3. AdGuard 等浏览器插件使用规则1 + 规则2（规则2为规则1的补充，仅适用浏览器插件）
@@ -50,6 +78,7 @@
 | 规则17' | [原始链接](https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/adblockv2raylite.dat) | [加速链接1](https://gcore.jsdelivr.net/gh/Pattern-max/adblockfilters@main/rules/adblockv2raylite.dat) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/adblockv2raylite.dat) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/adblockv2raylite.dat) | V2ray、Xray(category-ads-all) |
 
 ## 上游规则源
+
 1. 感谢各位广告过滤规则维护大佬们的辛苦付出。
 2. 不再引用[anti-AD](https://anti-ad.net/adguard.txt)、[yhosts](https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts.txt)，具体原因见[Mosney/anti-anti-AD](https://github.com/Mosney/anti-anti-AD)。
 3. 移除[Notracking blocklist](https://raw.githubusercontent.com/notracking/hosts-blocklists/master/adblock/adblock.txt)，原项目[已停止维护](https://github.com/notracking/hosts-blocklists/issues/900)。
@@ -67,4 +96,3 @@
 | DNS-Blocklists Light | dns | [原始链接](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/light.txt) | [加速链接1](https://gcore.jsdelivr.net/gh/Pattern-max/adblockfilters@main/rules/DNS-Blocklists_Light.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/DNS-Blocklists_Light.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/DNS-Blocklists_Light.txt) | 2026/08/20 |
 | OISD Basic | dns | [原始链接](https://abp.oisd.nl/basic/) | [加速链接1](https://gcore.jsdelivr.net/gh/Pattern-max/adblockfilters@main/rules/OISD_Basic.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/OISD_Basic.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/OISD_Basic.txt) | 2026/08/20 |
 | 海哥 HG规则 | dns | [原始链接](https://raw.githubusercontent.com/2771936993/HG/main/hg1.txt) | [加速链接1](https://gcore.jsdelivr.net/gh/Pattern-max/adblockfilters@main/rules/海哥_HG规则.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/海哥_HG规则.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/海哥_HG规则.txt) | 2026/08/20 |
-
