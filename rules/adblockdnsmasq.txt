@@ -3,9 +3,9 @@
 # Description: 适用于 DNSMasq 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、EasyList、EasyList China、EasyPrivacy、DNS-Blocklists Light、OISD Basic、海哥 HG规则。
 # Homepage: https://github.com/Pattern-max/adblockfilters
 # Source: https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/adblockdnsmasq.txt
-# Version: 20260820151222
-# Last modified: 2026/08/20 15:12:22
-# Blocked domains: 140031
+# Version: 20260820164112
+# Last modified: 2026/08/20 16:41:12
+# Blocked domains: 140040
 #
 local=/0-0-0checkmate.com/
 local=/0-02.net/
@@ -1747,6 +1747,7 @@ local=/v1.19purify.com/
 local=/19r.net/
 local=/creative.19sex.live/
 local=/1a8f9rq9c.de/
+local=/1aa0yygqst.com/
 local=/1aacb6bb9f.com/
 local=/gjgdm.1aauto.com/
 local=/1abzar.ir/
@@ -32476,6 +32477,7 @@ local=/cmdfmbugzwjkg.site/
 local=/cmdgblcprtmzu.site/
 local=/images.learn.cmdgroup.com/
 local=/cmdtubyfwosoa.online/
+local=/cme8k7fuwy.com/
 local=/px802.cmediahub.ru/
 local=/cmesgpqq8z.com/
 local=/cmexota.ru/
@@ -38793,6 +38795,7 @@ local=/dbujksp6lhljo.cloudfront.net/
 local=/dbvcmwmqdgcpg.online/
 local=/dbvedren.com/
 local=/dbw7j2q14is6l.cloudfront.net/
+local=/dbxkzizfgildn.site/
 local=/dby7kx9z9yzse.cloudfront.net/
 local=/dbymlmuppcxiz.site/
 local=/dbyqvsjoqaqv.com/
@@ -47588,6 +47591,7 @@ local=/estatueofthea.info/
 local=/esteemcountryside.com/
 local=/esteemed-laugh.pro/
 local=/esteemfurytooth.com/
+local=/esteroscologs.qpon/
 local=/esthbgatdzgmn.store/
 local=/deeplink.estheticon.com/
 local=/rpnvib.estilos.com.pe/
@@ -67531,6 +67535,7 @@ local=/iwq5kreqjj.ru/
 local=/iwqbcvhukaao.com/
 local=/iwqgwgcbrwukf.site/
 local=/fdb.iwqim.cn/
+local=/iwqvzefjrhkbw.online/
 local=/marketing.iwsinc.com/
 local=/iwticym.cc/
 local=/iwtivbukvlvdk.site/
@@ -73408,6 +73413,7 @@ local=/kwdtbscahplvh.xyz/
 local=/kwfdzfptmqlin.website/
 local=/kwfvcxbiqglkm.online/
 local=/kwgavfflgjpop.site/
+local=/kwghfsdhcwhkq.online/
 local=/kwhpllmraltfm.website/
 local=/stat.kwikmotion.com/
 local=/target.kwiktripfleet.com/
@@ -73926,6 +73932,7 @@ local=/lame-map.com/
 local=/lameconnotation.com/
 local=/lamentinsecureheadlight.com/
 local=/lamerhollowsailing.qpon/
+local=/lamestsandalsspoffy.cfd/
 local=/tyvuwf.lameteoagricole.net/
 local=/lamiidrasceta.qpon/
 local=/lamkghx.icu/
@@ -90087,6 +90094,7 @@ local=/oilycyath.qpon/
 local=/oimsminyghpb.com/
 local=/apps5.oingo.com/
 local=/oinkedbowls.com/
+local=/oinkedcerreroophrys.cfd/
 local=/oinksservery.cyou/
 local=/ointmentapathetic.com/
 local=/oiotndkgyhcoc.site/
@@ -136080,6 +136088,7 @@ local=/ycqsozlszqmdr.website/
 local=/ycspreview.com/
 local=/ycstajztzoyiu.online/
 local=/yctoppmxmw.com/
+local=/ycuixpwkugaot.space/
 local=/ycvhkfhflhirq.online/
 local=/ycvlvgcuaxtem.website/
 local=/ycwaqlnpzlvkw.store/

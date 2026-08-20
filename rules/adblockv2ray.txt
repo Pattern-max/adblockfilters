@@ -3,9 +3,9 @@
 # Description: 适用于 V2ray、Xray 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、EasyList、EasyList China、EasyPrivacy、DNS-Blocklists Light、OISD Basic、海哥 HG规则。
 # Homepage: https://github.com/Pattern-max/adblockfilters
 # Source: https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/adblockv2ray.txt
-# Version: 20260820151222
-# Last modified: 2026/08/20 15:12:22
-# Blocked domains: 140031
+# Version: 20260820164112
+# Last modified: 2026/08/20 16:41:12
+# Blocked domains: 140040
 #
 0-0-0checkmate.com @ads
 0-02.net @ads
@@ -1747,6 +1747,7 @@ v1.19purify.com @ads
 19r.net @ads
 creative.19sex.live @ads
 1a8f9rq9c.de @ads
+1aa0yygqst.com @ads
 1aacb6bb9f.com @ads
 gjgdm.1aauto.com @ads
 1abzar.ir @ads
@@ -32472,6 +32473,7 @@ cmdfmbugzwjkg.site @ads
 cmdgblcprtmzu.site @ads
 images.learn.cmdgroup.com @ads
 cmdtubyfwosoa.online @ads
+cme8k7fuwy.com @ads
 px802.cmediahub.ru @ads
 cmesgpqq8z.com @ads
 cmexota.ru @ads
@@ -38789,6 +38791,7 @@ dbujksp6lhljo.cloudfront.net @ads
 dbvcmwmqdgcpg.online @ads
 dbvedren.com @ads
 dbw7j2q14is6l.cloudfront.net @ads
+dbxkzizfgildn.site @ads
 dby7kx9z9yzse.cloudfront.net @ads
 dbymlmuppcxiz.site @ads
 dbyqvsjoqaqv.com @ads
@@ -47584,6 +47587,7 @@ estatueofthea.info @ads
 esteemcountryside.com @ads
 esteemed-laugh.pro @ads
 esteemfurytooth.com @ads
+esteroscologs.qpon @ads
 esthbgatdzgmn.store @ads
 deeplink.estheticon.com @ads
 rpnvib.estilos.com.pe @ads
@@ -67526,6 +67530,7 @@ iwq5kreqjj.ru @ads
 iwqbcvhukaao.com @ads
 iwqgwgcbrwukf.site @ads
 fdb.iwqim.cn @ads
+iwqvzefjrhkbw.online @ads
 marketing.iwsinc.com @ads
 iwticym.cc @ads
 iwtivbukvlvdk.site @ads
@@ -73402,6 +73407,7 @@ kwdtbscahplvh.xyz @ads
 kwfdzfptmqlin.website @ads
 kwfvcxbiqglkm.online @ads
 kwgavfflgjpop.site @ads
+kwghfsdhcwhkq.online @ads
 kwhpllmraltfm.website @ads
 stat.kwikmotion.com @ads
 target.kwiktripfleet.com @ads
@@ -73920,6 +73926,7 @@ lame-map.com @ads
 lameconnotation.com @ads
 lamentinsecureheadlight.com @ads
 lamerhollowsailing.qpon @ads
+lamestsandalsspoffy.cfd @ads
 tyvuwf.lameteoagricole.net @ads
 lamiidrasceta.qpon @ads
 lamkghx.icu @ads
@@ -90081,6 +90088,7 @@ oilycyath.qpon @ads
 oimsminyghpb.com @ads
 apps5.oingo.com @ads
 oinkedbowls.com @ads
+oinkedcerreroophrys.cfd @ads
 oinksservery.cyou @ads
 ointmentapathetic.com @ads
 oiotndkgyhcoc.site @ads
@@ -136073,6 +136081,7 @@ ycqsozlszqmdr.website @ads
 ycspreview.com @ads
 ycstajztzoyiu.online @ads
 yctoppmxmw.com @ads
+ycuixpwkugaot.space @ads
 ycvhkfhflhirq.online @ads
 ycvlvgcuaxtem.website @ads
 ycwaqlnpzlvkw.store @ads

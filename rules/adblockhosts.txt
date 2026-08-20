@@ -3,9 +3,9 @@
 # Description: 适用于 hosts 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、EasyList、EasyList China、EasyPrivacy、DNS-Blocklists Light、OISD Basic、海哥 HG规则。
 # Homepage: https://github.com/Pattern-max/adblockfilters
 # Source: https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/adblockhosts.txt
-# Version: 20260820151222
-# Last modified: 2026/08/20 15:12:22
-# Blocked domains: 140031
+# Version: 20260820164112
+# Last modified: 2026/08/20 16:41:12
+# Blocked domains: 140040
 #
 127.0.0.1	localhost
 127.0.0.1	localhost.localdomain
@@ -1762,6 +1762,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	19r.net
 0.0.0.0	creative.19sex.live
 0.0.0.0	1a8f9rq9c.de
+0.0.0.0	1aa0yygqst.com
 0.0.0.0	1aacb6bb9f.com
 0.0.0.0	gjgdm.1aauto.com
 0.0.0.0	1abzar.ir
@@ -32491,6 +32492,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	cmdgblcprtmzu.site
 0.0.0.0	images.learn.cmdgroup.com
 0.0.0.0	cmdtubyfwosoa.online
+0.0.0.0	cme8k7fuwy.com
 0.0.0.0	px802.cmediahub.ru
 0.0.0.0	cmesgpqq8z.com
 0.0.0.0	cmexota.ru
@@ -38808,6 +38810,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	dbvcmwmqdgcpg.online
 0.0.0.0	dbvedren.com
 0.0.0.0	dbw7j2q14is6l.cloudfront.net
+0.0.0.0	dbxkzizfgildn.site
 0.0.0.0	dby7kx9z9yzse.cloudfront.net
 0.0.0.0	dbymlmuppcxiz.site
 0.0.0.0	dbyqvsjoqaqv.com
@@ -47603,6 +47606,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	esteemcountryside.com
 0.0.0.0	esteemed-laugh.pro
 0.0.0.0	esteemfurytooth.com
+0.0.0.0	esteroscologs.qpon
 0.0.0.0	esthbgatdzgmn.store
 0.0.0.0	deeplink.estheticon.com
 0.0.0.0	rpnvib.estilos.com.pe
@@ -67546,6 +67550,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	iwqbcvhukaao.com
 0.0.0.0	iwqgwgcbrwukf.site
 0.0.0.0	fdb.iwqim.cn
+0.0.0.0	iwqvzefjrhkbw.online
 0.0.0.0	marketing.iwsinc.com
 0.0.0.0	iwticym.cc
 0.0.0.0	iwtivbukvlvdk.site
@@ -73423,6 +73428,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	kwfdzfptmqlin.website
 0.0.0.0	kwfvcxbiqglkm.online
 0.0.0.0	kwgavfflgjpop.site
+0.0.0.0	kwghfsdhcwhkq.online
 0.0.0.0	kwhpllmraltfm.website
 0.0.0.0	stat.kwikmotion.com
 0.0.0.0	target.kwiktripfleet.com
@@ -73941,6 +73947,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	lameconnotation.com
 0.0.0.0	lamentinsecureheadlight.com
 0.0.0.0	lamerhollowsailing.qpon
+0.0.0.0	lamestsandalsspoffy.cfd
 0.0.0.0	tyvuwf.lameteoagricole.net
 0.0.0.0	lamiidrasceta.qpon
 0.0.0.0	lamkghx.icu
@@ -90102,6 +90109,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	oimsminyghpb.com
 0.0.0.0	apps5.oingo.com
 0.0.0.0	oinkedbowls.com
+0.0.0.0	oinkedcerreroophrys.cfd
 0.0.0.0	oinksservery.cyou
 0.0.0.0	ointmentapathetic.com
 0.0.0.0	oiotndkgyhcoc.site
@@ -136095,6 +136103,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	ycspreview.com
 0.0.0.0	ycstajztzoyiu.online
 0.0.0.0	yctoppmxmw.com
+0.0.0.0	ycuixpwkugaot.space
 0.0.0.0	ycvhkfhflhirq.online
 0.0.0.0	ycvlvgcuaxtem.website
 0.0.0.0	ycwaqlnpzlvkw.store

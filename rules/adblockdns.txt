@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard、AdGuardHome 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、EasyList、EasyList China、EasyPrivacy、DNS-Blocklists Light、OISD Basic、海哥 HG规则。
 ! Homepage: https://github.com/Pattern-max/adblockfilters
 ! Source: https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/adblockdns.txt
-! Version: 20260820151222
-! Last modified: 2026/08/20 15:12:22
-! Blocked domains: 140031
+! Version: 20260820164112
+! Last modified: 2026/08/20 16:41:12
+! Blocked domains: 140040
 ! unBlocked domains: 40
 !
 ||0-0-0checkmate.com^
@@ -1748,6 +1748,7 @@
 ||19r.net^
 ||creative.19sex.live^
 ||1a8f9rq9c.de^
+||1aa0yygqst.com^
 ||1aacb6bb9f.com^
 ||gjgdm.1aauto.com^
 ||1abzar.ir^
@@ -32477,6 +32478,7 @@
 ||cmdgblcprtmzu.site^
 ||images.learn.cmdgroup.com^
 ||cmdtubyfwosoa.online^
+||cme8k7fuwy.com^
 ||px802.cmediahub.ru^
 ||cmesgpqq8z.com^
 ||cmexota.ru^
@@ -38794,6 +38796,7 @@
 ||dbvcmwmqdgcpg.online^
 ||dbvedren.com^
 ||dbw7j2q14is6l.cloudfront.net^
+||dbxkzizfgildn.site^
 ||dby7kx9z9yzse.cloudfront.net^
 ||dbymlmuppcxiz.site^
 ||dbyqvsjoqaqv.com^
@@ -47589,6 +47592,7 @@
 ||esteemcountryside.com^
 ||esteemed-laugh.pro^
 ||esteemfurytooth.com^
+||esteroscologs.qpon^
 ||esthbgatdzgmn.store^
 ||deeplink.estheticon.com^
 ||rpnvib.estilos.com.pe^
@@ -67532,6 +67536,7 @@
 ||iwqbcvhukaao.com^
 ||iwqgwgcbrwukf.site^
 ||fdb.iwqim.cn^
+||iwqvzefjrhkbw.online^
 ||marketing.iwsinc.com^
 ||iwticym.cc^
 ||iwtivbukvlvdk.site^
@@ -73409,6 +73414,7 @@
 ||kwfdzfptmqlin.website^
 ||kwfvcxbiqglkm.online^
 ||kwgavfflgjpop.site^
+||kwghfsdhcwhkq.online^
 ||kwhpllmraltfm.website^
 ||stat.kwikmotion.com^
 ||target.kwiktripfleet.com^
@@ -73927,6 +73933,7 @@
 ||lameconnotation.com^
 ||lamentinsecureheadlight.com^
 ||lamerhollowsailing.qpon^
+||lamestsandalsspoffy.cfd^
 ||tyvuwf.lameteoagricole.net^
 ||lamiidrasceta.qpon^
 ||lamkghx.icu^
@@ -90088,6 +90095,7 @@
 ||oimsminyghpb.com^
 ||apps5.oingo.com^
 ||oinkedbowls.com^
+||oinkedcerreroophrys.cfd^
 ||oinksservery.cyou^
 ||ointmentapathetic.com^
 ||oiotndkgyhcoc.site^
@@ -136081,6 +136089,7 @@
 ||ycspreview.com^
 ||ycstajztzoyiu.online^
 ||yctoppmxmw.com^
+||ycuixpwkugaot.space^
 ||ycvhkfhflhirq.online^
 ||ycvlvgcuaxtem.website^
 ||ycwaqlnpzlvkw.store^
