@@ -1,31 +1,13 @@
 # AdBlock DNS Filters
-
 去广告合并规则，每8个小时更新一次。  
 个人收藏了不少广告过滤规则，但是每次往新设备添加的时候很是头疼，于是写了这个项目，定时自动获取各规则源更新，生成合并规则库。
 
----
-
-## ✨ 特色
-
-本项目在 [217heidai/adblockfilters](https://github.com/217heidai/adblockfilters) 的基础上，进行了以下定制：
-
-| 特色 | 说明 |
-|---|---|
-| 🎯 **国内特供源组合** | 精选 OISD Basic + HaGeZi Light + EasyList China + AdGuard Chinese + 海哥 HG 规则，针对国内视频站、APP开屏、联盟广告精准拦截 |
-| 🔄 **DNS 自动净化** | 使用国内、国外各 3 组 DNS 服务器，自动剔除无法解析的失效域名，保证规则纯净有效 |
-| 📦 **17 种格式输出** | 支持 AdGuard、Clash、Surge、V2Ray、Sing-Box 等 17 种客户端格式，一次订阅，全平台通用 |
-| ⏰ **每 8 小时自动更新** | 基于 GitHub Actions 自动运行，无需人工干预，时刻保持最新 |
-
----
-
 ## 说明
-
 1. 定时从上游各规则源获取更新，合并去重。
 2. 使用国内、国外各 3 组 DNS 服务，分别对上游各规则源拦截的域名进行解析，去除已无法解析的域名。（上游各规则源中存在大量已无法解析的域名，无需加入拦截规则）
 3. 本项目仅对上游规则进行合并、去重、去除无效域名，不做任何修改。如发现误拦截情况，可临时添加放行规则（如 `@@||www.example.com^$important`），并向上游规则反馈。
 
 ## 订阅链接
-
 1. 规则x’为规则x的 Lite 版，仅针对国内域名拦截，体积较小（如添加完整规则报错数量限制，请尝试 Lite 规则）
 2. 已对 jsdelivr(加速链接1) 缓存进行主动刷新，但仍存在一定刷新延时
 3. AdGuard 等浏览器插件使用规则1 + 规则2（规则2为规则1的补充，仅适用浏览器插件）
@@ -67,25 +49,48 @@
 | 规则17 | [原始链接](https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/adblockv2ray.dat) | [加速链接1](https://gcore.jsdelivr.net/gh/Pattern-max/adblockfilters@main/rules/adblockv2ray.dat) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/adblockv2ray.dat) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/adblockv2ray.dat) | V2ray、Xray(category-ads-all) |
 | 规则17' | [原始链接](https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/adblockv2raylite.dat) | [加速链接1](https://gcore.jsdelivr.net/gh/Pattern-max/adblockfilters@main/rules/adblockv2raylite.dat) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/adblockv2raylite.dat) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/adblockv2raylite.dat) | V2ray、Xray(category-ads-all) |
 
----
-
 ## 上游规则源
+1. 感谢各位广告过滤规则维护大佬们的辛苦付出。
+2. 不再引用[anti-AD](https://anti-ad.net/adguard.txt)、[yhosts](https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts.txt)，具体原因见[Mosney/anti-anti-AD](https://github.com/Mosney/anti-anti-AD)。
+3. 移除[Notracking blocklist](https://raw.githubusercontent.com/notracking/hosts-blocklists/master/adblock/adblock.txt)，原项目[已停止维护](https://github.com/notracking/hosts-blocklists/issues/900)。
+4. 移除[ADgk](https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt)、[SmartTV Blocklist](https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV-AGH.txt)、[1024 hosts](https://raw.githubusercontent.com/Goooler/1024_hosts/master/hosts)、[ad-wars hosts](https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)规则长时间未更新。
+5. 不再引用[NEO DEV HOST](https://github.com/neodevpro/neodevhost/blob/master/lite_adblocker)，原因见[Issues 85](https://github.com/Pattern-max/adblockfilters/issues/85)。
+6. 不再引用[xinggsf rule](https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/rule.txt)、[1Hosts (Lite)](https://raw.githubusercontent.com/badmojr/1Hosts/master/Lite/adblock.txt)、[Hblock](https://hblock.molinero.dev/hosts_adblock.txt)，误杀较多。
 
-感谢以下广告过滤规则维护大佬们的辛苦付出：
+| 规则 | 类型 | 原始链接 | 加速链接1 | 加速链接2 | 加速链接3 | 更新日期 |
+|:-|:-|:-|:-|:-|:-|:-|
+| 规则1 | dns | [原始链接](https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/adblockdns.txt) | [加速链接1](https://gcore.jsdelivr.net/gh/Pattern-max/adblockfilters@main/rules/规则1.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/规则1.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/规则1.txt) | 2026/08/20 |
+| 规则1' | dns | [原始链接](https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/adblockdnslite.txt) | [加速链接1](https://gcore.jsdelivr.net/gh/Pattern-max/adblockfilters@main/rules/规则1'.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/规则1'.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/规则1'.txt) | 2026/08/20 |
+| 规则2 | dns | [原始链接](https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/adblockfilters.txt) | [加速链接1](https://gcore.jsdelivr.net/gh/Pattern-max/adblockfilters@main/rules/规则2.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/规则2.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/规则2.txt) | 2026/08/20 |
+| 规则2' | dns | [原始链接](https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/adblockfilterslite.txt) | [加速链接1](https://gcore.jsdelivr.net/gh/Pattern-max/adblockfilters@main/rules/规则2'.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/规则2'.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/规则2'.txt) | 2026/08/20 |
+| 规则3 | dns | [原始链接](https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/adblockdomain.txt) | [加速链接1](https://gcore.jsdelivr.net/gh/Pattern-max/adblockfilters@main/rules/规则3.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/规则3.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/规则3.txt) | 2026/08/20 |
+| 规则3' | dns | [原始链接](https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/adblockdomainlite.txt) | [加速链接1](https://gcore.jsdelivr.net/gh/Pattern-max/adblockfilters@main/rules/规则3'.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/规则3'.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/规则3'.txt) | 2026/08/20 |
+| 规则4 | dns | [原始链接](https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/adblockdnsmasq.txt) | [加速链接1](https://gcore.jsdelivr.net/gh/Pattern-max/adblockfilters@main/rules/规则4.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/规则4.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/规则4.txt) | 2026/08/20 |
+| 规则4' | dns | [原始链接](https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/adblockdnsmasqlite.txt) | [加速链接1](https://gcore.jsdelivr.net/gh/Pattern-max/adblockfilters@main/rules/规则4'.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/规则4'.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/规则4'.txt) | 2026/08/20 |
+| 规则5 | dns | [原始链接](https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/adblocksmartdns.conf) | [加速链接1](https://gcore.jsdelivr.net/gh/Pattern-max/adblockfilters@main/rules/规则5.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/规则5.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/规则5.txt) | 2026/08/20 |
+| 规则5' | dns | [原始链接](https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/adblocksmartdnslite.conf) | [加速链接1](https://gcore.jsdelivr.net/gh/Pattern-max/adblockfilters@main/rules/规则5'.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/规则5'.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/规则5'.txt) | 2026/08/20 |
+| 规则6 | dns | [原始链接](https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/adblockclash.list) | [加速链接1](https://gcore.jsdelivr.net/gh/Pattern-max/adblockfilters@main/rules/规则6.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/规则6.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/规则6.txt) | 2026/08/20 |
+| 规则6' | dns | [原始链接](https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/adblockclashlite.list) | [加速链接1](https://gcore.jsdelivr.net/gh/Pattern-max/adblockfilters@main/rules/规则6'.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/规则6'.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/规则6'.txt) | 2026/08/20 |
+| 规则7 | dns | [原始链接](https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/adblockshadowrocket.sgmodule) | [加速链接1](https://gcore.jsdelivr.net/gh/Pattern-max/adblockfilters@main/rules/规则7.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/规则7.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/规则7.txt) | 2026/08/20 |
+| 规则7' | dns | [原始链接](https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/adblockshadowrocketlite.sgmodule) | [加速链接1](https://gcore.jsdelivr.net/gh/Pattern-max/adblockfilters@main/rules/规则7'.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/规则7'.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/规则7'.txt) | 2026/08/20 |
+| 规则8 | dns | [原始链接](https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/adblockqx.conf) | [加速链接1](https://gcore.jsdelivr.net/gh/Pattern-max/adblockfilters@main/rules/规则8.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/规则8.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/规则8.txt) | 2026/08/20 |
+| 规则8' | dns | [原始链接](https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/adblockqxlite.conf) | [加速链接1](https://gcore.jsdelivr.net/gh/Pattern-max/adblockfilters@main/rules/规则8'.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/规则8'.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/规则8'.txt) | 2026/08/20 |
+| 规则9 | dns | [原始链接](https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/adblockmihomo.yaml) | [加速链接1](https://gcore.jsdelivr.net/gh/Pattern-max/adblockfilters@main/rules/规则9.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/规则9.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/规则9.txt) | 2026/08/20 |
+| 规则9' | dns | [原始链接](https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/adblockmihomolite.yaml) | [加速链接1](https://gcore.jsdelivr.net/gh/Pattern-max/adblockfilters@main/rules/规则9'.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/规则9'.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/规则9'.txt) | 2026/08/20 |
+| 规则10 | dns | [原始链接](https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/adblockmihomo.mrs) | [加速链接1](https://gcore.jsdelivr.net/gh/Pattern-max/adblockfilters@main/rules/规则10.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/规则10.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/规则10.txt) | Clash Meta(Mihomo) mrs |
+| 规则10' | dns | [原始链接](https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/adblockmihomolite.mrs) | [加速链接1](https://gcore.jsdelivr.net/gh/Pattern-max/adblockfilters@main/rules/规则10'.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/规则10'.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/规则10'.txt) | Clash Meta(Mihomo) mrs |
+| 规则11 | dns | [原始链接](https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/adblockhosts.txt) | [加速链接1](https://gcore.jsdelivr.net/gh/Pattern-max/adblockfilters@main/rules/规则11.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/规则11.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/规则11.txt) | 2026/08/20 |
+| 规则11' | dns | [原始链接](https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/adblockhostslite.txt) | [加速链接1](https://gcore.jsdelivr.net/gh/Pattern-max/adblockfilters@main/rules/规则11'.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/规则11'.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/规则11'.txt) | 2026/08/20 |
+| 规则12 | dns | [原始链接](https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/adblocksingbox.json) | [加速链接1](https://gcore.jsdelivr.net/gh/Pattern-max/adblockfilters@main/rules/规则12.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/规则12.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/规则12.txt) | 2026/08/20 |
+| 规则12' | dns | [原始链接](https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/adblocksingboxlite.json) | [加速链接1](https://gcore.jsdelivr.net/gh/Pattern-max/adblockfilters@main/rules/规则12'.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/规则12'.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/规则12'.txt) | 2026/08/20 |
+| 规则13 | dns | [原始链接](https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/adblocksingbox.srs) | [加速链接1](https://gcore.jsdelivr.net/gh/Pattern-max/adblockfilters@main/rules/规则13.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/规则13.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/规则13.txt) | sing-box 1.12+ srs |
+| 规则13' | dns | [原始链接](https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/adblocksingboxlite.srs) | [加速链接1](https://gcore.jsdelivr.net/gh/Pattern-max/adblockfilters@main/rules/规则13'.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/规则13'.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/规则13'.txt) | sing-box 1.12+ srs |
+| 规则14 | dns | [原始链接](https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/adblockloon.list) | [加速链接1](https://gcore.jsdelivr.net/gh/Pattern-max/adblockfilters@main/rules/规则14.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/规则14.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/规则14.txt) | 2026/08/20 |
+| 规则14' | dns | [原始链接](https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/adblockloonlite.list) | [加速链接1](https://gcore.jsdelivr.net/gh/Pattern-max/adblockfilters@main/rules/规则14'.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/规则14'.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/规则14'.txt) | 2026/08/20 |
+| 规则15 | dns | [原始链接](https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/adblocksurge.list) | [加速链接1](https://gcore.jsdelivr.net/gh/Pattern-max/adblockfilters@main/rules/规则15.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/规则15.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/规则15.txt) | 2026/08/20 |
+| 规则15' | dns | [原始链接](https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/adblocksurgelite.list) | [加速链接1](https://gcore.jsdelivr.net/gh/Pattern-max/adblockfilters@main/rules/规则15'.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/规则15'.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/规则15'.txt) | 2026/08/20 |
+| 规则16 | dns | [原始链接](https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/adblockmosdns.txt) | [加速链接1](https://gcore.jsdelivr.net/gh/Pattern-max/adblockfilters@main/rules/规则16.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/规则16.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/规则16.txt) | 2026/08/20 |
+| 规则16' | dns | [原始链接](https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/adblockmosdnslite.txt) | [加速链接1](https://gcore.jsdelivr.net/gh/Pattern-max/adblockfilters@main/rules/规则16'.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/规则16'.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/规则16'.txt) | 2026/08/20 |
+| 规则17 | dns | [原始链接](https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/adblockv2ray.dat) | [加速链接1](https://gcore.jsdelivr.net/gh/Pattern-max/adblockfilters@main/rules/规则17.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/规则17.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/规则17.txt) | V2ray、Xray(category-ads-all) |
+| 规则17' | dns | [原始链接](https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/adblockv2raylite.dat) | [加速链接1](https://gcore.jsdelivr.net/gh/Pattern-max/adblockfilters@main/rules/规则17'.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/规则17'.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/规则17'.txt) | V2ray、Xray(category-ads-all) |
 
-- AdGuard Base filter
-- AdGuard Chinese filter
-- EasyList
-- EasyList China
-- EasyPrivacy
-- DNS-Blocklists Light (HaGeZi)
-- OISD Basic
-- 海哥 HG规则
-
-### 规则源变更说明
-
-- 不再引用 [anti-AD](https://anti-ad.net/adguard.txt)、[yhosts](https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts.txt)，具体原因见 [Mosney/anti-anti-AD](https://github.com/Mosney/anti-anti-AD)
-- 移除 [Notracking blocklist](https://raw.githubusercontent.com/notracking/hosts-blocklists/master/adblock/adblock.txt)，原项目[已停止维护](https://github.com/notracking/hosts-blocklists/issues/900)
-- 移除 ADgk、SmartTV Blocklist、1024 hosts、ad-wars hosts（规则长时间未更新）
-- 不再引用 NEO DEV HOST，原因见 [Issues 85](https://github.com/Pattern-max/adblockfilters/issues/85)
-- 不再引用 xinggsf rule、1Hosts (Lite)、Hblock（误杀较多）
