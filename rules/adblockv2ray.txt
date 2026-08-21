@@ -3,9 +3,9 @@
 # Description: 适用于 V2ray、Xray 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、EasyList、EasyList China、EasyPrivacy、DNS-Blocklists Light、OISD Basic、海哥 HG规则。
 # Homepage: https://github.com/Pattern-max/adblockfilters
 # Source: https://raw.githubusercontent.com/Pattern-max/adblockfilters/main/rules/adblockv2ray.txt
-# Version: 20260821003753
-# Last modified: 2026/08/21 00:37:53
-# Blocked domains: 140070
+# Version: 20260821092324
+# Last modified: 2026/08/21 09:23:24
+# Blocked domains: 140177
 #
 0-0-0checkmate.com @ads
 0-02.net @ads
@@ -372,6 +372,7 @@ s3.0dayporno.com @ads
 0dayreleases.com @ads
 0dy3evz6x.com @ads
 0e024d23f9.com @ads
+0e091251b2.com @ads
 0e176a58eb.com @ads
 0e1y8x7ft.com @ads
 0e4a4c9e4e.com @ads
@@ -1468,6 +1469,7 @@ l1v2m4fnuz8ce7955b72xb.16eq4pk9zxgzu4vojk.cyou @ads
 lwxy1.170o.com @ads
 171.22.195.120 @ads
 1717.gg @ads
+scollect.17173.com @ads
 17180d187e.com @ads
 171c856581.com @ads
 www.171starbucks.com @ads
@@ -3668,6 +3670,7 @@ smetrics.3cat.cat @ads
 de8bd72412.3cedc8df37.com @ads
 3ckz.com @ads
 js.3conline.com @ads
+3cpk9ptqbugrxl9ohyyzn.rest @ads
 webapi.3cx.com @ads
 n0ze9.3d048e6h.com @ads
 3d2f.com @ads
@@ -5246,6 +5249,7 @@ g077f24.cdn.64275361.com @ads
 64786087.xyz @ads
 066b0fa5eb.64980aaffd.com @ads
 64bf88068b.com @ads
+64c4541a92.com @ads
 64ce7c22c5.com @ads
 64f5295d06.com @ads
 64gkf7zhlwqn6y4eutgq1hjjo9y.rest @ads
@@ -6638,6 +6642,7 @@ b17936d699.8af0229830.com @ads
 yngnwe.8division.com @ads
 58bf902565.8e111120ff.com @ads
 8e1fb7aeb7.com @ads
+8e296d5096.com @ads
 8e484af735.com @ads
 8e6c021d8f.com @ads
 8ea1272194.com @ads
@@ -7939,6 +7944,7 @@ tongkhohangnhat.abphotos.link @ads
 abpicsrc.com @ads
 abpjs23.com @ads
 abpnow.xyz @ads
+abpnqfnpjzevh.site @ads
 abqnmgbyxyias.site @ads
 invite.abra.com @ads
 dsdjbj.abracadabra.com.br @ads
@@ -16291,6 +16297,7 @@ www.aluqno.vip @ads
 sgwhvw.alura.com.br @ads
 stape.alura.com.br @ads
 aluvhyxwjnqyo.site @ads
+alvearysucre.cyou @ads
 alvenda.com @ads
 alviavalerie.cyou @ads
 alvinazigzags.cfd @ads
@@ -17922,6 +17929,7 @@ info.apparound.com @ads
 marketing.apparound.com @ads
 appastpardi.cfd @ads
 appayairmass.cyou @ads
+appaycanoes.qpon @ads
 appbaqend.com @ads
 rtb.appbid.com @ads
 i.appbox.me @ads
@@ -18961,6 +18969,7 @@ ashoreyolky.qpon @ads
 ashoupsu.com @ads
 connected.ashrae.org @ads
 ashrivetgulped.com @ads
+ashthtddicgnf.site @ads
 djxyhp.ashtondrake.com @ads
 ashtrayexportmanage.com @ads
 ashtraysuburb.com @ads
@@ -19141,6 +19150,7 @@ assistads.net @ads
 assistantinsignificantthings.com @ads
 assisthaboub.com @ads
 assistimplemented.com @ads
+assobreeclipse.cyou @ads
 assoc-amazon.ca @ads
 www.assoc-amazon.cn @ads
 assoc-amazon.co.uk @ads
@@ -22738,6 +22748,7 @@ market.bellelily.com @ads
 aas.bellemaison.jp @ads
 obtfhl.bellemaison.jp @ads
 dd.bellesdemeures.com @ads
+belleunsheet.shop @ads
 a8cv.bellevie-inc.co.jp @ads
 jspqms.bellevue-ferienhaus.de @ads
 bellevueairductcleaning.com @ads
@@ -25256,6 +25267,7 @@ bogeyedoutbye.com @ads
 bogeysauf.shop @ads
 bogfernboopis.shop @ads
 mirvso.boggi.com @ads
+bogledpavins.shop @ads
 bogmunchbeneath.com @ads
 bogrodius.com @ads
 vahlnd.bogsfootwear.com @ads
@@ -25455,6 +25467,7 @@ bonusnun.com @ads
 bonuspis.com @ads
 bonwtunwgboos.online @ads
 bonxbtlkitmt.com @ads
+bony-award.pro @ads
 bonyspecialist.pro @ads
 bonzai.co @ads
 bonzermixupclaxons.cyou @ads
@@ -26278,6 +26291,7 @@ bravotrk.com @ads
 ijaabm.bravotv.com @ads
 links.email.bravotv.com @ads
 brawexstill.shop @ads
+brawnsprince.cyou @ads
 vnmopn.brax.com @ads
 brayersxematitlike.qpon @ads
 api.iad-05.braze.com @ads
@@ -27398,6 +27412,7 @@ butomuskainah.com @ads
 butoqj0vh.com @ads
 apfbrk.butorline.hu @ads
 soelui.butosklep.pl @ads
+butoxylpickier.cyou @ads
 butstream.shop @ads
 butterbulb.com @ads
 app.butterflymx.com @ads
@@ -27839,6 +27854,7 @@ analytics-api.byub.org @ads
 byuh78fy2m.com @ads
 app.byutickets.com @ads
 t.byutickets.com @ads
+byvdtugfdxznh.site @ads
 byvlph.xyz @ads
 byxueqlbopuwx.com @ads
 byykynkjbmf.com @ads
@@ -30772,6 +30788,7 @@ analytics.chevrolet.com @ads
 pdmsmrt.chevrolet.com @ads
 bnc.chewchunks.com @ads
 chewhaidroub.net @ads
+chewinglatinus.cyou @ads
 chewinkascesis.shop @ads
 chewinksanify.qpon @ads
 chewsever.com @ads
@@ -32725,6 +32742,7 @@ cm-mms.coachmag.co.uk @ads
 coacoaha.net @ads
 me.coact.org.au @ads
 tracking.coact.org.au @ads
+coalawenchowbehight.qpon @ads
 coalbuffalo.com @ads
 metrics.coalesse.com @ads
 coalitionconcessionbecause.com @ads
@@ -34364,6 +34382,8 @@ kiwi.coreyodonnell.tech @ads
 corialwhidahs.cyou @ads
 corkdeclarationfourteenth.com @ads
 corksadly.com @ads
+cormousbegaud.cfd @ads
+corneaananism.cyou @ads
 marketing.corneagen.com @ads
 cornealtextlet.qpon @ads
 cornedmurrina.com @ads
@@ -34673,6 +34693,7 @@ smetrics.countryfinancialsecurityblog.com @ads
 lziqkx.countryoutfitter.com @ads
 smetrics.countrypassport.com @ads
 zrknjk.countrystorecatalog.com @ads
+countryyankeetonlets.cyou @ads
 connected.county10.com @ads
 countyauthority.com @ads
 secure.coup7cold.com @ads
@@ -35550,6 +35571,7 @@ crubchiplet.cfd @ads
 crucialostensiblestops.com @ads
 crucispibcornalto.cyou @ads
 crudenessfinishersacred.com @ads
+crudestcarlin.cfd @ads
 cruel-love.com @ads
 cruelnichil.shop @ads
 cruhliip.com @ads
@@ -38609,6 +38631,7 @@ bun1.dayi.org.cn @ads
 dayimachine.com @ads
 daylongfauves.qpon @ads
 images.dayoo.com @ads
+daystarrebel.cyou @ads
 sgtm.dayuse.com @ads
 dayusts.com @ads
 dazedarticulate.com @ads
@@ -39163,6 +39186,7 @@ show.decorex.com @ads
 decoydeclaration.com @ads
 decpo.xyz @ads
 decreaselackadmit.com @ads
+decreesbilic.shop @ads
 decrialteacher.cyou @ads
 decryptionjunior.com @ads
 tag.dec-connect.decsuite.com @ads
@@ -40265,6 +40289,7 @@ dhg-versand.de @ads
 dhgate.com @ads
 dhgnzynmufgpc.site @ads
 dhgycl.cn @ads
+dhgyq2twp.com @ads
 dhgywazgeek0d.cloudfront.net @ads
 dhjghloqxpdujw.com @ads
 dhjveahawxfcb.com @ads
@@ -42010,6 +42035,7 @@ ceoapr.donjoyperformance.com @ads
 donkeyamenityfoal.com @ads
 static.donkeyhug.com @ads
 donnepilei.qpon @ads
+donnertwronger.shop @ads
 rpfqvl.donnerwetter.de @ads
 donorstuffed.com @ads
 sadbmetrics.donostimasterscup.com @ads
@@ -43534,6 +43560,7 @@ xmg.dt4.dun456.com @ads
 zhuoyu2xin.cdn.dun555.com @ads
 dunabear.com @ads
 duncanknopper.cfd @ads
+duncesonmarchguaka.cyou @ads
 duncherrants.shop @ads
 dunderaffiliates.com @ads
 track.dunedinincomegrowth.co.uk @ads
@@ -43604,6 +43631,7 @@ duriangowhere.com @ads
 duringcereal.com @ads
 durocsurentclines.cyou @ads
 durriegaging.cyou @ads
+durriesmaiid.qpon @ads
 go.durst-group.com @ads
 durylpatefyachage.cfd @ads
 iqmetrics.dus.com @ads
@@ -43789,6 +43817,7 @@ dwvdofpcelstt.site @ads
 dwvohsgysgfrr.online @ads
 dwwpaoatfgjvo.space @ads
 dwxjayoxbnyrr.cloudfront.net @ads
+dwxlqmcwoyuub.space @ads
 t1.dwxwp.cn @ads
 dwyeeunm.com @ads
 dwyeuy.com @ads
@@ -45531,6 +45560,7 @@ logger.eji6.cc @ads
 ejihhtgvjeglq.online @ads
 ejiwvof.icu @ads
 ejlqdcyrjsakh.site @ads
+ejmgiro1oyw225xq3ywl7v.rest @ads
 ejnhzgcgazhjl.site @ads
 ejnjjqepwavf.com @ads
 gz.ejnjyc.cn @ads
@@ -46217,6 +46247,7 @@ track.emeza.ch @ads
 track.emeza.com @ads
 emfhxsmebkthh.website @ads
 analytics.emforce.co.kr @ads
+emgthroposit.org @ads
 emhjekwvkwnvz.website @ads
 emicalcoveningspon.org @ads
 metrics.emicizumabinfo.com @ads
@@ -47244,6 +47275,7 @@ ero-labs.vip @ads
 manwa.ero-labs.xyz @ads
 eroadvertising.com @ads
 erocex.ru @ads
+erodentromanes.cfd @ads
 track.erogames.com @ads
 erogazopple.com @ads
 engine.eroge.com @ads
@@ -47547,6 +47579,7 @@ info.esrimalaysia.com.my @ads
 info.esrisingapore.com.sg @ads
 securetags.esriuk.com @ads
 esrogssannop.shop @ads
+essaylogicdoubt.com @ads
 essayspin.com @ads
 essbritanidim.club @ads
 smetrics.essds.com @ads
@@ -54228,6 +54261,7 @@ gaudushopso.com @ads
 gaug.es @ads
 gaugerightfully.com @ads
 gaujokop.com @ads
+gaulishowl.cfd @ads
 gaulshbontee.cfd @ads
 gaulshupsteal.com @ads
 gaumetoapsan.com @ads
@@ -54576,6 +54610,7 @@ gelatiainvars.qpon @ads
 vmgihu.gelatopique.com @ads
 geldanteructs.shop @ads
 geldedcubi.shop @ads
+geledonewytlj.online @ads
 gelhp.com @ads
 tracking.gelia.com @ads
 gelirartisi.com @ads
@@ -55627,6 +55662,7 @@ gir1p8pqbbt12xkx25xk8ib5.cfd @ads
 giraff.io @ads
 giraffemaintained.com @ads
 girdersbliaut.cfd @ads
+girliemichiel.cfd @ads
 girliepolyve.cyou @ads
 girlieturtle.com @ads
 girllsforyou.com @ads
@@ -55719,6 +55755,7 @@ givviictvunqi.online @ads
 giwl0p3gx7.com @ads
 giwmicgil.com @ads
 gixiluros.com @ads
+gixjzqpesgmde.website @ads
 gixto.xyz @ads
 automate.gixxy.com @ads
 giypbxlmiwgya.com @ads
@@ -55870,6 +55907,7 @@ glandalongtruce.com @ads
 glandlabel.com @ads
 glandscountrush.com @ads
 glareoutgoingthey.com @ads
+glaresnoting.cyou @ads
 glarilyacerb.shop @ads
 glaringregister.com @ads
 ssc.glasamerike.net @ads
@@ -57619,6 +57657,7 @@ grillcheekunfinished.com @ads
 grilledrationally.com @ads
 grillwry.com @ads
 grilsecalico.cfd @ads
+grim-duty.pro @ads
 grim-pizza.pro @ads
 grimacechauffeur.com @ads
 grimjudgment.com @ads
@@ -62246,6 +62285,7 @@ hqvldtiayuvrho.com @ads
 hqvrvageaf.com @ads
 hqxvhbntctxha.space @ads
 smetrics.hr.abbott @ads
+hr79hfw9nln4en9fktl8oe2c.cfd @ads
 hra.am @ads
 hraayzvvjlead.site @ads
 hramiseocsztd.site @ads
@@ -62281,6 +62321,7 @@ hrpbmvgbihfac.site @ads
 hrqecm0d.xyz @ads
 hrqmbugn.xyz @ads
 hrrlwaavrttks.online @ads
+hrro55g56.com @ads
 hrrsimgjcllyz.site @ads
 corporate-marketing.hrs.com @ads
 hotel-marketing.hrs.com @ads
@@ -62678,6 +62719,7 @@ humdrumquartshore.cyou @ads
 humeaviated.qpon @ads
 humflingenmity.com @ads
 humicsceggerurnlike.cfd @ads
+humifyinbye.cfd @ads
 humiliatedaboveboardwho.com @ads
 humiliatedbreeches.com @ads
 humiliatemoot.com @ads
@@ -67454,6 +67496,7 @@ ivedpouassjd.com @ads
 ivesd.nl @ads
 eqingl.ivet.bg @ads
 ktoahv.ivet.rs @ads
+ivfhmlsqsijtc.website @ads
 ivginofdrspo.com @ads
 a1yj779.ivhv43.com @ads
 logger.ivi.ru @ads
@@ -68894,6 +68937,7 @@ rtb-1.jizzberry.com @ads
 rtb-6.jizzberry.com @ads
 open.srv.jj.cn @ads
 jj5zwmzcze.com @ads
+jjabijzelcsbp.online @ads
 s3v2.jjarmy.xyz @ads
 zz.jjawa.com @ads
 jjbnrvmejshp.com @ads
@@ -69347,6 +69391,7 @@ a8cv.join-tech.jp @ads
 jb.join.webcam @ads
 jj.join.webcam @ads
 joinads.me @ads
+joinantneillia.qpon @ads
 analytics.joincambridge.com @ads
 joinersjubilus.shop @ads
 download.joingofree.com @ads
@@ -71565,6 +71610,7 @@ khheewubjsybg.space @ads
 khhnprlvipumrrpaiila.com @ads
 khiclickrkafw.online @ads
 khidlcdjhlsfu.space @ads
+khilatunhave.shop @ads
 khirdoable.qpon @ads
 khj5jmkrpzgptzi9n.cfd @ads
 metric.khkgears.us @ads
@@ -73801,6 +73847,7 @@ l.lacremedugaming.fr @ads
 utiq.lacronicabadajoz.com @ads
 lacrymrepointtorpex.cyou @ads
 lactaryabacfoetors.cyou @ads
+lactaselasi.shop @ads
 lactoidmeasly.qpon @ads
 lactolwant.com @ads
 pub.lacuerda.net @ads
@@ -74562,6 +74609,7 @@ ldhmeqlxdgksm.site @ads
 ldhy.click @ads
 ldinfonepaliembog.cfd @ads
 ldinfoprocyon.cfd @ads
+ldiukrhlzqxus.space @ads
 ldjkgoeognmgj.space @ads
 kx82kdajlkjsdngjxaas.ldka6232.pictures @ads
 ldlqnkdbozjjp.space @ads
@@ -76144,6 +76192,7 @@ response.littletikescommercial.com @ads
 lmnqof.littletoncoin.com @ads
 littlevigorously.com @ads
 littoncapitalgroup.com @ads
+litudimble.cfd @ads
 litvp.com @ads
 litznards.com @ads
 liugeyuan.cn @ads
@@ -79031,6 +79080,7 @@ rw.marchex.io @ads
 marchpublicationpiggy.com @ads
 marchshotgun.com @ads
 marciaarmata.com @ads
+marcischwa.cfd @ads
 ieeowa.marcjacobsbeauty.com @ads
 url6933.email.marcon.au @ads
 srepdata.marconews.com @ads
@@ -79178,6 +79228,7 @@ app.info.markit.com @ads
 register.markit.com @ads
 oda.markitondemand.com @ads
 harvester.cms.markiza.sk @ads
+markkabalkedritling.cfd @ads
 sdk.markmedia.com.cn @ads
 info.markmonitor.com @ads
 mtag.markopolo.ai @ads
@@ -81216,6 +81267,7 @@ mhfkgumbiq49y66.rest @ads
 mhgu.cn @ads
 mhgulzhluhcvt.space @ads
 mhhauzjscaxjf.space @ads
+mhhqwgjxnmmaz.space @ads
 metrics.mhi.com @ads
 mhiiafknctopm.site @ads
 mhiiopll.net @ads
@@ -87873,6 +87925,7 @@ clogger.nocutnews.co.kr @ads
 nodallyaushar.cyou @ads
 noddlesmuvule.qpon @ads
 noddus.com @ads
+noddyhomed.com @ads
 secure.node7seat.com @ads
 www.node7seat.com @ads
 nodeclaim.com @ads
@@ -88503,6 +88556,7 @@ target.nrma.com.au @ads
 trk.nrn.com @ads
 nrnma.com @ads
 nrofkaapzwu.in @ads
+nrowumdcamr.in @ads
 utiq.nrpyrenees.fr @ads
 nrqihuzvyunel.website @ads
 nrrofvqgzprnb.space @ads
@@ -88856,6 +88910,7 @@ nuxaunjucpepp.website @ads
 nuxp9z1wl15ve2.rest @ads
 nuxpj.com @ads
 nuxuwhawo.com @ads
+nuzbyampvfdsss.com @ads
 nuzoqxlu.in @ads
 nuzostgcylun.com @ads
 counter.nv.ua @ads
@@ -89157,6 +89212,7 @@ nzrdfrlsfrznrk.com @ads
 nzrfwzqdeqtci.site @ads
 nztacpns.com @ads
 nzurlmq.com @ads
+nzvmpjjkpinlbi.com @ads
 s3m1.nzwgs.com @ads
 nzwomoxfjcosy.store @ads
 logserver.nzxcloud.cn @ads
@@ -90884,6 +90940,7 @@ share-backcountry.onxmaps.com @ads
 share-hunt.onxmaps.com @ads
 onxnzmhsvuimn.com @ads
 onxosrmu.in @ads
+onychiapiety.cfd @ads
 icoktb.onygo.com @ads
 onymitysangha.cyou @ads
 app.onyx.fit @ads
@@ -91824,6 +91881,7 @@ a8clk.osoujihonpo.com @ads
 ospariessolkaws.com @ads
 ospartners.xyz @ads
 ospkmjsxvihyi.space @ads
+ospowqxfyhho.in @ads
 cephalopod.ospreys.net @ads
 oss-jordan.top @ads
 oss-pro.top @ads
@@ -97173,6 +97231,7 @@ pranktetui.cfd @ads
 prankubg.com @ads
 pranmcpkx.com @ads
 get.prapo.com @ads
+prateranglo.cfd @ads
 pratersheersleonora.cyou @ads
 cntr.pravda.com.ua @ads
 pwct.pravda.com.ua @ads
@@ -98753,6 +98812,7 @@ smetrics.puma.com @ads
 tybfxw.puma.com @ads
 pumaqmqix.com @ads
 yady.pumcy.cn @ads
+pumhpxdttyblz.site @ads
 pummelarecas.qpon @ads
 pummeldavoch.shop @ads
 pummys.com @ads
@@ -99455,6 +99515,7 @@ qajkvcdzxcqvn.space @ads
 qakqvajmhdpzd.store @ads
 qaldatrxnjssm.site @ads
 qalizyiehylan.space @ads
+qaltylntnghu.com @ads
 qamhngalamvbl.site @ads
 qamrajywditki.online @ads
 qamurtajzovce.site @ads
@@ -100224,6 +100285,7 @@ qpooiypw.com @ads
 qporvffxegbbv.space @ads
 qppq166n.de @ads
 qprskl.com @ads
+qpscgpmcrakpd.site @ads
 qptfdtjasvzmb.site @ads
 qptghqpgmdqhl.online @ads
 qptgssyjfxbs.com @ads
@@ -101129,6 +101191,7 @@ qvdcwnmcgwdrj.site @ads
 qvdmgzzgpgrei.website @ads
 qvdt3feo.com @ads
 qvducxfxslowu.store @ads
+qvfm2ywfkoq3c75rxgvfx.rest @ads
 qvfvah7jyb.com @ads
 qvgmgjysbwpgb.website @ads
 qvguycxjhleob.online @ads
@@ -101261,6 +101324,7 @@ qyplvnzcm1.com @ads
 qypqafuymygkj.online @ads
 qypuezrjzraew.site @ads
 image.qyrje.com @ads
+qyromjlmzzkov.top @ads
 qyromjlyvzwoj.top @ads
 qysynzovbduzh.online @ads
 qyttlkcxwcztv.space @ads
@@ -103475,6 +103539,7 @@ resistsupplieslank.com @ads
 resmellhighth.qpon @ads
 resnubarchseethroddy.cyou @ads
 resnubdreich.com @ads
+resoleswhams.shop @ads
 ping.resoluteoil.com @ads
 embed-c-google-analytics.resolution-cloud.com @ads
 resolutionmeasures.com @ads
@@ -103987,6 +104052,7 @@ rhiummplusjaw.online @ads
 rhizopiuniquezurich.cyou @ads
 rhjuemstwodrh.space @ads
 rhkgkhqn.com @ads
+rhmqfekypljys.site @ads
 rhmt1jjyo.com @ads
 rhnoikbhtktjx.space @ads
 rhnrzqbydtuxc.space @ads
@@ -104302,6 +104368,7 @@ om.ringcentral.com @ads
 som.ringcentral.com @ads
 ringdisgustpostman.com @ads
 ringeddrama.com @ads
+ringedpontacpenile.cyou @ads
 ringedsake.com @ads
 ringerbaseballsilk.com @ads
 ringersidewaysapiece.com @ads
@@ -104913,6 +104980,7 @@ roeck-performance.at @ads
 roeduchess.com @ads
 roefcldengayg.site @ads
 roemoss.com @ads
+roesbassine.shop @ads
 roeveskyagclwh.com @ads
 rofant.com @ads
 rofcdcdciveur.site @ads
@@ -105326,6 +105394,7 @@ rqchqfbmhefis.space @ads
 rqcoqgesuaezy.space @ads
 rqerokcafoadv.space @ads
 rqetrh.top @ads
+rqggagxrzqbji.website @ads
 rqhlbyce.com @ads
 rqialsrmwwxbx.website @ads
 rqitcbzevctjq.space @ads
@@ -107399,6 +107468,7 @@ tune.sckmediatv.com @ads
 sckolyzbykufh.website @ads
 sckxppzdm.com @ads
 scl6gc5l.site @ads
+sclentedicule.shop @ads
 scleraemensa.cfd @ads
 sclerbecks.shop @ads
 sclifftabitha.cyou @ads
@@ -108623,6 +108693,7 @@ servingformatfaster.com @ads
 ab.servogram.io @ads
 analytics.servogram.io @ads
 solutions.servometer.com @ads
+servoswirling.shop @ads
 servote.de @ads
 servrapp.com @ads
 servsserverz.com @ads
@@ -109804,6 +109875,7 @@ api.shubunk.com @ads
 shudderviolence.com @ads
 asg.shudhdesiporn.com @ads
 c4n.shudhdesiporn.com @ads
+shudogdoms.cyou @ads
 shuffele.com @ads
 shuffleentrust.com @ads
 shufflefell.com @ads
@@ -109918,6 +109990,7 @@ sickshareping.com @ads
 sicksmash.com @ads
 siclikeinhumepick.cfd @ads
 sicqybon.com @ads
+sicsalines.cfd @ads
 sicurezza.me @ads
 turtle.sid.scot @ads
 statcollector.sidearmsports.com @ads
@@ -110647,6 +110720,7 @@ smetrics.skechers.com.au @ads
 ghrzlu.skechers.com.tr @ads
 skeechsarinda.com @ads
 posthog.skeelo.com @ads
+skeennobsapr.cfd @ads
 skeesisoxime.com @ads
 skeetads.com @ads
 skegjjrhp.com @ads
@@ -110956,6 +111030,7 @@ vfmahn.slevomat.cz @ads
 slewthhotness.cfd @ads
 slext2.com @ads
 slfhtrkjbsnbh.space @ads
+slfpqqgcilxzh.space @ads
 slfsmf.com @ads
 slftps.com @ads
 slfxhhmapzrtu.space @ads
@@ -111132,6 +111207,7 @@ slvumxhzmtope.website @ads
 slxktxaokcvon.site @ads
 slybheguvihki.online @ads
 slyestairmass.qpon @ads
+slyestbelotte.cyou @ads
 slystabbed.cfd @ads
 hw296.slytez.com @ads
 anteater.slyvon.com @ads
@@ -112659,6 +112735,7 @@ spadelack.com @ads
 spaderonium.com @ads
 spadsync.com @ads
 smetrics.spaf-academy.pl @ads
+spahisennetmabolo.cfd @ads
 track.span-smt.jp @ads
 mail.spandex.com @ads
 spaniardinformationbookworm.com @ads
@@ -112911,6 +112988,7 @@ spiceforthjobless.com @ads
 spiceoptimistic.com @ads
 spicewaxworks.com @ads
 gurgle.spiceworks.com @ads
+spicilycooingsheathy.cyou @ads
 spicketkend.com @ads
 spicy-effect.com @ads
 spicycopy.com @ads
@@ -114464,6 +114542,7 @@ straightenedphiladelphiarequire.com @ads
 straightenedsleepyanalysis.com @ads
 straightenframe.com @ads
 straightforwardaudition.com @ads
+straighthat.pro @ads
 straightnest.com @ads
 strainviscountbestial.com @ads
 straitassumer.com @ads
@@ -115717,6 +115796,7 @@ link.swaypayapp.com @ads
 links.swazzen.com @ads
 swbbtzshzxsve.space @ads
 swbihztgbtqcs.space @ads
+swbkgsgpzwknx.site @ads
 swcs.jp @ads
 a.swd5.com @ads
 swdbcdsqexvxs.website @ads
@@ -115772,6 +115852,7 @@ swervedenflame.cfd @ads
 swervemunchfibber.com @ads
 swesomepop.com @ads
 swesz.cn @ads
+swetmjxvjceiw.site @ads
 api.swetrix.com @ads
 swetrix.org @ads
 swhqcerqyqejk.website @ads
@@ -116265,6 +116346,7 @@ t5130pp.vip @ads
 t56.cc @ads
 t56w3jk3hu3gvj27ee1eo9oy.cfd @ads
 t57u6anx2.com @ads
+t5a64j1v4.com @ads
 t5gp7rzz4.com @ads
 t5tm8zptlf6o8lc.cfd @ads
 t5v3u5.top @ads
@@ -117743,6 +117825,7 @@ sstats.tena.ca @ads
 tracking1.tena.com @ads
 images.mail.tena.de @ads
 sstats.tena.us @ads
+tenablenerite.qpon @ads
 tenadfpgwocuw.website @ads
 link.tenallaccess.com.au @ads
 vmsspl.tenamall.co.kr @ads
@@ -117956,6 +118039,7 @@ terratraf.com @ads
 static.terratraf.io @ads
 stats.terre-compagne.fr @ads
 app.go.terremark.com @ads
+terrenedawning.qpon @ads
 terretharmer.com @ads
 terribleroll.pro @ads
 terriblesource.com @ads
@@ -120033,6 +120117,7 @@ tmfohjsxdpoqg.space @ads
 tmftllgmyklie.online @ads
 ad01.tmgrup.com.tr @ads
 sayac.tmgrup.com.tr @ads
+tmhptoix9l4l2nlyo7u.cfd @ads
 tmi-idco.net @ads
 a8cv.tmix.jp @ads
 tmjlhukzzbhut.online @ads
@@ -121656,6 +121741,7 @@ treker.fun @ads
 trekkermalmy.cyou @ads
 app.trell.co @ads
 trellian.com @ads
+trellisidiom.qpon @ads
 smetrics.trellix.com @ads
 erb.tremblant.ca @ads
 tremblesyringeillusive.com @ads
@@ -122002,7 +122088,9 @@ metrics.trovix.com @ads
 trovo-tag.com @ads
 aegis.trovo.live @ads
 trowanesteeler.com @ads
+trowedaughkisra.qpon @ads
 trowel03.com @ads
+trowel67.com @ads
 sitecat.troweprice.com @ads
 sitecats.troweprice.com @ads
 target.troweprice.com @ads
@@ -122873,6 +122961,7 @@ tvinteractive.tv @ads
 tviqzqsrdvofl.website @ads
 tvj8lylgv.com @ads
 tvkfxtoydfqtf.online @ads
+tvkygzrsdfycp.space @ads
 ssc.tvland.com @ads
 tvlhgokjy.com @ads
 tvlmzx.icu @ads
@@ -125258,6 +125347,7 @@ www.ured.vip @ads
 uredineelodea.cyou @ads
 uredomayey.cfd @ads
 uredy.top @ads
+ureidkirtles.cyou @ads
 ureidsubnets.shop @ads
 optimize.urekamedia.com @ads
 urelanderpurg.org @ads
@@ -125703,6 +125793,7 @@ utotsllaeowgnlhmnivr.com @ads
 utoumine.net @ads
 3pgcapt08.utphsi.com @ads
 utppooxusnnzr.online @ads
+utqoavwu.com @ads
 utqsamjgxtrhv.website @ads
 c2mdm.utqwt.cn @ads
 utrabixfwlgyq.site @ads
@@ -126025,6 +126116,7 @@ v81qrfzbbuv34nu3wfwizo.rest @ads
 v84tz11w7.com @ads
 v85ps46o4.com @ads
 v88770.com @ads
+v8bihqorimvt441rxeixyc.cfd @ads
 v8fjvv9o3.com @ads
 v8j1rkai1.com @ads
 v9669.com @ads
@@ -126987,6 +127079,7 @@ vfjkrktoqhmoy.space @ads
 vfjktzbecbede.space @ads
 vfjoawcligjcs.online @ads
 vfjxvt.icu @ads
+vfllluhaizbvv.space @ads
 vfmabriuyjvuld.com @ads
 mystery.vfmleonardo.com @ads
 vfnq.cn @ads
@@ -129608,6 +129701,7 @@ vyjsbprcljavve.com @ads
 vympzhnxgoweg.store @ads
 vymybkyrzvwky.top @ads
 vynvpkurjcsef.online @ads
+vyomkbkvmryrw.top @ads
 vypddqizgpkpo.store @ads
 vypepega.com @ads
 vypmgvwjvgztv.space @ads
@@ -130571,6 +130665,7 @@ wealthn.com @ads
 wealthnews.xyz @ads
 wealthyvast.pro @ads
 stat.weamvideo.com @ads
+weanersprionus.qpon @ads
 weanerssouls.com @ads
 weanyerknaw.cfd @ads
 weanyersociusnaggly.cfd @ads
@@ -131752,6 +131847,7 @@ whqpeeiwrex.com @ads
 whqtuypvdxzdk.website @ads
 whriwifnxuvmg.website @ads
 whservidor.com @ads
+whshorsing.com @ads
 whswprjesbewv.site @ads
 whsyfigscmbif.space @ads
 whuffchagrin.cfd @ads
@@ -132211,6 +132307,7 @@ wispierconceal.cyou @ads
 ss.wisprflow.ai @ads
 wispyflane.shop @ads
 wissekeygroup.com @ads
+wisseltamber.cfd @ads
 iqmetrics.wissen.de @ads
 iqmetrics.wissenschaft.de @ads
 wisteinsight.com @ads
@@ -132305,6 +132402,7 @@ data.service.wizconnected.com @ads
 analytics.wizdeo.com @ads
 wizmzp.com @ads
 wizoevljj.com @ads
+poosh.wizzo.media @ads
 radar.wizzo.media @ads
 wj8i1rlp2b.com @ads
 axp.wjbf.com @ads
@@ -133965,6 +134063,7 @@ xboxlivegoldcodes.com @ads
 plog.xbp.io @ads
 xbpiwtgsrqbfr.online @ads
 xbqgvlll.com @ads
+xbqnbfexjmwfn.site @ads
 xbrvpsrrklbya.site @ads
 xbsdatfo.com @ads
 xbsnsisymkjxc.site @ads
@@ -134207,6 +134306,7 @@ xfmybdtedhzel.website @ads
 xfn2kk.cc @ads
 xfourtjoucobpa.com @ads
 xfqiwwdxryuvo.website @ads
+xfqvroqnu.com @ads
 b.xfreeservice.com @ads
 xfrguohlskkmq.site @ads
 xfsrg.xyz @ads
@@ -134221,6 +134321,7 @@ xfxtqjg.com @ads
 dt.xfyun.cn @ads
 xfyvaaphnojmw.site @ads
 xfzb2.cc @ads
+xfzpgaetnkpsh.site @ads
 xfztgxt.com @ads
 xgahbeklumki.com @ads
 xgart.shop @ads
@@ -135475,6 +135576,7 @@ xwlptajihmbkz.space @ads
 xwm5f.cc @ads
 xwnfmfvkxzbti.site @ads
 adserwer.xwords.pl @ads
+xwpjrdbaijfwz.online @ads
 xwqea.com @ads
 xwqvytuiko.com @ads
 xwqxwfzhjsxom.space @ads
@@ -136437,6 +136539,7 @@ def.yhfi3.top @ads
 lf-rc1.yhgfb-cn-static.com @ads
 yhgqxkjz9.com @ads
 yhhkrndlxhksx.online @ads
+yhhqalanfrdyo.space @ads
 yhiotiihvrrlg.space @ads
 yhirnltair.net @ads
 xml.yhisladyloveheh.org @ads
@@ -136619,6 +136722,7 @@ yinyongbao3.app @ads
 yinyouapp.com @ads
 ads-ap-venues.yinzcam.com @ads
 yiomeycjvtfhn.online @ads
+yiopsuqcfjayh.com @ads
 yipesalgarde.shop @ads
 yipmriso.shop @ads
 yipnhryqyfelw.space @ads
@@ -138249,6 +138353,7 @@ zbvp9giwhi5li4z44b.cfd @ads
 zbweattfkwerz.space @ads
 zbyfef74e.com @ads
 xue.zbyw.cn @ads
+zbyziyxwiggsj.site @ads
 zbzfzftwtifyv.online @ads
 zbzgicdslmeoj.online @ads
 zc13uyyok7.com @ads
@@ -139848,6 +139953,7 @@ zuzrwanpi.in @ads
 97493ui6.zv5q79v7c599613bb4xgou2ol983.cyou @ads
 zvciaoan1k.com @ads
 zvcmkhcsycilj.website @ads
+zvcnbkarazeft.website @ads
 zvcrucqetjbbo.space @ads
 zvdvxrykeaetq.website @ads
 zvekujanpxsfq.website @ads
@@ -139980,6 +140086,7 @@ zyavhhgzkdjfu.space @ads
 syh.zybang.com @ads
 is.zybhgfo.com @ads
 zybkrv.icu @ads
+zyblzrevmklzw.top @ads
 zyblzreyykyjw.top @ads
 zybrdr.com @ads
 zycmss.cn @ads
