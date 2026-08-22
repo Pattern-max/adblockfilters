@@ -59,12 +59,12 @@
 
 | 规则 | 类型 | 原始链接 | 更新日期 |
 |:-|:-|:-|:-|
-| AdGuard Base filter | filter | [原始链接](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt) | 2026/08/22 |
-| AdGuard Chinese filter | filter | [原始链接](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt) | 2026/08/22 |
-| EasyList | filter | [原始链接](https://easylist-downloads.adblockplus.org/easylist.txt) | 2026/08/22 |
-| EasyList China | filter | [原始链接](https://easylist-downloads.adblockplus.org/easylistchina.txt) | 2026/08/22 |
-| EasyPrivacy | filter | [原始链接](https://easylist-downloads.adblockplus.org/easyprivacy.txt) | 2026/08/22 |
-| DNS-Blocklists Light | dns | [原始链接](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/light.txt) | 2026/08/22 |
-| OISD Basic | dns | [原始链接](https://abp.oisd.nl/basic/) | 2026/08/22 |
-| 海哥 HG规则 | dns | [原始链接](https://raw.githubusercontent.com/2771936993/HG/main/hg1.txt) | 2026/08/22 |
+| AdGuard Base filter | filter | [原始链接](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt) | 2026/08/23 |
+| AdGuard Chinese filter | filter | [原始链接](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt) | 2026/08/23 |
+| EasyList | filter | [原始链接](https://easylist-downloads.adblockplus.org/easylist.txt) | 2026/08/23 |
+| EasyList China | filter | [原始链接](https://easylist-downloads.adblockplus.org/easylistchina.txt) | 2026/08/23 |
+| EasyPrivacy | filter | [原始链接](https://easylist-downloads.adblockplus.org/easyprivacy.txt) | 2026/08/23 |
+| DNS-Blocklists Light | dns | [原始链接](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/light.txt) | 2026/08/23 |
+| OISD Basic | dns | [原始链接](https://abp.oisd.nl/basic/) | 2026/08/23 |
+| 海哥 HG规则 | dns | [原始链接](https://raw.githubusercontent.com/2771936993/HG/main/hg1.txt) | 2026/08/23 |
 
